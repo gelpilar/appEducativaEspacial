@@ -4,7 +4,7 @@
       "nombre": "Marte",
       "parrafoPrincial": "Marte es un planeta desértico y frío. Es la mitad del tamaño de la Tierra, y también recibe el nombre de 'planeta rojo'. Es rojo por el hierro oxidado que tiene en el suelo",
       "parrafoSecundario": "Como la Tierra, Marte tiene estaciones, casquetes polares, volcanes, cañones y clima. Tiene una atmósfera poco densa hecha de dióxido de carbono, nitrógeno y argón. Hay signos de antiguas inundaciones en Marte, pero ahora el agua existe principalmente en su polvo helado y sus nubes delgadas. En algunas laderas marcianas, se han encontrado pruebas de agua líquida salada. Los científicos quieren saber si Marte podría haber tenido seres vivos en el pasado. También quieren saber si Marte podría albergar vida ahora o en el futuro",
-      "imagen": "../recursos/imagenes/planeta-marte.jpg",
+      "imagen": "../recursos/planetas/planeta-marte.jpg",
       "categoria": "planeta",
       "datos": [
         {
@@ -29,6 +29,216 @@
         }
       ],
       "id": 1
+    },
+    {
+      "nombre": "Mercurio",
+      "parrafoPrincial": "Mercurio es el planeta más cercano al Sol en nuestro sistema solar. Es un mundo rocoso y desolado, conocido por sus temperaturas extremadamente altas y bajas debido a su falta de atmósfera significativa.",
+      "parrafoSecundario": "Este planeta no tiene una atmósfera densa que pueda retener el calor, por lo que sus temperaturas diurnas pueden superar los 400 grados Celsius, mientras que las nocturnas caen por debajo de los -170 grados Celsius. Mercurio no tiene lunas y su superficie está marcada por cráteres de impacto y llanuras. Su superficie también muestra signos de actividad geológica en el pasado, como fallas y acantilados.",
+      "imagen": "../recursos/imagenes/cohete.jpg",
+      "categoria": "planeta",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Un día en Mercurio dura aproximadamente 59 días y 59 minutos terrestres."
+        },
+        {
+          "id": 2,
+          "dato": "es un planeta hace vulnerable a la radiación solar intensa y cambios extremos de temperatura."
+        },
+        {
+          "id": 3,
+          "dato": "Es el planeta más cercano al Sol."
+        },
+        {
+          "id": 4,
+          "dato": "Fue visitado por la misión espacial Mariner 10 de la NASA en la década de 1970 y más recientemente por la sonda MESSENGER en 2011."
+        },
+        {
+          "id": 5,
+          "dato": "Mercurio es un objeto visible a simple vista en el cielo nocturno y al amanecer."
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nombre": "Venus",
+      "parrafoPrincial": "Venus es el segundo planeta más cercano al Sol en nuestro sistema solar. Este es un mundo inhóspito y extremadamente cálido debido a su densa atmósfera compuesta principalmente de dióxido de carbono.",
+      "parrafoSecundario": "La superficie de Venus está oculta por gruesas nubes de ácido sulfúrico que generan un efecto invernadero descontrolado. Las temperaturas en la superficie son abrasadoras y pueden superar los 450 grados Celsius, lo que lo convierte en el planeta más caliente del sistema solar. Venus no tiene agua líquida y su presión atmosférica es casi 100 veces la de la Tierra.",
+      "imagen": "../recursos/imagenes/cohete.jpg",
+      "categoria": "planeta",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Venus rota en sentido contrario a la mayoría de los planetas en nuestro sistema solar."
+        },
+        {
+          "id": 2,
+          "dato": "Es conocido como el 'Lucero del Alba' o 'Lucero Vespertino' debido a su brillante apariencia en el cielo."
+        },
+        {
+          "id": 3,
+          "dato": "Fue visitado por múltiples misiones espaciales, incluyendo la sonda soviética Venera y la misión Magallanes de la NASA."
+        },
+        {
+          "id": 4,
+          "dato": "Tiene una superficie activa, que incluye volcanes."
+        },
+        {
+          "id": 5,
+          "dato": "Su atmósfera es densa: atrapa el calor y por eso es tan caluroso."
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nombre": "Tierra",
+      "parrafoPrincial": "La Tierra es el tercer planeta desde el Sol en nuestro sistema solar y es el único planeta conocido que alberga vida.",
+      "parrafoSecundario": "Es un mundo diverso y único con una amplia gama de ecosistemas y características geográficas.La Tierra tiene una atmósfera que contiene oxígeno, lo que permite la vida tal como la conocemos. También es el único planeta donde se ha encontrado agua en estado líquido, un ingrediente clave para la vida. La Tierra experimenta cambios estacionales debido a su inclinación axial, lo que da lugar a diferentes climas en todo el mundo.",
+      "imagen": "../recursos/imagenes/cohete.jpg",
+      "categoria": "planeta",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Tierra es el único planeta conocido en el universo que alberga vida."
+        },
+        {
+          "id": 2,
+          "dato": "El núcleo de la Tierra es tan caliente como la superficie del Sol."
+        },
+        {
+          "id": 3,
+          "dato": "Los océanos de la Tierra cubren aproximadamente el 71% de su superficie."
+        },
+        {
+          "id": 4,
+          "dato": "La Tierra en realidad no es esférica."
+        },
+        {
+          "id": 5,
+          "dato": "La Tierra tiene una Luna natural que influye en las mareas."
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nombre": "Júpiter",
+      "parrafoPrincial": "Júpiter es el quinto planeta desde el Sol y es el planeta más grande en nuestro sistema solar. Es un gigante gaseoso compuesto principalmente de hidrógeno y helio.",
+      "parrafoSecundario": "Júpiter es conocido por su impresionante sistema de anillos y numerosas lunas, incluyendo las cuatro lunas galileanas, descubiertas por Galileo Galilei. La gran mancha roja en la atmósfera de Júpiter es una característica distintiva, que es en realidad una gigantesca tormenta que ha existido durante siglos. El planeta también tiene una intensa radiación y un fuerte campo magnético. Júpiter es un objeto brillante en el cielo nocturno y es visible a simple vista.",
+      "imagen": "../recursos/imagenes/cohete.jpg",
+      "categoria": "planeta",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Júpiter tiene un diámetro aproximadamente 11 veces mayor que el de la Tierra."
+        },
+        {
+          "id": 2,
+          "dato": "Su gran mancha roja es una tormenta que ha sido observada durante al menos 350 años."
+        },
+        {
+          "id": 3,
+          "dato": "Júpiter tiene al menos 79 lunas conocidas, como las cuatro lunas galileanas (Ío, Europa, Ganimedes y Calisto)."
+        },
+        {
+          "id": 4,
+          "dato": "Júpiter actúa como un 'limpiador' en el sistema solar, atrayendo asteroides y cometas con su gravedad y evitando que impacten en la Tierra."
+        },
+        {
+          "id": 5,
+          "dato": "Tiene anillos, pero son muy difíciles de ver."
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nombre": "Saturno",
+      "parrafoPrincial": "Saturno es el sexto planeta desde el Sol y es conocido por sus impresionantes anillos, que lo convierten en uno de los objetos más reconocibles en el cielo nocturno.",
+      "parrafoSecundario": "Es un gigante gaseoso compuesto principalmente de hidrógeno y helio, similar a Júpiter. Los anillos de Saturno están formados por innumerables partículas de hielo y roca que varían en tamaño desde pequeños granos de arena hasta varios metros de diámetro. El planeta también tiene una serie de lunas, siendo Titán la más grande y una de las lunas más intrigantes del sistema solar debido a su atmósfera densa y la posibilidad de tener océanos subterráneos de agua líquida.",
+      "imagen": "../recursos/imagenes/cohete.jpg",
+      "categoria": "planeta",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Saturno tiene un sistema de anillos que está compuesto por miles de anillos individuales"
+        },
+        {
+          "id": 2,
+          "dato": "Titán, la luna más grande de Saturno, y es uno de los objetivos clave para la investigación en busca de vida fuera de la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "Galileo Galilei fue el primero en observar los anillos de Saturno a través de un telescopio en el siglo XVII."
+        },
+        {
+          "id": 4,
+          "dato": "Un año en Saturno dura casi tres décadas."
+        },
+        {
+          "id": 5,
+          "dato": "Se registran temperaturas de hasta 212 grados bajo cero."
+        }
+      ],
+      "id": 6
+    },
+    {
+      "nombre": "Urano",
+      "parrafoPrincial": "Urano es el séptimo planeta desde el Sol en nuestro sistema solar. Es único en su rotación, ya que gira de lado, con su eje inclinado casi 90 grados en relación con su órbita, lo que le da una apariencia de 'rodar'.",
+      "parrafoSecundario": "Urano está compuesto de agua, metano y amoniaco sobre un pequeño centro rocos.Este es un mundo frío y distante, compuesto principalmente de hidrógeno y helio, y está rodeado por un sistema de anillos y múltiples lunas. A diferencia de los planetas exteriores como Júpiter y Saturno, Urano no tiene una atmósfera densa ni características notables en su superficie.",
+      "imagen": "../recursos/imagenes/cohete.jpg",
+      "categoria": "planeta",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Urano tiene un color azul verdoso debido a la presencia de metano en su atmósfera, que absorbe la luz roja y refleja la luz azul."
+        },
+        {
+          "id": 2,
+          "dato": "Fue descubierto por el astrónomo alemán William Herschel en 1781."
+        },
+        {
+          "id": 3,
+          "dato": "Es un gigante de hielo el cual está compuesto, en su mayor parte, por hielo fluido sobre un núcleo sólido."
+        },
+        {
+          "id": 4,
+          "dato": "El planeta tiene 27 lunas conocidas, incluyendo Titania, Oberon, Umbriel, Ariel y Miranda."
+        },
+        {
+          "id": 5,
+          "dato": "Urano es uno de los planetas menos explorados del sistema solar. La sonda Voyager 2 es la única misión que ha visitado Urano en 1986."
+        }
+      ],
+      "id": 7
+    },
+    {
+      "nombre": "Neptuno",
+      "parrafoPrincial": "Neptuno es el octavo y último planeta en nuestro sistema solar. Es un gigante gaseoso, similar a Urano, y está compuesto principalmente de hidrógeno y helio.",
+      "parrafoSecundario": "Fue descubierto en 1846 por el matemático y astrónomo alemán Johann Galle, gracias a cálculos basados en predicciones matemáticas.Neptuno es conocido por su color azul intenso debido a la presencia de metano en su atmósfera que absorbe la luz roja. El planeta tiene una serie de anillos tenues y un sistema de lunas, incluyendo Tritón, que es una de las lunas más grandes y una de las pocas lunas retrogradas en el sistema solar.",
+      "imagen": "../recursos/imagenes/cohete.jpg",
+      "categoria": "planeta",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Neptuno es uno de los planetas más ventosos del sistema solar, con vientos que superan los 2,100 kilómetros por hora."
+        },
+        {
+          "id": 2,
+          "dato": "Tritón, la luna más grande de Neptuno, es inusual ya que órbita en sentido opuesto a la rotación del planeta."
+        },
+        {
+          "id": 3,
+          "dato": "Tiene un sistema de anillos, que son difíciles de observar desde la Tierra."
+        },
+        {
+          "id": 4,
+          "dato": "El planeta fue visitado por la sonda Voyager 2 de la NASA en 1989, proporcionando datos detallados y fotos de Neptuno y su sistema de lunas."
+        },
+        {
+          "id": 5,
+          "dato": "Su recorrido alrededor del Sol es tan largo que tarda 165 años terrestres en completarlo."
+        }
+      ],
+      "id": 8
     }
   ],
   "sistemaSolar": [
