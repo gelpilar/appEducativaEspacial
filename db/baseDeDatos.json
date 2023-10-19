@@ -1,0 +1,40 @@
+{
+  "elementos": [
+    {
+      "nombre": "Marte",
+      "parrafoPrincial": "Marte es un planeta desértico y frío. Es la mitad del tamaño de la Tierra, y también recibe el nombre de 'planeta rojo'. Es rojo por el hierro oxidado que tiene en el suelo",
+      "parrafoSecundario": "Como la Tierra, Marte tiene estaciones, casquetes polares, volcanes, cañones y clima. Tiene una atmósfera poco densa hecha de dióxido de carbono, nitrógeno y argón. Hay signos de antiguas inundaciones en Marte, pero ahora el agua existe principalmente en su polvo helado y sus nubes delgadas. En algunas laderas marcianas, se han encontrado pruebas de agua líquida salada. Los científicos quieren saber si Marte podría haber tenido seres vivos en el pasado. También quieren saber si Marte podría albergar vida ahora o en el futuro",
+      "imagen": "../recursos/imagenes/planeta-marte.jpg",
+      "categoria": "planeta",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Un día dura 24,6 horas, un poco más que un día en la Tierra."
+        },
+        {
+          "id": 2,
+          "dato": "Tiene una atmósfera poco densa."
+        },
+        {
+          "id": 3,
+          "dato": "Tiene dos lunas: Fobos y Deimos."
+        },
+        {
+          "id": 4,
+          "dato": "Marte alberga el volcán más grande del sistema solar, llamado Monte Olimpo."
+        },
+        {
+          "id": 5,
+          "dato": "Un año equivale a 687 días en la Tierra, casi el doble que el año terrestre."
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "sistemaSolar": [
+    {
+      "dato": "El sistema solar es un sistema planetario que gira en torno a una estrella central, el Sol, y consta de ocho planetas, incluyendo la Tierra, que se dividen en dos grupos, planetas terrestres e planetas gaseosos.",
+      "id": 1
+    }
+  ]
+}
