@@ -34,7 +34,7 @@
       "nombre": "Mercurio",
       "parrafoPrincial": "Mercurio es el planeta más cercano al Sol en nuestro sistema solar. Es un mundo rocoso y desolado, conocido por sus temperaturas extremadamente altas y bajas debido a su falta de atmósfera significativa.",
       "parrafoSecundario": "Este planeta no tiene una atmósfera densa que pueda retener el calor, por lo que sus temperaturas diurnas pueden superar los 400 grados Celsius, mientras que las nocturnas caen por debajo de los -170 grados Celsius. Mercurio no tiene lunas y su superficie está marcada por cráteres de impacto y llanuras. Su superficie también muestra signos de actividad geológica en el pasado, como fallas y acantilados.",
-      "imagen": "../recursos/imagenes/cohete.jpg",
+      "imagen": "../recursos/planetas/planeta-mercurio.jpg",
       "categoria": "planeta",
       "datos": [
         {
@@ -64,7 +64,7 @@
       "nombre": "Venus",
       "parrafoPrincial": "Venus es el segundo planeta más cercano al Sol en nuestro sistema solar. Este es un mundo inhóspito y extremadamente cálido debido a su densa atmósfera compuesta principalmente de dióxido de carbono.",
       "parrafoSecundario": "La superficie de Venus está oculta por gruesas nubes de ácido sulfúrico que generan un efecto invernadero descontrolado. Las temperaturas en la superficie son abrasadoras y pueden superar los 450 grados Celsius, lo que lo convierte en el planeta más caliente del sistema solar. Venus no tiene agua líquida y su presión atmosférica es casi 100 veces la de la Tierra.",
-      "imagen": "../recursos/imagenes/cohete.jpg",
+      "imagen": "../recursos/planetas/planeta-venus.jpg",
       "categoria": "planeta",
       "datos": [
         {
@@ -94,7 +94,7 @@
       "nombre": "Tierra",
       "parrafoPrincial": "La Tierra es el tercer planeta desde el Sol en nuestro sistema solar y es el único planeta conocido que alberga vida.",
       "parrafoSecundario": "Es un mundo diverso y único con una amplia gama de ecosistemas y características geográficas.La Tierra tiene una atmósfera que contiene oxígeno, lo que permite la vida tal como la conocemos. También es el único planeta donde se ha encontrado agua en estado líquido, un ingrediente clave para la vida. La Tierra experimenta cambios estacionales debido a su inclinación axial, lo que da lugar a diferentes climas en todo el mundo.",
-      "imagen": "../recursos/imagenes/cohete.jpg",
+      "imagen": "../recursos/planetas/planeta-tierra.jpg",
       "categoria": "planeta",
       "datos": [
         {
@@ -124,7 +124,7 @@
       "nombre": "Júpiter",
       "parrafoPrincial": "Júpiter es el quinto planeta desde el Sol y es el planeta más grande en nuestro sistema solar. Es un gigante gaseoso compuesto principalmente de hidrógeno y helio.",
       "parrafoSecundario": "Júpiter es conocido por su impresionante sistema de anillos y numerosas lunas, incluyendo las cuatro lunas galileanas, descubiertas por Galileo Galilei. La gran mancha roja en la atmósfera de Júpiter es una característica distintiva, que es en realidad una gigantesca tormenta que ha existido durante siglos. El planeta también tiene una intensa radiación y un fuerte campo magnético. Júpiter es un objeto brillante en el cielo nocturno y es visible a simple vista.",
-      "imagen": "../recursos/imagenes/cohete.jpg",
+      "imagen": "../recursos/planetas/planeta-jupiter.jpg",
       "categoria": "planeta",
       "datos": [
         {
@@ -154,7 +154,7 @@
       "nombre": "Saturno",
       "parrafoPrincial": "Saturno es el sexto planeta desde el Sol y es conocido por sus impresionantes anillos, que lo convierten en uno de los objetos más reconocibles en el cielo nocturno.",
       "parrafoSecundario": "Es un gigante gaseoso compuesto principalmente de hidrógeno y helio, similar a Júpiter. Los anillos de Saturno están formados por innumerables partículas de hielo y roca que varían en tamaño desde pequeños granos de arena hasta varios metros de diámetro. El planeta también tiene una serie de lunas, siendo Titán la más grande y una de las lunas más intrigantes del sistema solar debido a su atmósfera densa y la posibilidad de tener océanos subterráneos de agua líquida.",
-      "imagen": "../recursos/imagenes/cohete.jpg",
+      "imagen": "../recursos/planetas/planeta-saturno.jpg",
       "categoria": "planeta",
       "datos": [
         {
@@ -184,7 +184,7 @@
       "nombre": "Urano",
       "parrafoPrincial": "Urano es el séptimo planeta desde el Sol en nuestro sistema solar. Es único en su rotación, ya que gira de lado, con su eje inclinado casi 90 grados en relación con su órbita, lo que le da una apariencia de 'rodar'.",
       "parrafoSecundario": "Urano está compuesto de agua, metano y amoniaco sobre un pequeño centro rocos.Este es un mundo frío y distante, compuesto principalmente de hidrógeno y helio, y está rodeado por un sistema de anillos y múltiples lunas. A diferencia de los planetas exteriores como Júpiter y Saturno, Urano no tiene una atmósfera densa ni características notables en su superficie.",
-      "imagen": "../recursos/imagenes/cohete.jpg",
+      "imagen": "../recursos/planetas/planeta-urano.jpg",
       "categoria": "planeta",
       "datos": [
         {
@@ -214,7 +214,7 @@
       "nombre": "Neptuno",
       "parrafoPrincial": "Neptuno es el octavo y último planeta en nuestro sistema solar. Es un gigante gaseoso, similar a Urano, y está compuesto principalmente de hidrógeno y helio.",
       "parrafoSecundario": "Fue descubierto en 1846 por el matemático y astrónomo alemán Johann Galle, gracias a cálculos basados en predicciones matemáticas.Neptuno es conocido por su color azul intenso debido a la presencia de metano en su atmósfera que absorbe la luz roja. El planeta tiene una serie de anillos tenues y un sistema de lunas, incluyendo Tritón, que es una de las lunas más grandes y una de las pocas lunas retrogradas en el sistema solar.",
-      "imagen": "../recursos/imagenes/cohete.jpg",
+      "imagen": "../recursos/planetas/planeta-nerptuno.jpg",
       "categoria": "planeta",
       "datos": [
         {
@@ -239,6 +239,606 @@
         }
       ],
       "id": 8
+    },
+    {
+      "nombre": "Sol",
+      "parrafoPrincial": " El Sol es la estrella central de nuestro sistema solar, compuesta principalmente de hidrógeno y helio, con un diámetro aproximadamente 109 veces el de la Tierra y una masa unas 333,000 veces mayor.",
+      "parrafoSecundario": "A través de la fusión nuclear en su núcleo, genera luz y energía esenciales para la vida en la Tierra. Con una edad estimada de 4.6 mil millones de años, el Sol está en la mitad de su vida y experimenta ciclos de actividad solar, que pueden afectar las comunicaciones y la tecnología en nuestro planeta. Su luz y calor son fundamentales para el clima y la vida en la Tierra, ya que impulsan procesos como la fotosíntesis y el mantenimiento de las temperaturas adecuadas.",
+      "imagen": "../recursos/estrellas/sol.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "El Sol emite sonidos, aunque no podemos escucharlos en el espacio. Los científicos los convierten en sonidos audibles, y estos suenan como un zumbido constante."
+        },
+        {
+          "id": 2,
+          "dato": "A medida que el Sol envejece, eventualmente agotará su hidrógeno y se expandirá para convertirse en una gigante roja antes de finalmente colapsar."
+        },
+        {
+          "id": 3,
+          "dato": "El Sol podría contener un millón trescientos mil planetas del tamaño de la Tierra."
+        },
+        {
+          "id": 4,
+          "dato": "La luz que vemos del Sol no es la que se está generando actualmente. Toma aproximadamente 8 minutos y 20 segundos para que la luz del Sol llegue a la Tierra."
+        },
+        {
+          "id": 5,
+          "dato": "Las erupciones solares, o llamaradas solares, pueden liberar energía equivalente a miles de millones de bombas atómicas."
+        }
+      ],
+      "id": 9
+    },
+    {
+      "nombre": "Sirio",
+      "parrafoPrincial": "Sirio, también conocida como Alfa Canis Majoris, es la estrella más brillante en el cielo nocturno y forma parte de la constelación Canis Major. Es una estrella binaria compuesta por dos estrellas, Sirio A y Sirio B.",
+      "parrafoSecundario": "Sirio A es una estrella de tipo espectral A1V y es mucho más brillante que su compañera Sirio B, que es una enana blanca. La distancia entre Sirio y la Tierra es de aproximadamente 8.6 años luz, lo que la convierte en una de las estrellas más cercanas a nuestro sistema solar. Sirio es conocida desde la antigüedad y ha sido objeto de numerosas observaciones y mitos a lo largo de la historia. Su brillo y prominencia en el cielo nocturno la convierten en un objeto celestial icónico.",
+      "imagen": "../recursos/estrellas/sirio.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La luminosidad de Sirio A es aproximadamente 25 veces la del Sol, lo que contribuye a su brillo notable en el cielo nocturno."
+        },
+        {
+          "id": 2,
+          "dato": "La estrella Sirio B es una enana blanca, es decir que es el remanente de una estrella que agotó su combustible nuclear y colapsó."
+        },
+        {
+          "id": 3,
+          "dato": "Sirio es conocida comúnmente como 'La Estrella del Perro' porque forma parte de la constelación Canis Major, que significa 'Perro Mayor' en latín."
+        },
+        {
+          "id": 4,
+          "dato": "La luz de Sirio viaja desde la estrella hasta la Tierra en unos 8.6 años, lo que significa que estamos viendo la luz que dejó Sirio hace más de ocho años."
+        },
+        {
+          "id": 5,
+          "dato": "Los antiguos egipcios solían usar su aparición matutina antes del amanecer para predecir la crecida anual del río Nilo."
+        }
+      ],
+      "id": 10
+    },
+    {
+      "nombre": "Canopus",
+      "parrafoPrincial": "Canopus es una de las estrellas más brillantes en el cielo nocturno y forma parte de la constelación Carina. Es una estrella gigante de tipo espectral A9II, con una luminosidad extraordinaria.",
+      "parrafoSecundario": " Su brillo se debe a su gran tamaño y a su relativa cercanía a la Tierra en términos astronómicos. La distancia entre Canopus y la Tierra es de aproximadamente 310 años luz, lo que la convierte en una de las estrellas más lejanas visibles a simple vista. Canopus es conocida desde la antigüedad y ha sido utilizada como referencia para la navegación en el hemisferio sur. Su brillo y posición en el cielo austral la hacen una estrella destacada en las culturas de la región.",
+      "imagen": "../recursos/estrellas/canopus.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Canopus es unas 10,000 veces más luminosa que el Sol."
+        },
+        {
+          "id": 2,
+          "dato": "Canopus es invisible desde gran parte del hemisferio norte debido a su ubicación en el cielo austral."
+        },
+        {
+          "id": 3,
+          "dato": "Canopus ha sido mencionada en mitologías de diversas culturas del sur de la Tierra, incluyendo las culturas aborígenes australianas y la griega."
+        },
+        {
+          "id": 4,
+          "dato": "La luz de Canopus que vemos en la Tierra viaja desde la estrella durante siglos."
+        },
+        {
+          "id": 5,
+          "dato": "Es conocida por su rápida velocidad de rotación. Gira sobre su eje mucho más rápido que el Sol."
+        }
+      ],
+      "id": 11
+    },
+    {
+      "nombre": "Arcturus",
+      "parrafoPrincial": "Arcturus es una estrella gigante roja que se encuentra en la constelación de Boötes y es una de las estrellas más brillantes en el cielo nocturno.",
+      "parrafoSecundario": "Es conocida por su apariencia anaranjada y su brillo notorio, lo que la convierte en un punto de referencia celestial fácil de identificar. La distancia entre Arcturus y la Tierra es de aproximadamente 37 años luz, lo que la convierte en una de las estrellas más cercanas a nuestro sistema solar. A pesar de ser una de las estrellas más brillantes en el cielo, no forma parte de una constelación reconocida, pero es una estrella destacada en la región de Boötes.",
+      "imagen": "../recursos/estrellas/arcturus.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Arcturus es una gigante roja, lo que significa que ha agotado su hidrógeno y se ha expandido."
+        },
+        {
+          "id": 2,
+          "dato": "Es una de las estrellas que se utilizan en la navegación, ya que su brillo la hace fácilmente visible desde la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "Tiene un color rojizo, lo que indica que es una estrella gigante de tipo espectral K, en contraste con el color blanco-amarillo del Sol."
+        },
+        {
+          "id": 4,
+          "dato": "Arcturus es parte de la población de estrellas cercanas a nuestro sistema solar y ha sido objeto de estudio en la astronomía para comprender mejor la evolución estelar."
+        },
+        {
+          "id": 5,
+          "dato": "Se estima que Arcturus tiene una edad de alrededor de 7 mil millones de años, lo que la hace considerablemente más antigua que el Sol."
+        }
+      ],
+      "id": 12
+    },
+    {
+      "nombre": "Vega",
+      "parrafoPrincial": "Vega es una estrella brillante en el cielo nocturno y forma parte de la constelación Lyra. Es una estrella de tipo espectral A0V y es una de las estrellas más prominentes en el hemisferio norte.",
+      "parrafoSecundario": "Vega es conocida por su brillo y su apariencia blanca azulada. La distancia entre Vega y la Tierra es de aproximadamente 25 años luz, lo que la convierte en una de las estrellas cercanas a nuestro sistema solar. Vega es una estrella importante en la constelación Lyra, que representa un arpa en la mitología griega.",
+      "imagen": "../recursos/estrellas/vega.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "El nombre 'Vega' proviene del árabe 'Wāqi', que significa 'el que cae'. Este nombre se relaciona con su posición en la constelación Lyra, que se asocia con la lira, un instrumento musical."
+        },
+        {
+          "id": 2,
+          "dato": "La luz de Vega que vemos en la Tierra viaja desde la estrella durante unas décadas, por lo que observamos la luz que dejó Vega hace más de 20 años."
+        },
+        {
+          "id": 3,
+          "dato": "Es una estrella de tipo espectral A0V, lo que significa que es una estrella caliente y relativamente joven en términos astronómicos."
+        },
+        {
+          "id": 4,
+          "dato": "Vega ha sido objeto de estudio en la búsqueda de exoplanetas y sistemas planetarios en la Vía Láctea."
+        },
+        {
+          "id": 5,
+          "dato": "Vega es una de las estrellas más cercanas a la Tierra."
+        }
+      ],
+      "id": 13
+    },
+    {
+      "nombre": "Rigel",
+      "parrafoPrincial": "Rigel es una de las estrellas más brillantes y destacadas en el cielo nocturno y forma parte de la constelación de Orión. Es una estrella supergigante de tipo espectral B8Ia y es conocida por su brillo azul intenso y su prominencia en la constelación de Orión.",
+      "parrafoSecundario": "La distancia entre Rigel y la Tierra es de aproximadamente 860 años luz, lo que la convierte en una de las estrellas más lejanas a las que se puede observar a simple vista. Rigel es una de las estrellas más prominentes en la constelación de Orión, que es una de las constelaciones más reconocibles en el cielo.",
+      "imagen": "../recursos/estrellas/rigel.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Rigel es una supergigante, lo que significa que es una de las estrellas más grandes y luminosas conocidas, a pesar de su lejanía."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Orión, Rigel representa la pierna izquierda del cazador en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "La luz de Rigel que vemos en la Tierra viaja desde la estrella durante siglos, por lo que observamos la luz que dejó Rigel hace más de 800 años."
+        },
+        {
+          "id": 4,
+          "dato": "Rigel ha sido objeto de estudio en la astronomía para comprender mejor la evolución de las estrellas masivas y la formación de cúmulos estelares."
+        },
+        {
+          "id": 5,
+          "dato": "La estrella Rigel es un objetivo interesante para la búsqueda de exoplanetas y sistemas planetarios en su entorno."
+        }
+      ],
+      "id": 14
+    },
+    {
+      "nombre": "Betelgeuse",
+      "parrafoPrincial": "Betelgeuse es una estrella gigante roja que forma parte de la constelación de Orión. Es una de las estrellas más grandes y brillantes en el cielo nocturno y es conocida por su color rojizo.",
+      "parrafoSecundario": "Betelgeuse es una supergigante de tipo espectral M1-2Ia, lo que indica que está en una fase avanzada de su evolución estelar. La distancia entre Betelgeuse y la Tierra es de aproximadamente 642.5 años luz, lo que la convierte en una de las estrellas más lejanas a las que se puede observar a simple vista. Betelgeuse es una de las estrellas más prominentes en la constelación de Orión, que es una de las constelaciones más reconocibles en el cielo.",
+      "imagen": "../recursos/estrellas/betelgeuse.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Betelgeuse es una de las estrellas más grandes conocidas, con un diámetro que es aproximadamente 1,000 veces el del Sol."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Orión, Betelgeuse representa el hombro izquierdo del cazador en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "Betelgeuse es una estrella variable, lo que significa que su brillo cambia con el tiempo. Su brillo varía en un rango de magnitud aparente de alrededor de 0.2 a 1.2."
+        },
+        {
+          "id": 4,
+          "dato": "Betelgeuse ha sido objeto de estudio en la astronomía para comprender mejor la evolución de las estrellas masivas y las etapas finales de su ciclo de vida."
+        },
+        {
+          "id": 5,
+          "dato": "En 2019, Betelgeuse atrajo la atención de los astrónomos debido a su inusual disminución de brillo, que llevó a especulaciones sobre su posible futura explosión como supernova."
+        }
+      ],
+      "id": 15
+    },
+    {
+      "nombre": "Polaris",
+      "parrafoPrincial": "Polaris es una estrella destacada que se encuentra muy cerca del polo norte celeste, lo que la convierte en la Estrella del Norte, un punto de referencia importante para la navegación y la orientación en el hemisferio norte.",
+      "parrafoSecundario": "Es una estrella de tipo espectral F7Ib, conocida por su brillo y su posición en el cielo nocturno. La distancia entre Polaris y la Tierra es de aproximadamente 433 años luz. Polaris es una de las estrellas más prominentes en la constelación de la Osa Menor y se encuentra en una posición que está cerca del polo norte celeste, lo que significa que parece permanecer relativamente fija en el cielo nocturno a medida que la Tierra gira.",
+      "imagen": "../recursos/estrellas/polaris.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Polaris es una estrella gigante amarilla, lo que significa que es una estrella grande y luminosa en una fase avanzada de su evolución estelar."
+        },
+        {
+          "id": 2,
+          "dato": "Debido a su posición cercana al polo norte celeste, Polaris es utilizada como referencia en la navegación, ya que indica la dirección norte en el hemisferio norte."
+        },
+        {
+          "id": 3,
+          "dato": "La luz de Polaris que vemos en la Tierra viaja desde la estrella durante siglos, por lo que observamos la luz que dejó Polaris hace más de 400 años."
+        },
+        {
+          "id": 4,
+          "dato": "La distancia de Polaris a la Tierra es aproximadamente de 433 años luz, lo que la coloca a una distancia considerablemente mayor que muchas de las estrellas visibles a simple vista."
+        },
+        {
+          "id": 5,
+          "dato": "Polaris es parte de un sistema estelar múltiple y está acompañada por dos estrellas más tenues que son difíciles de observar a simple vista."
+        }
+      ],
+      "id": 16
+    },
+    {
+      "nombre": "Antares",
+      "parrafoPrincial": "Antares es una estrella gigante roja que se encuentra en la constelación de Escorpio. Es una de las estrellas más brillantes y notables en el cielo nocturno y es conocida por su color rojo intenso.",
+      "parrafoSecundario": "ntares es una supergigante de tipo espectral M1.5Iab-b, lo que indica que está en una fase avanzada de su evolución estelar. La distancia entre Antares y la Tierra es de aproximadamente 554 años luz. Antares es una de las estrellas más destacadas en la constelación de Escorpio, que representa un escorpión en la mitología griega y romana.",
+      "imagen": "../recursos/estrellas/antares.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "El nombre 'Antares' proviene del griego y significa 'opuesto a Ares', haciendo referencia a su color rojo y a la constelación de Ares (Marte)."
+        },
+        {
+          "id": 2,
+          "dato": "Antares es una de las estrellas más grandes conocidas, con un diámetro que es aproximadamente 680 veces el del Sol."
+        },
+        {
+          "id": 3,
+          "dato": "En la constelación de Escorpio, Antares representa el corazón del escorpión en la mitología asociada con la constelación."
+        },
+        {
+          "id": 4,
+          "dato": "La luz de Antares que vemos en la Tierra viaja desde la estrella durante siglos, por lo que observamos la luz que dejó Antares hace más de 500 años."
+        },
+        {
+          "id": 5,
+          "dato": "Antares se encuentra en una región interesante del cielo que forma parte de la constelación de Escorpión."
+        }
+      ],
+      "id": 17
+    },
+    {
+      "nombre": "Regulus",
+      "parrafoPrincial": "Regulus es una estrella brillante que se encuentra en la constelación de Leo. Es una estrella de tipo espectral B7V y es conocida por ser la estrella principal de la constelación Leo, el león.",
+      "parrafoSecundario": "Regulus es una de las estrellas más destacadas en el cielo nocturno. La distancia entre Regulus y la Tierra es de aproximadamente 77 años luz. Regulus es una estrella que forma parte de la constelación Leo, que representa un león en la mitología griega y romana.",
+      "imagen": "../recursos/estrellas/regulus.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Regulus es una estrella enana blanca-azulada."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Leo, Regulus representa el corazón del león en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "La luz de Regulus que vemos en la Tierra viaja desde la estrella durante décadas, por lo que observamos la luz que dejó Regulus hace más de 70 años."
+        },
+        {
+          "id": 4,
+          "dato": "Regulus ha sido objeto de estudio en la astronomía para comprender mejor la formación y evolución de estrellas calientes y luminosas como esta."
+        },
+        {
+          "id": 5,
+          "dato": "Regulus es parte de un sistema estelar múltiple y está acompañada por al menos tres estrellas más pequeñas que son difíciles de observar a simple vista."
+        }
+      ],
+      "id": 18
+    },
+    {
+      "nombre": "Deneb",
+      "parrafoPrincial": "Deneb es una estrella brillante que forma parte de la constelación del Cisne. Es una estrella supergigante de tipo espectral A2Iae y es conocida por ser una de las estrellas más luminosas en el cielo nocturno.",
+      "parrafoSecundario": "Deneb es una de las estrellas más prominentes en la constelación del Cisne, que representa un cisne en la mitología griega y romana. La distancia entre Deneb y la Tierra es de aproximadamente 1,425 años luz. Deneb es una estrella destacada en la constelación del Cisne, que es parte de la constelación del Cinturón de Verano, una región destacada del cielo nocturno.",
+      "imagen": "../recursos/estrellas/deneb.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Deneb es una de las estrellas más luminosas conocidas, con una luminosidad que es aproximadamente 196,000 veces la del Sol."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación del Cisne, Deneb representa la cola del cisne en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "Observamos la luz que dejó Deneb hace más de 1,400 años."
+        },
+        {
+          "id": 4,
+          "dato": "Deneb ha sido objeto de estudio en la astronomía para comprender mejor la formación y evolución de las estrellas masivas y luminosas como esta."
+        },
+        {
+          "id": 5,
+          "dato": "La estrella Deneb es una de las características notables en el Cinturón de Verano, una región del cielo conocida por su riqueza estelar y objetos celestes interesantes."
+        }
+      ],
+      "id": 19
+    },
+    {
+      "nombre": "Altair",
+      "parrafoPrincial": "Altair es una estrella brillante que forma parte de la constelación del Águila. Es una estrella de tipo espectral A7V y es conocida por su brillo y su apariencia blanca.",
+      "parrafoSecundario": "Altair es una de las estrellas más destacadas en el cielo nocturno. La distancia entre Altair y la Tierra es de aproximadamente 16.7 años luz. Altair es una estrella importante en la constelación del Águila, que representa un águila en la mitología griega y romana.",
+      "imagen": "../recursos/estrellas/altair.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Altair es una estrella enana blanca-azulada, lo que indica que es una estrella caliente y luminosa en una fase temprana de su evolución estelar."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación del Águila, Altair representa el ojo del águila en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "Su nombre proviene del árabe 'al-nasr al-ta'ir', que significa 'el águila en vuelo'."
+        },
+        {
+          "id": 4,
+          "dato": "Altair ha sido objeto de estudio en la astronomía para comprender mejor las estrellas de tipo espectral A y su evolución estelar."
+        },
+        {
+          "id": 5,
+          "dato": "Altair es una de las tres estrellas notables en el llamado Triángulo de Verano, un asterismo en el cielo nocturno."
+        }
+      ],
+      "id": 20
+    },
+    {
+      "nombre": "Spica",
+      "parrafoPrincial": "Spica es una estrella brillante que se encuentra en la constelación de Virgo. Es una estrella binaria, lo que significa que forma un sistema estelar doble con una compañera.",
+      "parrafoSecundario": "Spica es una de las estrellas más destacadas en el cielo nocturno y es conocida por su brillo y su apariencia azulada. La distancia entre Spica y la Tierra es de aproximadamente 260 años luz. Spica es una estrella importante en la constelación de Virgo, que representa a la diosa virgen de la mitología griega y romana.",
+      "imagen": "../recursos/estrellas/spica.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Spica es una estrella binaria compuesta por dos estrellas, Spica A y Spica B, que orbitan entre sí en un sistema estelar doble."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Virgo, Spica representa la espiga de trigo que la diosa Virgo lleva en sus manos en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "Observamos la luz que dejó Spica hace más de 200 años."
+        },
+        {
+          "id": 4,
+          "dato": "Spica ha sido objeto de estudio en la astronomía para comprender mejor las estrellas binarias y su evolución estelar conjunta."
+        },
+        {
+          "id": 5,
+          "dato": "Spica es una de las estrellas notables en el cielo nocturno y se utiliza a menudo como referencia para localizar otras estrellas y objetos celestes."
+        }
+      ],
+      "id": 21
+    },
+    {
+      "nombre": "Proxima Centauri",
+      "parrafoPrincial": "Proxima Centauri es una enana roja que forma parte del sistema estelar Alfa Centauri, el sistema más cercano a nuestro sistema solar, ubicado a aproximadamente 4.24 años luz de distancia en la constelación de Centaurus.",
+      "parrafoSecundario": "Es la estrella más cercana conocida a nuestro sistema solar y es una de las estrellas más destacadas en el cielo nocturno debido a su proximidad. Proxima Centauri es una enana roja de tipo espectral M5V, lo que significa que es una estrella pequeña, tenue y relativamente fría en comparación con el Sol. Su proximidad la convierte en un objetivo importante para la exploración espacial y la búsqueda de exoplanetas en la zona habitable.",
+      "imagen": "../recursos/estrellas/proxima_centauri.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Proxima Centauri es parte del sistema estelar Alfa Centauri, que consta de tres estrellas principales: Alfa Centauri A, Alfa Centauri B y Proxima Centauri."
+        },
+        {
+          "id": 2,
+          "dato": "Debido a su proximidad, Proxima Centauri es utilizada como objetivo en la búsqueda de exoplanetas en la zona habitable que puedan albergar vida."
+        },
+        {
+          "id": 3,
+          "dato": "En 2016, se descubrió un exoplaneta en órbita alrededor de Proxima Centauri, llamado Proxima Centauri b, que es un objetivo interesante en la búsqueda de vida fuera de la Tierra."
+        },
+        {
+          "id": 4,
+          "dato": "La posibilidad de futuras misiones espaciales a Proxima Centauri ha sido objeto de estudio y debate en la exploración interestelar."
+        },
+        {
+          "id": 5,
+          "dato": "La luz de Proxima Centauri que vemos en la Tierra viaja desde la estrella durante más de 4 años."
+        }
+      ],
+      "id": 22
+    },
+    {
+      "nombre": "Bellatrix",
+      "parrafoPrincial": "Bellatrix es una estrella brillante que se encuentra en la constelación de Orión. Es una estrella gigante azul de tipo espectral B2III y es conocida por su brillo y su prominencia en la constelación de Orión, que representa al cazador en la mitología griega y romana.",
+      "parrafoSecundario": "La distancia entre Bellatrix y la Tierra es de aproximadamente 250 años luz. Bellatrix es una de las estrellas más destacadas en la constelación de Orión, que es una de las constelaciones más reconocibles en el cielo nocturno.",
+      "imagen": "../recursos/estrellas/bellatrix.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Bellatrix es una estrella gigante azul, lo que significa que es una estrella grande y luminosa en una fase avanzada de su evolución estelar."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Orión, Bellatrix representa el hombro izquierdo del cazador en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "La luz de Bellatrix que vemos en la Tierra viaja desde la estrella durante siglos, por lo que observamos la luz que dejó Bellatrix hace más de 200 años."
+        },
+        {
+          "id": 4,
+          "dato": "Bellatrix ha sido objeto de estudio en la astronomía para comprender mejor la evolución de las estrellas masivas y la formación de cúmulos estelares."
+        },
+        {
+          "id": 5,
+          "dato": "La estrella Bellatrix es uno de los puntos de referencia notables en la constelación de Orión, que es visible en el hemisferio norte durante el invierno."
+        }
+      ],
+      "id": 23
+    },
+    {
+      "nombre": "Aldebarán",
+      "parrafoPrincial": "Aldebarán es una estrella brillante que forma parte de la constelación de Tauro. Es una estrella gigante naranja de tipo espectral K5III y es conocida por su brillo y su prominencia en la constelación de Tauro, que representa al toro en la mitología griega y romana.",
+      "parrafoSecundario": "La distancia entre Aldebarán y la Tierra es de aproximadamente 65 años luz. Aldebarán es una de las estrellas más destacadas en la constelación de Tauro y es fácilmente reconocible por su color anaranjado y su posición cerca del cúmulo estelar Las Pléyades.",
+      "imagen": "../recursos/estrellas/aldebaran.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Aldebarán es una estrella gigante naranja, lo que significa que es una estrella grande y luminosa en una fase avanzada de su evolución estelar."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Tauro, Aldebarán representa el ojo del toro en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "La luz de Aldebarán que vemos en la Tierra viaja desde la estrella durante décadas, por lo que observamos la luz que dejó Aldebarán hace más de 60 años."
+        },
+        {
+          "id": 4,
+          "dato": "Aldebarán ha sido objeto de estudio en la astronomía para comprender mejor la evolución de las estrellas gigantes y su influencia en el entorno circundante."
+        },
+        {
+          "id": 5,
+          "dato": "Aldebarán es una de las estrellas más notables en el cielo nocturno y se encuentra cerca del cúmulo estelar Las Pléyades, lo que la hace un objeto de interés en la observación astronómica."
+        }
+      ],
+      "id": 24
+    },
+    {
+      "nombre": "Fomalhaut",
+      "parrafoPrincial": "Fomalhaut es una estrella brillante que forma parte de la constelación de Piscis Austrinus, también conocida como el Pez Austral. Es una estrella de tipo espectral A3V y es conocida por su brillo y su prominencia en el cielo nocturno.",
+      "parrafoSecundario": "Fomalhaut es una de las estrellas más destacadas en la constelación de Piscis Austrinus. La distancia entre Fomalhaut y la Tierra es de aproximadamente 25 años luz. Fomalhaut es una estrella importante en la constelación de Piscis Austrinus, que representa un pez en la mitología griega.",
+      "imagen": "../recursos/estrellas/fomalhaut.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Fomalhaut es una estrella enana blanca-azulada, lo que significa que es una estrella caliente y luminosa en una fase temprana de su evolución estelar."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Piscis Austrinus, Fomalhaut representa la boca del pez en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "La luz de Fomalhaut que vemos en la Tierra viaja desde la estrella durante décadas, por lo que observamos la luz que dejó Fomalhaut hace más de 20 años."
+        },
+        {
+          "id": 4,
+          "dato": "Fomalhaut ha sido objeto de estudio en la astronomía debido a la presencia de un disco de escombros en su entorno y la posible detección de un exoplaneta en órbita alrededor de la estrella."
+        },
+        {
+          "id": 5,
+          "dato": "Fomalhaut es una de las estrellas notables en el cielo nocturno y se utiliza a menudo como referencia en la observación astronómica y la navegación."
+        }
+      ],
+      "id": 25
+    },
+    {
+      "nombre": "Mirach",
+      "parrafoPrincial": "Mirach es una estrella brillante que forma parte de la constelación de Andrómeda. Es una estrella gigante roja de tipo espectral M0III y es conocida por su brillo y su posición destacada en el cielo nocturno.",
+      "parrafoSecundario": "Mirach es una de las estrellas más notables en la constelación de Andrómeda. La distancia entre Mirach y la Tierra es de aproximadamente 197 años luz. Mirach es una estrella importante en la constelación de Andrómeda, que representa a la princesa Andrómeda en la mitología griega.",
+      "imagen": "../recursos/estrellas/mirach.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Mirach es una estrella gigante roja, lo que significa que es una estrella grande y luminosa en una fase avanzada de su evolución estelar."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Andrómeda, Mirach representa el cinturón de la princesa en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "La distancia de Mirach a la Tierra es aproximadamente 197 años luz."
+        },
+        {
+          "id": 4,
+          "dato": "Mirach ha sido objeto de estudio en la astronomía para comprender mejor la evolución de las estrellas gigantes y su influencia en el entorno galáctico."
+        },
+        {
+          "id": 5,
+          "dato": "En el futuro, Mirach continuará evolucionando hacia una fase más avanzada, eventualmente expulsando sus capas externas y convirtiéndose en una nebulosa planetaria."
+        }
+      ],
+      "id": 26
+    },
+    {
+      "nombre": "Hamal",
+      "parrafoPrincial": "Hamal es una estrella brillante que forma parte de la constelación de Aries. Es una estrella gigante naranja de tipo espectral K2III y es conocida por su brillo y su prominencia en la constelación de Aries, que representa un carnero en la mitología griega y romana.",
+      "parrafoSecundario": "La distancia entre Hamal y la Tierra es de aproximadamente 65 años luz. Hamal es una de las estrellas más destacadas en la constelación de Aries y es fácilmente reconocible por su color anaranjado y su posición en la cabeza del carnero en la constelación.",
+      "imagen": "../recursos/estrellas/hamal.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Hamal es una estrella gigante naranja, lo que significa que es una estrella grande y luminosa en una fase avanzada de su evolución estelar."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Aries, Hamal representa la cabeza del carnero en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "La luz de Hamal que vemos en la Tierra viaja desde la estrella durante décadas, por lo que observamos la luz que dejó Hamal hace más de 60 años."
+        },
+        {
+          "id": 4,
+          "dato": "Hamal ha sido objeto de estudio en la astronomía para comprender mejor la evolución de las estrellas gigantes y su influencia en el entorno galáctico."
+        },
+        {
+          "id": 5,
+          "dato": "Hamal es una de las estrellas notables en el cielo nocturno y es utilizada en la observación astronómica como punto de referencia en la constelación de Aries."
+        }
+      ],
+      "id": 27
+    },
+    {
+      "nombre": "Capella",
+      "parrafoPrincial": "Capella es una estrella brillante que forma parte de la constelación de Auriga, el Cochero. Es un sistema estelar múltiple compuesto por cuatro estrellas principales, siendo Capella A y Capella B las más destacadas.",
+      "parrafoSecundario": "Capella es conocida por su brillo y su prominencia en el cielo nocturno. La distancia entre Capella y la Tierra es de aproximadamente 42.2 años luz. Capella es una de las estrellas más destacadas en la constelación de Auriga, que representa un cochero o conductor de una cuadriga en la mitología griega y romana.",
+      "imagen": "../recursos/estrellas/capella.jpg",
+      "categoria": "estrella",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Capella es un sistema estelar múltiple compuesto por dos pares de estrellas binarias, siendo Capella A y Capella B las más notables."
+        },
+        {
+          "id": 2,
+          "dato": "En la constelación de Auriga, Capella representa la cabra Amaltea que amamantó al dios Zeus en la mitología asociada con la constelación."
+        },
+        {
+          "id": 3,
+          "dato": "La luz de Capella que vemos en la Tierra viaja desde el sistema estelar durante décadas, por lo que observamos la luz que dejó Capella hace más de 40 años."
+        },
+        {
+          "id": 4,
+          "dato": "Capella ha sido objeto de estudio en la astronomía debido a su naturaleza de sistema estelar múltiple y su influencia en el campo de la investigación estelar."
+        },
+        {
+          "id": 5,
+          "dato": "El nombre 'Capella' proviene del latín y significa 'cabra pequeña'. En la constelación de Auriga, Capella se asocia con el 'Chivo o Cabra de Amaltea' en la mitología griega, que amamantó al dios Zeus."
+        }
+      ],
+      "id": 28
     }
   ],
   "sistemaSolar": [
