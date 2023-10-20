@@ -839,12 +839,808 @@
         }
       ],
       "id": 28
+    },
+    {
+      "nombre": "Galaxia del Ojo Negro",
+      "parrafoPrincial": "La Galaxia del Ojo Negro, también conocida como M64 o NGC 4826, es una galaxia espiral que se encuentra en la constelación Coma Berenices. Debe su nombre a la inusual característica de un anillo oscuro que rodea su núcleo brillante. Este anillo oscuro contrasta fuertemente con las regiones más brillantes de la galaxia.",
+      "parrafoSecundario": "M64 es parte del catálogo de Messier y fue descubierto por el astrónomo Edward Pigott en 1779. La galaxia se encuentra a una distancia de aproximadamente 17 millones de años luz de la Tierra. Es conocida por ser un ejemplo de una galaxia espiral con una estructura inusual, ya que su anillo oscuro es raro en comparación con otras galaxias espirales.",
+      "imagen": "../recursos/galaxias/ojoNegro.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "M64 es famosa por su anillo oscuro, que se cree que es el resultado de una interacción con una galaxia vecina."
+        },
+        {
+          "id": 2,
+          "dato": "Tiene una masa estimada de alrededor de mil millones de veces la masa de nuestro sol."
+        },
+        {
+          "id": 3,
+          "dato": "M64 es una galaxia activa con un núcleo luminoso y un agujero negro supermasivo en su centro."
+        },
+        {
+          "id": 4,
+          "dato": "Esta galaxia ha sido objeto de estudio en investigaciones relacionadas con la formación y evolución de galaxias espirales."
+        },
+        {
+          "id": 5,
+          "dato": "M64 es un objeto de interés tanto para astrónomos profesionales como para aficionados debido a su apariencia única."
+        }
+      ],
+      "id": 29
+    },
+    {
+      "nombre": "Galaxia del Remolino",
+      "parrafoPrincial": "La Galaxia del Remolino, también conocida como M51 o NGC 5194, es una icónica galaxia espiral situada en la constelación de Canes Venatici. Es conocida por su hermosa estructura en espiral y por su interacción con una galaxia enana cercana, NGC 5195, que se encuentra cerca de su núcleo.",
+      "parrafoSecundario": "M51 es un ejemplo clásico de una galaxia espiral. Su estructura en espiral es el resultado de la rotación de sus brazos estelares alrededor de su núcleo central. La interacción gravitatoria con NGC 5195 ha causado ondas en los brazos espirales de M51, lo que la hace un objeto fascinante para su estudio.",
+      "imagen": "../recursos/galaxias/remolino.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Remolino es famosa por su espectacular estructura en espiral, que la convierte en un objeto de interés tanto para astrónomos profesionales como para aficionados."
+        },
+        {
+          "id": 2,
+          "dato": "Se encuentra a una distancia aproximada de 23 millones de años luz de la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "M51 es un sistema binario, ya que está acompañada por la galaxia enana NGC 5195."
+        },
+        {
+          "id": 4,
+          "dato": "Esta galaxia es un importante objeto de estudio en la investigación de la dinámica galáctica y la formación de estructuras en el universo."
+        },
+        {
+          "id": 5,
+          "dato": "Es un punto de referencia en la exploración del cielo nocturno y una de las imágenes más icónicas en la astronomía."
+        }
+      ],
+      "id": 30
+    },
+    {
+      "nombre": "Andrómeda",
+      "parrafoPrincial": "La Galaxia de Andrómeda, también conocida como M31 o NGC 224, es la galaxia espiral más cercana a la Vía Láctea y es parte del Grupo Local de galaxias. Andrómeda es visible a simple vista en el cielo nocturno y es un objeto astronómico fascinante. Se encuentra a una distancia de aproximadamente 2,5 millones de años luz de la Tierra.",
+      "parrafoSecundario": "M31 es considerablemente más grande que la Vía Láctea y se estima que contiene alrededor de un billón de estrellas. Es una galaxia espiral con un núcleo brillante y brazos espirales prominentes. Se cree que Andrómeda y la Vía Láctea están en curso de colisión y se fusionarán en el futuro, formando una galaxia elíptica gigante.",
+      "imagen": "../recursos/galaxias/andromeda.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Andrómeda es la galaxia espiral más cercana a la Vía Láctea y es uno de los objetos más brillantes en el cielo nocturno."
+        },
+        {
+          "id": 2,
+          "dato": "Se cree que Andrómeda contiene alrededor de un billón de estrellas y es considerablemente más grande que la Vía Láctea."
+        },
+        {
+          "id": 3,
+          "dato": "La galaxia de Andrómeda es un objeto de estudio clave en la cosmología y la evolución de las galaxias."
+        },
+        {
+          "id": 4,
+          "dato": "Andrómeda y la Vía Láctea están en curso de colisión y se fusionarán en el futuro, formando una nueva galaxia elíptica gigante."
+        },
+        {
+          "id": 5,
+          "dato": "Es un objeto popular para la observación y la astrofotografía debido a su brillo y su proximidad a la Vía Láctea."
+        }
+      ],
+      "id": 31
+    },
+    {
+      "nombre": "Triángulo",
+      "parrafoPrincial": "La Galaxia del Triángulo, también conocida como M33 o NGC 598, es otra galaxia espiral cercana al Grupo Local de galaxias. El Triángulo es visible en el cielo nocturno y es un objeto de gran interés en la astronomía.",
+      "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 2,73 millones de años luz de la Tierra. M33 es una galaxia espiral con brazos espirales bien definidos y una estructura espiral abierta. Contiene una cantidad significativa de estrellas y es un objeto de estudio clave en la astronomía galáctica.",
+      "imagen": "../recursos/galaxias/triangulo.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Triángulo es una de las galaxias espirales más cercanas al Grupo Local de galaxias."
+        },
+        {
+          "id": 2,
+          "dato": "Se encuentra a una distancia de aproximadamente 2,73 millones de años luz de la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "M33 es una galaxia espiral con brazos espirales bien definidos y una estructura abierta."
+        },
+        {
+          "id": 4,
+          "dato": "Es un objeto de interés en la astronomía galáctica y un tema importante de investigación."
+        },
+        {
+          "id": 5,
+          "dato": "El Triángulo es visible en el cielo nocturno y es apreciado por astrónomos y entusiastas de la astronomía."
+        }
+      ],
+      "id": 32
+    },
+    {
+      "nombre": "Galaxia del Sombrero",
+      "parrafoPrincial": "La Galaxia del Sombrero, también conocida como M104 o NGC 4594, es una galaxia espiral situada en la constelación de Virgo. Es famosa por su forma distintiva que se asemeja a un sombrero de copa. Se encuentra a una distancia de aproximadamente 29 millones de años luz de la Tierra.",
+      "parrafoSecundario": "La Galaxia del Sombrero es una galaxia espiral no barrada con un núcleo brillante y un disco prominente. Su forma inusual la hace un objeto de interés en la astronomía y la astrofotografía. La galaxia es parte del Cúmulo de Virgo y se encuentra en una región rica en galaxias.",
+      "imagen": "../recursos/galaxias/sombrero.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Sombrero es conocida por su forma distintiva que se asemeja a un sombrero de copa."
+        },
+        {
+          "id": 2,
+          "dato": "Se encuentra a una distancia de aproximadamente 29 millones de años luz de la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "Es parte del Cúmulo de Virgo, una agrupación de galaxias en el espacio profundo."
+        },
+        {
+          "id": 4,
+          "dato": "Es un objeto popular para la observación y la astrofotografía debido a su forma y su ubicación en un cúmulo galáctico."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia del Sombrero se llama así debido a su distintiva apariencia. Tiene un núcleo brillante y una banda de polvo oscura que rodea su bulbo central."
+        }
+      ],
+      "id": 33
+    },
+    {
+      "nombre": "Galaxia de Centaurus A",
+      "parrafoPrincial": "La Galaxia de Centaurus A, también conocida como NGC 5128, es una galaxia elíptica con un núcleo activo ubicada en la constelación de Centauro. Es una galaxia peculiar y fascinante que se destaca por su núcleo activo y su forma elíptica.",
+      "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 11 millones de años luz de la Tierra. NGC 5128 es una galaxia elíptica gigante que contiene un agujero negro supermasivo en su núcleo. Este agujero negro es una fuente importante de radiación de alta energía, lo que hace que esta galaxia sea de gran interés para los astrónomos y los científicos. La Galaxia de Centaurus A es una de las galaxias más cercanas con un núcleo activo.",
+      "imagen": "../recursos/galaxias/centaurusA.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia de Centaurus A es una galaxia elíptica con un núcleo activo y un agujero negro supermasivo en su centro."
+        },
+        {
+          "id": 2,
+          "dato": "Se encuentra a una distancia de aproximadamente 11 millones de años luz de la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "Su núcleo activo la hace una fuente de radiación de alta energía y un objeto de estudio en astronomía."
+        },
+        {
+          "id": 4,
+          "dato": "Es una de las galaxias más cercanas con un núcleo activo y es una galaxia peculiar en la constelación de Centauro."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia de Centaurus A es un tema de investigación importante en el campo de la astrofísica y la cosmología."
+        }
+      ],
+      "id": 34
+    },
+    {
+      "nombre": "Galaxia de Whirlpool",
+      "parrafoPrincial": "La Galaxia de Whirlpool, también conocida como M51 o NGC 5194, es una galaxia espiral situada en la constelación de Canes Venatici. Es famosa por su aspecto espiral bien definido y su interacción con una compañera, la galaxia enana NGC 5195.",
+      "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 23 millones de años luz de la Tierra. M51 es conocida por su espectacular aspecto espiral y su relación cercana con la galaxia enana NGC 5195. La interacción gravitatoria entre estas dos galaxias ha causado perturbaciones en sus estructuras, incluyendo la formación de nuevas estrellas. La Galaxia de Whirlpool es un objetivo popular para observación y astrofotografía.",
+      "imagen": "../recursos/galaxias/whirlpool.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia de Whirlpool es conocida por su espectacular apariencia espiral bien definida."
+        },
+        {
+          "id": 2,
+          "dato": "Se cree que la interacción entre M51a y M51b continuará en el futuro, lo que podría llevar a cambios significativos en la estructura y evolución de ambas galaxias."
+        },
+        {
+          "id": 3,
+          "dato": "Interactúa gravitacionalmente con la galaxia enana NGC 5195, lo que ha causado perturbaciones en ambas galaxias."
+        },
+        {
+          "id": 4,
+          "dato": "La interacción ha desencadenado la formación de nuevas estrellas en M51 y NGC 5195."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia de Whirlpool es un objeto popular tanto para observación telescópica como para astrofotografía debido a su belleza y su relación con su compañera."
+        }
+      ],
+      "id": 35
+    },
+    {
+      "nombre": "Vía Láctea",
+      "parrafoPrincial": "La Vía Láctea es nuestra galaxia, un inmenso sistema estelar que contiene miles de millones de estrellas, planetas, gas y polvo. Es una galaxia espiral barrada que alberga al Sistema Solar y a la Tierra. La Vía Láctea es solo una de las miles de millones de galaxias en el universo observable.",
+      "parrafoSecundario": "Nuestra galaxia es una vasta colección de estrellas que se extiende a lo largo de unos 100,000 años luz. El Sistema Solar se encuentra en uno de los brazos espirales exteriores de la Vía Láctea, conocido como el Brazo de Orión. La galaxia contiene una región central abultada y un disco plano en espiral con brazos, donde se encuentran muchas estrellas jóvenes y cúmulos estelares.",
+      "imagen": "../recursos/galaxias/viaLactea.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Vía Láctea es la galaxia en la que se encuentra nuestro Sistema Solar, junto con miles de millones de estrellas y sistemas planetarios."
+        },
+        {
+          "id": 2,
+          "dato": "Tiene una masa estimada de alrededor de 100 mil millones de veces la masa de nuestro sol."
+        },
+        {
+          "id": 3,
+          "dato": "La Vía Láctea es una galaxia espiral barrada, lo que significa que tiene un núcleo central abultado y brazos en espiral que se extienden desde el núcleo."
+        },
+        {
+          "id": 4,
+          "dato": "Es uno de los objetos más impresionantes y estudiados en el cielo nocturno, y su observación ha sido fundamental para la astronomía."
+        },
+        {
+          "id": 5,
+          "dato": "La Vía Láctea contiene una amplia variedad de objetos celestes, incluyendo estrellas, planetas, cúmulos estelares, nebulosas y agujeros negros."
+        }
+      ],
+      "id": 36
+    },
+    {
+      "nombre": "Galaxia del Triángulo del Dragón",
+      "parrafoPrincial": "La Galaxia del Triángulo del Dragón, también conocida como M81 o NGC 3031, es una galaxia espiral situada en la constelación de la Osa Mayor. Es un objeto destacado en el estudio de galaxias espirales y su estructura interna.",
+      "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 12 millones de años luz de la Tierra. M81 es conocida por su apariencia espiral bien definida y su núcleo brillante. Es una de las galaxias más brillantes en el cielo nocturno y es un objetivo clave para la investigación en astronomía. Los estudios de M81 han proporcionado información valiosa sobre la formación y evolución de las galaxias espirales.",
+      "imagen": "../recursos/galaxias/trianguloDelDragon.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Triángulo del Dragón es una galaxia espiral destacada en el estudio de galaxias espirales."
+        },
+        {
+          "id": 2,
+          "dato": "Se encuentra a una distancia de aproximadamente 12 millones de años luz de la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "M81 es conocida por su apariencia espiral bien definida y su núcleo brillante."
+        },
+        {
+          "id": 4,
+          "dato": "Se cree que M81 alberga un agujero negro supermasivo en su núcleo, que está emitiendo radiación en diferentes longitudes de onda. "
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia del Triángulo del Dragón es un objeto popular para la observación y el estudio debido a su brillo y su ubicación en la constelación de la Osa Mayor."
+        }
+      ],
+      "id": 37
+    },
+    {
+      "nombre": "Galaxia del Molinete",
+      "parrafoPrincial": "La Galaxia del Molinete, también conocida como M101 o NGC 5457, es una galaxia espiral ubicada en la constelación de la Osa Mayor. Es una de las galaxias espirales más grandes y notables en el cielo nocturno.",
+      "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 21 millones de años luz de la Tierra. M101 es conocida por su estructura espiral bien definida y sus brillantes brazos espirales. Es un objeto destacado en la astronomía y la astrofotografía. La galaxia contiene una gran cantidad de estrellas y es un tema importante de estudio en la astronomía galáctica.",
+      "imagen": "../recursos/galaxias/molinete.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Molinete es una de las galaxias espirales más grandes y notables en el cielo nocturno."
+        },
+        {
+          "id": 2,
+          "dato": "Debido a la abundancia de gas y polvo en sus brazos espirales, M101 es un sitio activo de formación estelar. Esto significa que en sus brazos se están creando nuevas estrellas en este momento."
+        },
+        {
+          "id": 3,
+          "dato": "M101 es conocida por su estructura espiral bien definida y sus brillantes brazos espirales."
+        },
+        {
+          "id": 4,
+          "dato": "Es un objeto popular para la observación telescópica y la astrofotografía debido a su belleza y prominencia en el cielo."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia del Molinete es un tema importante de investigación en la astronomía galáctica y ha contribuido al conocimiento de las galaxias espirales."
+        }
+      ],
+      "id": 38
+    },
+    {
+      "nombre": "Galaxia del Trenzado",
+      "parrafoPrincial": "La Galaxia del Trenzado, también conocida como NGC 4565, es una galaxia espiral situada en la constelación de Coma Berenices. Es conocida por su perfil delgado y alargado, lo que la hace parecer una galaxia en forma de aguja en el cielo nocturno.",
+      "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 30 millones de años luz de la Tierra. NGC 4565 es una galaxia espiral que se encuentra de lado desde nuestra perspectiva en la Tierra. Su forma alargada se debe a su orientación, y esta característica la hace un objeto de interés en la astronomía. La galaxia contiene una población diversa de estrellas y es parte del Grupo de M94 en la constelación de Coma Berenices.",
+      "imagen": "../recursos/galaxias/trenzado.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Trenzado es conocida por ser una de las galaxias más prominentes vistas de lado en el cielo nocturno."
+        },
+        {
+          "id": 2,
+          "dato": "NGC 4565 es una de las galaxias espirales más grandes conocidas y se extiende a lo largo de aproximadamente 100,000 años luz."
+        },
+        {
+          "id": 3,
+          "dato": "Se cree que la galaxia alberga un agujero negro supermasivo en su centro, aunque no ha sido observado directamente."
+        },
+        {
+          "id": 4,
+          "dato": "El polvo y el gas interestelar en NGC 4565 contribuyen a la formación de nuevas estrellas en sus brazos espirales."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia del Trenzado es un objetivo popular para la astrofotografía debido a su forma única y su ubicación en el espacio profundo."
+        }
+      ],
+      "id": 39
+    },
+    {
+      "nombre": "Galaxia del Cigarro del Sur",
+      "parrafoPrincial": "La Galaxia del Cigarro del Sur, también conocida como NGC 6744, es una galaxia espiral ubicada en la constelación del Pavo. Es una de las galaxias espirales cercanas más destacadas en el cielo nocturno.",
+      "parrafoSecundario": " Se encuentra a una distancia de aproximadamente 30 millones de años luz de la Tierra. NGC 6744 es conocida por su estructura espiral bien definida y su semejanza con nuestra propia Vía Láctea. Es un objeto de interés en la astronomía y la astrofotografía. La galaxia alberga una población diversa de estrellas y es un tema importante de estudio en la astronomía galáctica.",
+      "imagen": "../recursos/galaxias/cigarroDelSur.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Cigarro del Sur es conocida por su semejanza con la Vía Láctea en términos de estructura espiral."
+        },
+        {
+          "id": 2,
+          "dato": "Lo que le da su nombre de 'Galaxia del Cigarro del Sur' es su apariencia peculiar. Esta galaxia espiral se ve de lado desde la perspectiva de la Tierra, lo que le da una forma alargada y recuerda a un cigarro."
+        },
+        {
+          "id": 3,
+          "dato": "NGC 6744 es uno de los objetos más prominentes en el cielo nocturno y un objetivo popular para la observación y la astrofotografía."
+        },
+        {
+          "id": 4,
+          "dato": "La galaxia alberga una gran diversidad de estrellas y sistemas estelares, lo que la convierte en un tema importante de estudio en la astronomía galáctica."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia del Cigarro del Sur es una de las galaxias espirales cercanas que nos brinda información valiosa sobre la estructura y evolución de este tipo de galaxias."
+        }
+      ],
+      "id": 40
+    },
+    {
+      "nombre": "Galaxia del Girasol",
+      "parrafoPrincial": "La Galaxia del Girasol, también conocida como M63 o NGC 5055, es una galaxia espiral ubicada en la constelación de Canes Venatici. Debe su nombre a su característica apariencia espiral que se asemeja a un girasol.",
+      "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 37 millones de años luz de la Tierra. M63 es conocida por su patrón espiral bien definido y sus brillantes brazos espirales. Es un objeto popular en la observación telescópica y la astrofotografía. La galaxia alberga una población diversa de estrellas y es parte del Grupo de M51 en la constelación de Canes Venatici.",
+      "imagen": "../recursos/galaxias/girasol.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Girasol debe su nombre a su parecido con un girasol debido a su patrón espiral bien definido."
+        },
+        {
+          "id": 2,
+          "dato": "Fue descubierta por el astrónomo francés Pierre Méchain en 1779 y posteriormente incluida en el catálogo de Charles Messier como el objeto Messier 63."
+        },
+        {
+          "id": 3,
+          "dato": "M63 es un objeto muy popular para la observación astronómica debido a su belleza y su forma distintiva."
+        },
+        {
+          "id": 4,
+          "dato": "La galaxia alberga una diversa población de estrellas y sistemas estelares, lo que la convierte en un tema interesante de estudio en la astronomía galáctica."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia del Girasol es parte del Grupo de M51, que incluye la famosa Galaxia del Remolino (M51) y otras galaxias cercanas."
+        }
+      ],
+      "id": 41
+    },
+    {
+      "nombre": "Galaxia de Sombrero de Copa",
+      "parrafoPrincial": "La Galaxia de Sombrero de Copa, también conocida como Messier 104 (M104) o NGC 4594, es una galaxia situada en la constelación de Virgo. Esta galaxia espiral es famosa por su forma distintiva que se asemeja a un sombrero de copa, de ahí su nombre.",
+      "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 29 millones de años luz de la Tierra. La Galaxia de Sombrero de Copa es un objeto de interés en la astronomía debido a su apariencia inusual y su ubicación en el cúmulo de Virgo. Esta galaxia contiene un núcleo brillante y un disco prominente. Se cree que alberga un agujero negro supermasivo en su centro, que es una fuente importante de radiación de alta energía. La interacción gravitatoria entre las estrellas y el gas en la Galaxia de Sombrero de Copa ha llevado a la formación de nuevas estrellas en sus brazos espirales.",
+      "imagen": "../recursos/galaxias/sombreroCopa.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia de Sombrero de Copa es conocida por su forma inusual que se asemeja a un sombrero de copa."
+        },
+        {
+          "id": 2,
+          "dato": "Se cree que la Galaxia del Sombrero ha experimentado una colisión con otra galaxia en el pasado."
+        },
+        {
+          "id": 3,
+          "dato": "La galaxia es famosa por su núcleo brillante y un disco prominente."
+        },
+        {
+          "id": 4,
+          "dato": "Se cree que alberga un agujero negro supermasivo en su centro, que es una fuente de radiación de alta energía."
+        },
+        {
+          "id": 5,
+          "dato": "La interacción gravitatoria en la Galaxia de Sombrero de Copa ha provocado la formación de nuevas estrellas en sus brazos espirales."
+        }
+      ],
+      "id": 42
+    },
+    {
+      "nombre": "Galaxia de Andrómeda enana",
+      "parrafoPrincial": "La Galaxia de Andrómeda enana, también conocida como M32, es una galaxia enana elíptica que forma parte del Grupo Local, un conjunto de galaxias que incluye la Vía Láctea y la Galaxia de Andrómeda (M31).",
+      "parrafoSecundario": "M32 orbita en torno a M31 y se encuentra a una distancia de aproximadamente 2,5 millones de años luz de la Tierra. M32 es una galaxia elíptica de tamaño relativamente pequeño en comparación con la Galaxia de Andrómeda. A pesar de su modesto tamaño, es un objeto importante en la astronomía debido a su proximidad a M31. La interacción gravitatoria entre M32 y M31 ha influido en la estructura y evolución de ambas galaxias.",
+      "imagen": "../recursos/galaxias/andromedaEnana.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia de Andrómeda enana es una galaxia enana elíptica que orbita en torno a la Galaxia de Andrómeda (M31)."
+        },
+        {
+          "id": 2,
+          "dato": "M32 tiene un núcleo brillante y compacto en su centro, que está formado principalmente por estrellas más antiguas."
+        },
+        {
+          "id": 3,
+          "dato": "A pesar de su tamaño modesto, M32 es un objeto de gran interés en la astronomía debido a su relación con M31."
+        },
+        {
+          "id": 4,
+          "dato": "La interacción gravitatoria entre M32 y M31 ha influido en la evolución y estructura de ambas galaxias."
+        },
+        {
+          "id": 5,
+          "dato": "M32 es uno de los miembros del Grupo Local, un conjunto de galaxias que incluye la Vía Láctea y otras galaxias cercanas."
+        }
+      ],
+      "id": 43
+    },
+    {
+      "nombre": "Galaxia de la Rueda del Carro",
+      "parrafoPrincial": "La Galaxia de la Rueda del Carro, también conocida como M101 o NGC 5457, es una galaxia espiral ubicada en la constelación de la Osa Mayor. Es un objeto destacado en el estudio de la formación estelar y la evolución de las galaxias. Se encuentra a una distancia de aproximadamente 21 millones de años luz de la Tierra.",
+      "parrafoSecundario": "M101 es conocida por su estructura espiral bien definida y sus brillantes brazos espirales. Es un objeto de gran interés en la astronomía, particularmente en el estudio de la formación estelar. La galaxia alberga una gran cantidad de regiones de formación estelar donde nacen nuevas estrellas. Esta actividad estelar la convierte en un laboratorio natural para investigar el proceso de creación de estrellas.",
+      "imagen": "../recursos/galaxias/ruedaDelCarro.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia de la Rueda del Carro es un objeto destacado en el estudio de la formación estelar y la evolución de las galaxias."
+        },
+        {
+          "id": 2,
+          "dato": "Es una de las galaxias espirales más grandes conocidas y tiene un diámetro de aproximadamente 170,000 años luz, lo que la hace considerablemente más grande que la Vía Láctea."
+        },
+        {
+          "id": 3,
+          "dato": "M101 es conocida por sus brillantes brazos espirales y su estructura bien definida."
+        },
+        {
+          "id": 4,
+          "dato": "La galaxia alberga una gran cantidad de regiones de formación estelar donde nacen nuevas estrellas, lo que la convierte en un laboratorio natural para el estudio de la formación estelar."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia de la Rueda del Carro es un objetivo importante para la investigación astronómica debido a su relevancia en la formación estelar."
+        }
+      ],
+      "id": 44
+    },
+    {
+      "nombre": "Galaxia de Andrómeda enana",
+      "parrafoPrincial": "La Galaxia de Andrómeda enana, también conocida como M32, es una galaxia enana elíptica que forma parte del Grupo Local de galaxias. Esta galaxia es una compañera cercana de la Galaxia de Andrómeda (M31) y se encuentra en la constelación de Andrómeda.",
+      "parrafoSecundario": "M32 es uno de los objetos más brillantes y notables en el cielo nocturno. A pesar de su pequeño tamaño en comparación con la Galaxia de Andrómeda, M32 es un objeto importante en la astronomía debido a su proximidad a M31. Su interacción gravitatoria con la galaxia principal ha influido en su estructura y evolución a lo largo del tiempo cósmico.",
+      "imagen": "../recursos/galaxias/andromedaEnana.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia de Andrómeda enana (M32) es una galaxia enana elíptica que es compañera de la Galaxia de Andrómeda (M31)."
+        },
+        {
+          "id": 2,
+          "dato": "Se encuentra en la constelación de Andrómeda y es uno de los objetos más brillantes en el cielo nocturno."
+        },
+        {
+          "id": 3,
+          "dato": "A pesar de su pequeño tamaño, M32 es un objeto importante en la astronomía debido a su relación cercana con M31."
+        },
+        {
+          "id": 4,
+          "dato": "La interacción gravitatoria con la Galaxia de Andrómeda ha influido en su estructura y evolución a lo largo del tiempo cósmico."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia de Andrómeda enana es un ejemplo de una galaxia enana elíptica que orbita alrededor de una galaxia espiral principal."
+        }
+      ],
+      "id": 45
+    },
+    {
+      "nombre": "Galaxia del Girasol enana",
+      "parrafoPrincial": "La Galaxia del Girasol enana, también conocida como NGC 4244, es una galaxia enana que se encuentra en la constelación de la Virgen. A pesar de su tamaño modesto, esta galaxia es conocida por su perfil delgado y alargado, lo que le da una apariencia similar a un girasol.",
+      "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 13 millones de años luz de la Tierra. NGC 4244 es un objeto destacado para la observación astronómica debido a su forma inusual. Aunque es una galaxia enana, su perfil alargado la hace destacar en el cielo nocturno. Los estudios de esta galaxia han proporcionado información valiosa sobre la formación y evolución de galaxias de este tipo.",
+      "imagen": "../recursos/galaxias/girasolEnana.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Girasol enana (NGC 4244) es una galaxia enana conocida por su perfil delgado y alargado."
+        },
+        {
+          "id": 2,
+          "dato": "Se encuentra a una distancia de aproximadamente 13 millones de años luz de la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "A pesar de su tamaño modesto, es un objeto destacado en la observación astronómica debido a su forma inusual."
+        },
+        {
+          "id": 4,
+          "dato": "Los estudios de NGC 4244 han proporcionado información valiosa sobre la formación y evolución de galaxias enanas similares."
+        },
+        {
+          "id": 5,
+          "dato": "NGC 4244 es un ejemplo de la diversidad de galaxias que existen en el universo y es un tema importante de investigación en la astronomía galáctica."
+        }
+      ],
+      "id": 46
+    },
+    {
+      "nombre": "Galaxia del Triángulo enana",
+      "parrafoPrincial": "La Galaxia del Triángulo enana es una galaxia enana que forma parte del Grupo Local de galaxias y es satélite de la Galaxia del Triángulo, también conocida como M33 o NGC 598. Se encuentra en la constelación del Triángulo y es uno de los objetos celestes más destacados en el cielo nocturno.",
+      "parrafoSecundario": "A pesar de su tamaño modesto en comparación con la Galaxia del Triángulo, la Galaxia del Triángulo enana es un objeto importante en la astronomía debido a su relación cercana con M33. Su interacción gravitatoria con la galaxia principal ha influido en su estructura y evolución a lo largo de las eras cósmicas.",
+      "imagen": "../recursos/galaxias/trianguloEnana.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia del Triángulo enana es una galaxia enana que orbita en torno a la Galaxia del Triángulo (M33)."
+        },
+        {
+          "id": 2,
+          "dato": "Se encuentra en la constelación del Triángulo y es visible en el cielo nocturno."
+        },
+        {
+          "id": 3,
+          "dato": "A pesar de su tamaño modesto, es un objeto de interés en la astronomía debido a su relación cercana con M33."
+        },
+        {
+          "id": 4,
+          "dato": "La interacción gravitatoria con la Galaxia del Triángulo ha influido en su estructura y evolución a lo largo del tiempo cósmico."
+        },
+        {
+          "id": 5,
+          "dato": "La Galaxia del Triángulo enana es uno de los miembros del Grupo Local de galaxias."
+        }
+      ],
+      "id": 47
+    },
+    {
+      "nombre": "Galaxia de la Osa Mayor",
+      "parrafoPrincial": "La Galaxia de la Osa Mayor incluye dos objetos celestes notables: Messier 108 (M108) y Messier 97 (M97). M108 es una galaxia espiral situada en la constelación de la Osa Mayor, mientras que M97 es una nebulosa planetaria cercana.",
+      "parrafoSecundario": "M108 es una galaxia espiral con un núcleo brillante y brazos espirales prominentes. Por otro lado, M97 es una nebulosa planetaria que se caracteriza por su aspecto redondeado y su apariencia similar a un ojo. Ambos objetos son visibles en el cielo nocturno y son populares entre los observadores y astrónomos aficionados. Ambos objetos son parte del catálogo Messier, compilado por el astrónomo Charles Messier.",
+      "imagen": "../recursos/galaxias/osaMayor.jpg",
+      "categoria": "galaxia",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La Galaxia de la Osa Mayor incluye tanto una galaxia espiral (M108) como una nebulosa planetaria (M97)."
+        },
+        {
+          "id": 2,
+          "dato": "M108 es una galaxia espiral con un núcleo brillante y brazos espirales prominentes."
+        },
+        {
+          "id": 3,
+          "dato": "M97 es una nebulosa planetaria que se caracteriza por su apariencia redondeada y su apariencia similar a un ojo."
+        },
+        {
+          "id": 4,
+          "dato": "Ambos objetos son visibles en el cielo nocturno y son populares entre los observadores y astrónomos aficionados."
+        },
+        {
+          "id": 5,
+          "dato": "La inclusión de M108 y M97 en el catálogo Messier los convierte en objetos de interés histórico en la astronomía."
+        }
+      ],
+      "id": 48
     }
   ],
   "sistemaSolar": [
     {
-      "dato": "El sistema solar es un sistema planetario que gira en torno a una estrella central, el Sol, y consta de ocho planetas, incluyendo la Tierra, que se dividen en dos grupos, planetas terrestres e planetas gaseosos.",
+      "dato": "El planeta enano Eris es más masivo que Plutón y fue un factor en la reclasificación de Plutón.",
       "id": 1
+    },
+    {
+      "dato": "El Sol es una estrella de tipo espectral G2V.",
+      "id": 2
+    },
+    {
+      "dato": "El diámetro del Sol es aproximadamente 109 veces mayor que el de la Tierra.",
+      "id": 3
+    },
+    {
+      "dato": "Mercurio es el planeta más cercano al Sol y tiene temperaturas extremas.",
+      "id": 4
+    },
+    {
+      "dato": "Venus es similar en tamaño y composición a la Tierra pero tiene un efecto invernadero descontrolado.",
+      "id": 5
+    },
+    {
+      "dato": "El cinturón de asteroides se encuentra entre Marte y Júpiter.",
+      "id": 6
+    },
+    {
+      "dato": "Júpiter es el planeta más grande del sistema solar.",
+      "id": 7
+    },
+    {
+      "dato": "Saturno es famoso por sus impresionantes anillos de partículas de hielo y roca.",
+      "id": 8
+    },
+    {
+      "dato": "Urano gira de lado, con su eje de rotación inclinado casi 90 grados.",
+      "id": 9
+    },
+    {
+      "dato": "Neptuno tiene los vientos más rápidos en el sistema solar.",
+      "id": 10
+    },
+    {
+      "dato": "Plutón fue reclasificado como un planeta enano en 2006.",
+      "id": 11
+    },
+    {
+      "dato": "La misión Voyager ha salido del sistema solar.",
+      "id": 12
+    },
+    {
+      "dato": "La sonda Cassini estudió Saturno y sus lunas.",
+      "id": 13
+    },
+    {
+      "dato": "La Luna de la Tierra, la Luna, es el quinto satélite más grande en el sistema solar.",
+      "id": 14
+    },
+    {
+      "dato": "Ganímedes, una luna de Júpiter, es la luna más grande en el sistema solar.",
+      "id": 15
+    },
+    {
+      "dato": "La atmósfera de Marte es muy delgada y no puede retener calor, lo que resulta en temperaturas frías.",
+      "id": 16
+    },
+    {
+      "dato": "Titán, una luna de Saturno, tiene una atmósfera densa y líquidos en su superficie, incluyendo lagos de metano.",
+      "id": 17
+    },
+    {
+      "dato": "Los anillos de Urano son muy delgados y oscuros.",
+      "id": 18
+    },
+    {
+      "dato": "El cometa Halley visita el sistema solar interior aproximadamente cada 76 años.",
+      "id": 19
+    },
+    {
+      "dato": "Ceres es el objeto más grande en el cinturón de asteroides.",
+      "id": 20
+    },
+    {
+      "dato": "El telescopio espacial Hubble ha proporcionado imágenes impresionantes del sistema solar y el universo.",
+      "id": 21
+    },
+    {
+      "dato": "La Estación Espacial Internacional (EEI) orbita alrededor de la Tierra y permite la investigación en microgravedad.",
+      "id": 22
+    },
+    {
+      "dato": "La misión New Horizons de la NASA exploró Plutón y su luna Caronte en 2015.",
+      "id": 23
+    },
+    {
+      "dato": "Las sondas espaciales Voyager llevan mensajes y música de la Tierra para posibles encuentros extraterrestres.",
+      "id": 24
+    },
+    {
+      "dato": "Las llamaradas solares son explosiones de radiación en la superficie del Sol.",
+      "id": 25
+    },
+    {
+      "dato": "La misión InSight de la NASA estudia el interior de Marte.",
+      "id": 26
+    },
+    {
+      "dato": "El cinturón de asteroides es rico en minerales y metales.",
+      "id": 27
+    },
+    {
+      "dato": "El rover Curiosity de la NASA ha estado explorando la superficie de Marte desde 2012.",
+      "id": 28
+    },
+    {
+      "dato": "Plutón tiene una órbita altamente elíptica que lo lleva desde el cinturón de Kuiper al sistema solar interior.",
+      "id": 29
+    },
+    {
+      "dato": "La luna Europa de Júpiter tiene un océano subsuperficial de agua líquida y es un objetivo para futuras misiones de exploración.",
+      "id": 30
+    },
+    {
+      "dato": "Los cometas están formados por polvo, hielo y rocas y desarrollan colas cuando se acercan al Sol.",
+      "id": 31
+    },
+    {
+      "dato": "Mimas, una luna de Saturno, tiene un gran cráter que lo hace parecer el 'Ojo de Sauron'.",
+      "id": 32
+    },
+    {
+      "dato": "El cinturón de asteroides es el hogar de Ceres, Vesta y muchos otros asteroides.",
+      "id": 33
+    },
+    {
+      "dato": "La sonda Parker Solar Probe de la NASA estudia la corona solar de cerca.",
+      "id": 34
+    },
+    {
+      "dato": "El cinturón de Kuiper es una región más allá de Neptuno que contiene objetos helados, incluyendo Plutón.",
+      "id": 35
+    },
+    {
+      "dato": "La Nebulosa del Águila es una región de formación estelar visible desde la Tierra.",
+      "id": 36
+    },
+    {
+      "dato": "Plutón tiene cinco lunas conocidas, la más grande de las cuales es Caronte.",
+      "id": 37
+    },
+    {
+      "dato": "La misión Rosetta de la ESA aterrizó en el cometa 67P/Churyumov-Gerasimenko en 2014.",
+      "id": 38
+    },
+    {
+      "dato": "La Tierra es el único planeta conocido en el sistema solar con vida.",
+      "id": 39
+    },
+    {
+      "dato": "La sonda Messenger de la NASA estudió Mercurio de cerca.",
+      "id": 40
+    },
+    {
+      "dato": "Io, una luna de Júpiter, tiene volcanes activos de lava.",
+      "id": 41
+    },
+    {
+      "dato": "La misión Dawn de la NASA estudió los asteroides Vesta y Ceres.",
+      "id": 42
+    },
+    {
+      "dato": "Los meteoritos son fragmentos de asteroides o cometas que caen en la Tierra.",
+      "id": 43
+    },
+    {
+      "dato": "Las manchas solares son áreas más frías en la superficie del Sol causadas por campos magnéticos.",
+      "id": 44
+    },
+    {
+      "dato": "Las misiones Viking de la NASA fueron las primeras en aterrizar en Marte en 1976.",
+      "id": 45
+    },
+    {
+      "dato": "El asteroide más grande, Ceres, se considera un planeta enano.",
+      "id": 46
+    },
+    {
+      "dato": "Tritón, una luna de Neptuno, es uno de los pocos objetos en el sistema solar que orbita en dirección retrógrada.",
+      "id": 47
+    },
+    {
+      "dato": "La Luna de Marte, Fobos, es tan pequeña que podría ser eventualmente destruida por las fuerzas de marea.",
+      "id": 48
+    },
+    {
+      "dato": "La sonda Juno estudia Júpiter y busca comprender su formación y evolución.",
+      "id": 49
+    },
+    {
+      "dato": "El Sol representa aproximadamente el 99.86% de la masa del sistema solar.",
+      "id": 50
     }
   ]
 }
