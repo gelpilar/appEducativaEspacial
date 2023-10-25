@@ -901,7 +901,7 @@
       "id": 30
     },
     {
-      "nombre": "Andrómeda",
+      "nombre": "Galaxia de Andrómeda",
       "parrafoPrincial": "La Galaxia de Andrómeda, también conocida como M31 o NGC 224, es la galaxia espiral más cercana a la Vía Láctea y es parte del Grupo Local de galaxias. Andrómeda es visible a simple vista en el cielo nocturno y es un objeto astronómico fascinante. Se encuentra a una distancia de aproximadamente 2,5 millones de años luz de la Tierra.",
       "parrafoSecundario": "M31 es considerablemente más grande que la Vía Láctea y se estima que contiene alrededor de un billón de estrellas. Es una galaxia espiral con un núcleo brillante y brazos espirales prominentes. Se cree que Andrómeda y la Vía Láctea están en curso de colisión y se fusionarán en el futuro, formando una galaxia elíptica gigante.",
       "imagen": "../recursos/galaxias/andromeda.jpg",
@@ -931,7 +931,7 @@
       "id": 31
     },
     {
-      "nombre": "Triángulo",
+      "nombre": "Galaxia de Triángulo",
       "parrafoPrincial": "La Galaxia del Triángulo, también conocida como M33 o NGC 598, es otra galaxia espiral cercana al Grupo Local de galaxias. El Triángulo es visible en el cielo nocturno y es un objeto de gran interés en la astronomía.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 2,73 millones de años luz de la Tierra. M33 es una galaxia espiral con brazos espirales bien definidos y una estructura espiral abierta. Contiene una cantidad significativa de estrellas y es un objeto de estudio clave en la astronomía galáctica.",
       "imagen": "../recursos/galaxias/triangulo.jpg",
@@ -1321,31 +1321,31 @@
       "id": 44
     },
     {
-      "nombre": "Galaxia de Andrómeda enana",
-      "parrafoPrincial": "La Galaxia de Andrómeda enana, también conocida como M32, es una galaxia enana elíptica que forma parte del Grupo Local de galaxias. Esta galaxia es una compañera cercana de la Galaxia de Andrómeda (M31) y se encuentra en la constelación de Andrómeda.",
-      "parrafoSecundario": "M32 es uno de los objetos más brillantes y notables en el cielo nocturno. A pesar de su pequeño tamaño en comparación con la Galaxia de Andrómeda, M32 es un objeto importante en la astronomía debido a su proximidad a M31. Su interacción gravitatoria con la galaxia principal ha influido en su estructura y evolución a lo largo del tiempo cósmico.",
-      "imagen": "../recursos/galaxias/andromedaEnana.jpg",
+      "nombre": "Galaxia del Collar",
+      "parrafoPrincipal": "La Galaxia del Collar, también conocida como NGC 4565, es una galaxia espiral situada en la constelación Coma Berenices, a una distancia de aproximadamente 30 millones de años luz de la Tierra.",
+      "parrafoSecundario": "NGC 4565 se destaca por su perfil extremadamente delgado y su forma de 'collar' debido a su vista desde un ángulo casi de canto. Esto la hace parecer una línea fina en el cielo, y se asemeja a una aguja de costura. La galaxia contiene mucho polvo interestelar y numerosas estrellas. El polvo interestelar en la galaxia es visible en forma de oscurecimiento de la luz de las estrellas que se encuentra detrás de él. Es una galaxia muy conocida y estudiada por los astrónomos debido a su impresionante perfil y su notable forma.",
+      "imagen": "../recursos/galaxias/ngc4565.jpg",
       "categoria": "galaxia",
       "datos": [
         {
           "id": 1,
-          "dato": "La Galaxia de Andrómeda enana (M32) es una galaxia enana elíptica que es compañera de la Galaxia de Andrómeda (M31)."
+          "dato": "NGC 4565 es una galaxia espiral no barrada de tipo Sa con un bulbo central prominente y brazos espirales bien definidos."
         },
         {
           "id": 2,
-          "dato": "Se encuentra en la constelación de Andrómeda y es uno de los objetos más brillantes en el cielo nocturno."
+          "dato": "NGC 4565 es parte de un pequeño grupo de galaxias que incluye a NGC 4562 y NGC 4567. Estas galaxias son satélites de la Galaxia de la Ballena."
         },
         {
           "id": 3,
-          "dato": "A pesar de su pequeño tamaño, M32 es un objeto importante en la astronomía debido a su relación cercana con M31."
+          "dato": "NGC 4565 se encuentra en la constelación Coma Berenices y es conocida por su perfil delgado y su forma de 'collar'."
         },
         {
           "id": 4,
-          "dato": "La interacción gravitatoria con la Galaxia de Andrómeda ha influido en su estructura y evolución a lo largo del tiempo cósmico."
+          "dato": "Al igual que muchas galaxias espirales, se cree que NGC 4565 tiene un halo extendido de materia oscura que rodea su región visible."
         },
         {
           "id": 5,
-          "dato": "La Galaxia de Andrómeda enana es un ejemplo de una galaxia enana elíptica que orbita alrededor de una galaxia espiral principal."
+          "dato": "NGC 4565 es una galaxia popular para la observación telescópica debido a su perfil único en el cielo nocturno."
         }
       ],
       "id": 45
