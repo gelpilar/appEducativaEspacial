@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./vista-inicio.component.css']
 })
 export class VistaInicioComponent {
+ 
+  ngOnInit()
+  {
+    
 
+  }
+  
 }

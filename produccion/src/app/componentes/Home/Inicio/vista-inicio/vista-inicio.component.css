@@ -1,0 +1,59 @@
+body{
+    width: 100.2%;
+    height: 102vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("../../../../../assets/imagenes/fondoInicio.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+.texto {
+  transition: color 1s; 
+  color: #aaa9a9;
+  font-family: Roboto;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute; /* Añade esta línea */
+  top:5%;
+  left: 35.39%;
+   /* Añade esta línea para ajustar la posición verticalmente */
+   /* Añade esta línea para ajustar la posición horizontalmente */
+   
+}
+.texto:hover
+{
+    color: #ffffff;
+
+}
+#atras
+{
+    position: relative;
+    top: 2.9rem;
+}
+
+#titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  top: 5rem;
+  
+
+}
+#nav
+{
+    position: relative;
+    top:7rem
+}
+
+#buscador
+{
+  position: relative;
+  bottom: 30%;
+  left: 28%;
+}
+

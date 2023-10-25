@@ -1,0 +1,19 @@
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+    width: 5rem;
+    height: 5rem;
+    border-radius:10rem;
+    border-style: solid;
+    border-color: #80A9DA;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+button:hover
+{
+    box-shadow: 5px 5px 10px 0 #a1b6dd;
+}

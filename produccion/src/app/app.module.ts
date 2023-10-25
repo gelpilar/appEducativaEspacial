@@ -21,6 +21,10 @@ import { HomeComponent } from './paginas/home/home.component';
 import { NoEncontradoComponent } from './paginas/no-encontrado/no-encontrado.component';
 import { EncontradoComponent } from './paginas/encontrado/encontrado.component';
 import { ErrorComponent } from './paginas/error/error.component';
+import { BotonLogoComponent } from './componentes/shared/boton-logo/boton-logo.component';
+import { NavBarComponent } from './componentes/Home/Inicio/nav-bar/nav-bar.component';
+import { BotonesNavComponent } from './componentes/Home/Inicio/botones-nav/botones-nav.component';
+import { BotonCircularComponent } from './componentes/shared/boton-circular/boton-circular.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { ErrorComponent } from './paginas/error/error.component';
     HomeComponent,
     NoEncontradoComponent,
     EncontradoComponent,
-    ErrorComponent
+    ErrorComponent,
+    BotonLogoComponent,
+    NavBarComponent,
+    BotonesNavComponent,
+    BotonCircularComponent
   ],
   imports: [
     BrowserModule,

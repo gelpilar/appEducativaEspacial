@@ -1,0 +1,17 @@
+input
+{
+    position: absolute; 
+  top: 20rem; 
+  left:29%; 
+  width: 35rem; 
+  height: 3rem; 
+  font-size: 1.5rem;
+  text-align: center;
+  color: #323740;
+  background: #FFFFFFFF; 
+  border-radius: 40px; 
+  border-width: 3px; 
+  border-color: #BDC1CAFF; 
+  border-style: solid; 
+  box-shadow: 0px 17px 35px #52565c, 0px 0px 2px #2f3136;
+}
