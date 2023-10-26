@@ -25,6 +25,7 @@ import { BotonLogoComponent } from './componentes/shared/boton-logo/boton-logo.c
 import { NavBarComponent } from './componentes/Home/Inicio/nav-bar/nav-bar.component';
 import { BotonesNavComponent } from './componentes/Home/Inicio/botones-nav/botones-nav.component';
 import { BotonCircularComponent } from './componentes/shared/boton-circular/boton-circular.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { BotonCircularComponent } from './componentes/shared/boton-circular/boto
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

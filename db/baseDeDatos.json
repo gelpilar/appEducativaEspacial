@@ -724,7 +724,7 @@
       "nombre": "Fomalhaut",
       "parrafoPrincial": "Fomalhaut es una estrella brillante que forma parte de la constelación de Piscis Austrinus, también conocida como el Pez Austral. Es una estrella de tipo espectral A3V y es conocida por su brillo y su prominencia en el cielo nocturno.",
       "parrafoSecundario": "Fomalhaut es una de las estrellas más destacadas en la constelación de Piscis Austrinus. La distancia entre Fomalhaut y la Tierra es de aproximadamente 25 años luz. Fomalhaut es una estrella importante en la constelación de Piscis Austrinus, que representa un pez en la mitología griega.",
-      "imagen": "../recursos/estrellas/fomalhaut.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/estrellas/estrella-fomalhaut.jpg",
       "categoria": "estrella",
       "datos": [
         {
@@ -1294,7 +1294,7 @@
       "nombre": "Galaxia de la Rueda del Carro",
       "parrafoPrincial": "La Galaxia de la Rueda del Carro, también conocida como M101 o NGC 5457, es una galaxia espiral ubicada en la constelación de la Osa Mayor. Es un objeto destacado en el estudio de la formación estelar y la evolución de las galaxias. Se encuentra a una distancia de aproximadamente 21 millones de años luz de la Tierra.",
       "parrafoSecundario": "M101 es conocida por su estructura espiral bien definida y sus brillantes brazos espirales. Es un objeto de gran interés en la astronomía, particularmente en el estudio de la formación estelar. La galaxia alberga una gran cantidad de regiones de formación estelar donde nacen nuevas estrellas. Esta actividad estelar la convierte en un laboratorio natural para investigar el proceso de creación de estrellas.",
-      "imagen": "../recursos/galaxias/ruedaDelCarro.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-ruedaDelCarro.jpg",
       "categoria": "galaxia",
       "datos": [
         {

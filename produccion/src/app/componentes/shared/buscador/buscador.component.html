@@ -1,3 +1,9 @@
 <span>
-    <input type="text" placeholder="Buscar...">
-</span>
+    <input
+      type="text"
+      placeholder="Buscar..."
+      [(ngModel)]= "terminoBusqueda" 
+      >
+    <button (click)="realizarBusqueda()">Buscar</button>
+  </span>
+  
