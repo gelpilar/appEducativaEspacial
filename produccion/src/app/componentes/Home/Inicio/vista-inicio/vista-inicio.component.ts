@@ -11,14 +11,13 @@ export class VistaInicioComponent implements OnInit {
  
   constructor(private elementosService: ElementosService) {}
  
-  listaElementos: Elemento[] | undefined = [];
+  listaElementos: Elemento | undefined ;
 
   ngOnInit(): void {
-  this.mostrarElementos();
   }
 
-  async mostrarElementos(){   
-    this.listaElementos = await this.elementosService.getElementos()
+  async mostrarElementos(termino:string){   
+    this.listaElementos = await this.elementosService.getElemento(termino)
     console.log(this.listaElementos)
   }
 
@@ -26,8 +25,7 @@ export class VistaInicioComponent implements OnInit {
   resultadoBusqueda: string = '';
 
   handleTerminoBusqueda(termino: string) {
-    this.resultadoBusqueda = termino;
-    console.log(termino)
+    this.mostrarElementos(termino)
   }
 
  

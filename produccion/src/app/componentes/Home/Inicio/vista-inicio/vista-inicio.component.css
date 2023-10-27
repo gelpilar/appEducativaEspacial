@@ -11,7 +11,7 @@ body{
 
 .texto {
   transition: color 1s; 
-  color: #aaa9a9;
+  color: #dbd7d7;
   font-family: Roboto;
   font-size: 4.375rem;
   font-style: normal;
@@ -24,10 +24,22 @@ body{
    /* Añade esta línea para ajustar la posición horizontalmente */
    
 }
-.texto:hover
-{
-    color: #ffffff;
+.texto {
+  transition: 1s;
+}
 
+.texto:hover {
+  color: #ffffff;
+  font-size: 4.475rem;
+}
+
+.texto::before {
+  transition: 1s;
+}
+
+.texto:hover::before {
+  color: #d9d4d4;
+  font-size: 4.375rem;
 }
 #atras
 {

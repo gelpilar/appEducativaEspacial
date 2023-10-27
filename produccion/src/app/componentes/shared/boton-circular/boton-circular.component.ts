@@ -6,7 +6,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./boton-circular.component.css']
 })
 export class BotonCircularComponent {
-  @Input() nombre:string="infoIcono";
+  /* 
+  @Input() nombre:string="logo";
   urlP:string="../../../../assets/imagenes/";
   imagen:string=this.urlP+this.nombre+".png";
   @Input() flag:boolean=true;
@@ -19,5 +20,5 @@ export class BotonCircularComponent {
   },0)
   }
   constructor()
-  { }
+  { }*/
 }
