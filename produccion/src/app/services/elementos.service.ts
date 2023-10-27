@@ -25,12 +25,42 @@ export class ElementosService {
 
 
 
+  async getExistenciaBuscado(buscado: string): Promise<Boolean|undefined>{
+    try{
+      const url:string= this.urlElementos+"?nombre="+buscado;
+      const resultado = await fetch(url);
+      const elemento = await resultado.json();
+      // preguntar
+      if(elemento[0]==null)
+      {
+        return false;
+      }else
+      {
+        return true;
+      }
+     
+      
+    }catch(error){
+      console.log(error);
+    }
+
+    return undefined;
+  }
   async getElemento(buscado: string): Promise<Elemento | undefined>{
     try{
       const url:string= this.urlElementos+"?nombre="+buscado;
       const resultado = await fetch(url);
       const elemento = await resultado.json();
-      return elemento;
+      // preguntar
+      if(elemento[0]==null)
+      {
+        return undefined;
+      }else
+      {
+        return elemento[0];
+      }
+     
+      
     }catch(error){
       console.log(error);
     }

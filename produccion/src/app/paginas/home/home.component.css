@@ -1,6 +1,6 @@
 body{
     display: flex;
-    justify-content: start;
+    justify-content: "start";
     flex-direction: column;
     align-content: space-between;
   

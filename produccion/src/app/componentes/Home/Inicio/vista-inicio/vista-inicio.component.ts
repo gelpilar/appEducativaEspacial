@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
+import { Router } from '@angular/router';
 import { ElementosService } from 'src/app/services/elementos.service';
 import { Elemento } from 'src/interfaces/interface';
 
@@ -9,24 +10,29 @@ import { Elemento } from 'src/interfaces/interface';
 })
 export class VistaInicioComponent implements OnInit {
  
-  constructor(private elementosService: ElementosService) {}
+  constructor(private elementosService: ElementosService,private router: Router) {}
  
-  listaElementos: Elemento | undefined ;
+  flagBusqueda: Boolean | undefined;
 
   ngOnInit(): void {
   }
 
-  async mostrarElementos(termino:string){   
-    this.listaElementos = await this.elementosService.getElemento(termino)
-    console.log(this.listaElementos)
+  async  handleTerminoBusqueda(termino:string){   
+    this.flagBusqueda = await this.elementosService.getExistenciaBuscado(termino)
+
+    if(this.flagBusqueda)
+    {
+      this.router.navigate(['/Encontrado', termino]);
+      
+    }else
+    {
+      this.router.navigate(['/NoEncontrado', termino]);
+    }
+    
   }
 
-
-  resultadoBusqueda: string = '';
-
-  handleTerminoBusqueda(termino: string) {
-    this.mostrarElementos(termino)
-  }
+ 
+  
 
  
 }

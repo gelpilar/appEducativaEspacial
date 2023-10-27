@@ -8,8 +8,8 @@ import { ErrorComponent } from './paginas/error/error.component';
 
 const routes: Routes = [
   
-  {path:'NoEncontrado',component:NoEncontradoComponent},
-  {path:'Encontrado/:id',component:EncontradoComponent},
+  {path:'NoEncontrado/:nombre',component:NoEncontradoComponent},
+  {path:'Encontrado/:nombre',component:EncontradoComponent},
   {path:'error',component: ErrorComponent},
   {path:'**', component:HomeComponent},
  
