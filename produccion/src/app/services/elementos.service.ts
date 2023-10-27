@@ -6,15 +6,27 @@ import { Elemento } from 'src/interfaces/interface';
 })
 export class ElementosService {
 
-  constructor() { }
-
   urlElementos: string = 'http://localhost:4000/elementos';
 
+  constructor() { }
 
-  async getElemento(nombre:string): Promise<Elemento | undefined>{
+  async getElementos(): Promise<Elemento[] | undefined>{
     try{
-      const urlApi = `${this.urlElementos}/Encontrado/${nombre}`;
-      const resultado = await fetch(urlApi);
+      const resultado = await fetch(this.urlElementos);
+      const elementos = await resultado.json();
+      return elementos;
+    }catch(error){
+      console.log(error);
+    }
+
+    return undefined;
+  }
+
+
+
+  async getElemento(id: number): Promise<Elemento | undefined>{
+    try{
+      const resultado = await fetch(`${this.urlElementos}/${id}`);
       const elemento = await resultado.json();
       return elemento;
     }catch(error){
