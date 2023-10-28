@@ -11,8 +11,11 @@ body{
 
 .texto {
   transition: color 1s; 
-  color: #dbd7d7;
+  color: #ffffffd8;
+  background-color: #1e212813;
+ 
   font-family: Roboto;
+  border-radius: 5rem;
   font-size: 4.375rem;
   font-style: normal;
   font-weight: 400;
@@ -30,6 +33,8 @@ body{
 
 .texto:hover {
   color: #ffffff;
+  background-color: #1e212800;
+  
   font-size: 4.475rem;
 }
 
@@ -40,6 +45,7 @@ body{
 .texto:hover::before {
   color: #d9d4d4;
   font-size: 4.375rem;
+  background-color: #1e212800;
 }
 #atras
 {

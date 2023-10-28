@@ -26,6 +26,7 @@ import { NavBarComponent } from './componentes/Home/Inicio/nav-bar/nav-bar.compo
 import { BotonesNavComponent } from './componentes/Home/Inicio/botones-nav/botones-nav.component';
 import { BotonCircularComponent } from './componentes/shared/boton-circular/boton-circular.component';
 import { FormsModule } from '@angular/forms';
+import { VistaContactoComponent } from './componentes/Home/contacto/vista-contacto/vista-contacto.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { FormsModule } from '@angular/forms';
     BotonLogoComponent,
     NavBarComponent,
     BotonesNavComponent,
-    BotonCircularComponent
+    BotonCircularComponent,
+    VistaContactoComponent
   ],
   imports: [
     BrowserModule,

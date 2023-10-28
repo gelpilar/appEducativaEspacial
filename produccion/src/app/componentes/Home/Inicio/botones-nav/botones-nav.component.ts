@@ -6,6 +6,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./botones-nav.component.css']
 })
 export class BotonesNavComponent {
+
+  
   
 
 }
