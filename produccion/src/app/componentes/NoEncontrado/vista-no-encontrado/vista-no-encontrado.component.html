@@ -1,9 +1,5 @@
 <app-buscador (buscarTermino)="handleTerminoBusqueda($event)"></app-buscador>
 <p>No se encontró: {{nombre}}</p>
 <p>Estas sugerencias pueden interesarte: </p>
-<div *ngFor="let elemento of sugerenciasAleatorias">
-    <h2>{{elemento.categoria}}</h2>
-    <h3>{{ elemento.nombre }}</h3>
-    <p>{{ elemento.parrafoPrincial }}</p>
-    <p><img src="{{elemento.imagen}}" alt="Sin imagen"></p>
-</div>
+<app-tarjeta-de-elemento></app-tarjeta-de-elemento>
+

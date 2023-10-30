@@ -43,5 +43,3 @@ export class VistaEncontradoComponent implements OnInit {
   }
 
 }
-
-  

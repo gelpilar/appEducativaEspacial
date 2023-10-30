@@ -9,7 +9,9 @@ import { ElementosService } from 'src/app/services/elementos.service';
 })
 export class VistaInicioComponent implements OnInit {
  
-  constructor(private elementosService: ElementosService,private router: Router) {}
+  constructor(private elementosService: ElementosService,
+              private router: Router
+             ) {}
  
   flagBusqueda: Boolean | undefined;
 
@@ -29,18 +31,7 @@ export class VistaInicioComponent implements OnInit {
     }
     
   }
-
- 
-  
-
  
 }
-
-
-
-
-
-
-
 
 

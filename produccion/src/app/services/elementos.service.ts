@@ -6,6 +6,10 @@ import { ModeloElemento } from '../Modelos/ModeloElemento';
 @Injectable({
   providedIn: 'root'
 })
+
+
+
+
 export class ElementosService {
 
   urlElementos: string = 'http://localhost:4000/elementos';
@@ -38,18 +42,16 @@ export class ElementosService {
       const url: string = this.urlElementos + "?nombre=" + buscado;
       const resultado = await fetch(url);
       const elemento = await resultado.json();
-      // preguntar
+
       if (elemento[0] == null) {
         return false;
       } else {
         return true;
       }
 
-
     } catch (error) {
       console.log(error);
     }
-
     return undefined;
   }
 
@@ -75,7 +77,6 @@ export class ElementosService {
 
     return undefined;
   }
-
 
 
   async getPlaneta(): Promise<Elemento | undefined>{
@@ -161,6 +162,7 @@ export class ElementosService {
 
   async obtenerAletorios(): Promise<Elemento[] | undefined> {
     try {
+      this.elementosAleatorios = [];
       const planeta  =  await this.getPlaneta();
       const estrella = await this.getEstrella();
       const galaxia = await this.getGalaxia();
