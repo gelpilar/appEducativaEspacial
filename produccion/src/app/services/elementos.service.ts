@@ -84,12 +84,8 @@ export class ElementosService {
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
       this.filtrarElementosPorCategoria('planeta')
-      console.log(this.filtrarElementosPorCategoria('planeta'));
-      console.log(this.seleccionarElementoAleatorio());
       const aux= this.seleccionarElementoAleatorio();
       const rta= new ModeloElemento(String(aux?.nombre),String(aux?.parrafoPrincial),String(aux?.imagen),String(aux?.categoria))
-      
-      console.log(rta);
       return rta ;
     } catch (error) {
       console.log(error);
@@ -99,7 +95,7 @@ export class ElementosService {
 
 
 
-  async getEstrella() {
+  async getEstrella(): Promise<Elemento | undefined> {
     try {
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
@@ -115,7 +111,7 @@ export class ElementosService {
 
 
 
-  async getGalaxia() {
+  async getGalaxia(): Promise<Elemento | undefined> {
     try {
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
@@ -131,7 +127,7 @@ export class ElementosService {
 
 
 
-  async getOtros() {
+  async getOtros(): Promise<Elemento | undefined> {
     try {
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
@@ -154,7 +150,6 @@ export class ElementosService {
   seleccionarElementoAleatorio(): Elemento | undefined {
     if (this.elementosFiltrados.length > 0) {
       const indiceAleatorio = Math.floor(Math.random() * this.elementosFiltrados.length);
-      console.log(this.elementosFiltrados[indiceAleatorio].nombre)
       return this.elementosFiltrados[indiceAleatorio];
     } else {
       return undefined; 
@@ -170,9 +165,8 @@ export class ElementosService {
       const estrella = await this.getEstrella();
       const galaxia = await this.getGalaxia();
       /* const otros = this.getOtros(); */
-   
       this.elementosAleatorios.push(Object(planeta), Object(estrella), Object(galaxia));
-      console.log(this.elementosAleatorios);
+      return this.elementosAleatorios;
     } catch (error) {
       console.log(error);
     }
