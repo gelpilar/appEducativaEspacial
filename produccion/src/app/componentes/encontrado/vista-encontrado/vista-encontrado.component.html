@@ -1,1 +1,14 @@
-<p>vista-encontrado works!</p>
+
+<div *ngIf="elemento">
+    <p>{{elemento.nombre}}</p>
+    <p>{{elemento.parrafoPrincial}}</p>
+    <p>{{elemento.parrafoSecundario}}</p>
+    <img [src]="elemento.imagen" alt="Sin imagen">
+    <ul>
+      <li *ngFor="let dato of datosAleatorios">
+        {{dato.dato}}
+      </li>
+    </ul>
+  </div>
+  
+

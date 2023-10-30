@@ -1,7 +1,6 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { ElementosService } from 'src/app/services/elementos.service';
-import { Elemento } from 'src/interfaces/interface';
 
 @Component({
   selector: 'app-vista-inicio',

@@ -1,6 +1,6 @@
 export interface Elemento {
     nombre: string,
-    parrafoPrincipal: string,
+    parrafoPrincial: string,
     parrafoSecundario: string,
     imagen: string,
     categoria: string,

@@ -1322,7 +1322,7 @@
     },
     {
       "nombre": "Galaxia del Collar",
-      "parrafoPrincipal": "La Galaxia del Collar, también conocida como NGC 4565, es una galaxia espiral situada en la constelación Coma Berenices, a una distancia de aproximadamente 30 millones de años luz de la Tierra.",
+      "parrafoPrincial": "La Galaxia del Collar, también conocida como NGC 4565, es una galaxia espiral situada en la constelación Coma Berenices, a una distancia de aproximadamente 30 millones de años luz de la Tierra.",
       "parrafoSecundario": "NGC 4565 se destaca por su perfil extremadamente delgado y su forma de 'collar' debido a su vista desde un ángulo casi de canto. Esto la hace parecer una línea fina en el cielo, y se asemeja a una aguja de costura. La galaxia contiene mucho polvo interestelar y numerosas estrellas. El polvo interestelar en la galaxia es visible en forma de oscurecimiento de la luz de las estrellas que se encuentra detrás de él. Es una galaxia muy conocida y estudiada por los astrónomos debido a su impresionante perfil y su notable forma.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-collar.jpg",
       "categoria": "galaxia",
