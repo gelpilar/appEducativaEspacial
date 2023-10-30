@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Elemento } from 'src/interfaces/interface';
+import { ModeloElemento } from '../Modelos/ModeloElemento';
+
 
 @Injectable({
   providedIn: 'root'
@@ -9,8 +11,12 @@ export class ElementosService {
   urlElementos: string = 'http://localhost:4000/elementos';
   elementos: Elemento[] = [];
   elementosFiltrados: Elemento[] = [];
+  elementosAleatorios: Elemento[] = [];
+  
 
-  constructor() { }
+  constructor() { 
+
+  }
 
   async getElementos(): Promise<Elemento[] | undefined> {
     try {
@@ -74,11 +80,17 @@ export class ElementosService {
 
   async getPlaneta(): Promise<Elemento | undefined>{
     try {
+
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
       this.filtrarElementosPorCategoria('planeta')
-      console.log(this.seleccionarElementoAleatorio())
-      return this.seleccionarElementoAleatorio();
+      console.log(this.filtrarElementosPorCategoria('planeta'));
+      console.log(this.seleccionarElementoAleatorio());
+      const aux= this.seleccionarElementoAleatorio();
+      const rta= new ModeloElemento(String(aux?.nombre),String(aux?.parrafoPrincial),String(aux?.imagen),String(aux?.categoria))
+      
+      console.log(rta);
+      return rta ;
     } catch (error) {
       console.log(error);
     }
@@ -92,8 +104,9 @@ export class ElementosService {
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
       this.filtrarElementosPorCategoria('estrella')
-      console.log(this.seleccionarElementoAleatorio())
-      return this.seleccionarElementoAleatorio();
+      const aux= this.seleccionarElementoAleatorio();
+      const rta= new ModeloElemento(String(aux?.nombre),String(aux?.parrafoPrincial),String(aux?.imagen),String(aux?.categoria))
+      return rta;
     } catch (error) {
       console.log(error);
     }
@@ -107,8 +120,9 @@ export class ElementosService {
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
       this.filtrarElementosPorCategoria('galaxia')
-      console.log(this.seleccionarElementoAleatorio())
-      return this.seleccionarElementoAleatorio();
+      const aux= this.seleccionarElementoAleatorio();
+      const rta= new ModeloElemento(String(aux?.nombre),String(aux?.parrafoPrincial),String(aux?.imagen),String(aux?.categoria))
+      return rta;
     } catch (error) {
       console.log(error);
     }
@@ -121,9 +135,9 @@ export class ElementosService {
     try {
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
-      this.filtrarElementosPorCategoria('otros')
-      console.log(this.seleccionarElementoAleatorio())
-      return this.seleccionarElementoAleatorio();
+      const aux= this.seleccionarElementoAleatorio();
+      const rta= new ModeloElemento(String(aux?.nombre),String(aux?.parrafoPrincial),String(aux?.imagen),String(aux?.categoria))
+      return rta;
     } catch (error) {
       console.log(error);
     }
@@ -133,16 +147,39 @@ export class ElementosService {
 
 
   filtrarElementosPorCategoria(categoria: string) {
-    this.elementosFiltrados = this.elementos.filter(elemento => elemento.categoria === categoria);
+    this.elementosFiltrados = this.elementos.filter(elemento => elemento.categoria === categoria) as Elemento[];
   }
+  
 
   seleccionarElementoAleatorio(): Elemento | undefined {
     if (this.elementosFiltrados.length > 0) {
       const indiceAleatorio = Math.floor(Math.random() * this.elementosFiltrados.length);
+      console.log(this.elementosFiltrados[indiceAleatorio].nombre)
       return this.elementosFiltrados[indiceAleatorio];
     } else {
       return undefined; 
     }
   }
+
+
+
+
+  async obtenerAletorios(): Promise<Elemento[] | undefined> {
+    try {
+      const planeta  =  await this.getPlaneta();
+      const estrella = await this.getEstrella();
+      const galaxia = await this.getGalaxia();
+      /* const otros = this.getOtros(); */
+   
+      this.elementosAleatorios.push(Object(planeta), Object(estrella), Object(galaxia));
+      console.log(this.elementosAleatorios);
+    } catch (error) {
+      console.log(error);
+    }
+
+    return undefined;
+  }
+
+
 
 }

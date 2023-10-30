@@ -12,6 +12,7 @@ export class VistaNoEncontradoComponent implements OnInit {
   nombre: string | undefined;
   flagBusqueda: Boolean | undefined;
 
+
   constructor(private elementosService: ElementosService,
     private route: ActivatedRoute,
     private router: Router
@@ -20,6 +21,7 @@ export class VistaNoEncontradoComponent implements OnInit {
 
   ngOnInit(): void {
     this.mostrarElemento();
+    this.elementosService.obtenerAletorios();
   }
 
 
