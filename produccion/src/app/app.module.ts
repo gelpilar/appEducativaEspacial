@@ -26,6 +26,7 @@ import { BotonesNavComponent } from './componentes/Home/Inicio/botones-nav/boton
 import { BotonCircularComponent } from './componentes/shared/boton-circular/boton-circular.component';
 import { FormsModule } from '@angular/forms';
 import { VistaContactoComponent } from './componentes/Home/contacto/vista-contacto/vista-contacto.component';
+import { OrbitaComponent } from './componentes/Home/sistemaSolar/orbita/orbita.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { VistaContactoComponent } from './componentes/Home/contacto/vista-contac
     NavBarComponent,
     BotonesNavComponent,
     BotonCircularComponent,
-    VistaContactoComponent
+    VistaContactoComponent,
+    OrbitaComponent
   ],
   imports: [
     BrowserModule,

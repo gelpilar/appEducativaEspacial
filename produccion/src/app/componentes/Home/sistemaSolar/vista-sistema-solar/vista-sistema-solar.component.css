@@ -1,0 +1,79 @@
+#recuadro
+{
+    width: 60rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #aaacaf;
+
+}
+#decoArriba
+{
+    position: absolute;
+    top: -15vh;
+    left: 0;
+}
+#decoAbajo
+{
+    position: absolute;
+    bottom: 5vh;
+    display: static;
+    left: 0;
+
+}
+.deco
+{
+    width: 98.76vw;
+    height: 5rem;
+    display: flex;
+}
+
+#cuerpo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    background-color: #0B2F61FF;
+}
+
+.circulo
+{
+
+    background-color:  #09244BFF;
+    width: 10rem;
+    height: 10rem;
+    display: block;
+    border-radius: 50%;
+    margin: -1.245rem;
+}
+
+body
+{
+    background-color: #09244BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#botonAleatorio
+{
+    background-color: transparent;
+    border-style: none;
+    position: relative;
+    top: 5rem;
+    cursor: pointer;
+}
+
+#titulo
+{
+    position: relative;
+    left: 8rem;
+    top:1rem;
+    color: rgb(59, 58, 58);
+}
+
