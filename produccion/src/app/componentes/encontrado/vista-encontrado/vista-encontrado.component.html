@@ -1,13 +1,41 @@
-<div *ngIf="elemento">
-  <p>{{elemento.nombre}}</p>
-  <p>{{elemento.parrafoPrincial}}</p>
-  <p>{{elemento.parrafoSecundario}}</p>
-  <img [src]="elemento.imagen" alt="Sin imagen">
-  <ul>
-    <li *ngFor="let dato of datosAleatorios">
-      {{dato.dato}}
-    </li>
-  </ul>
-</div>
+<span *ngIf="elemento" id="estructura">
 
+  
 
+  <span id="cuerpo">
+    <span id="ladoIzquierdo">
+      <span id="RecuadroImagen">
+        <img id="imagen" [src]="elemento.imagen" alt="Sin imagen">
+      </span>
+    
+      <span id="Recuadrotitulo">
+        <p id="titulo">{{elemento.nombre}}</p>
+      </span>
+  
+      <app-botones-aux></app-botones-aux>
+    </span>
+    <span id="deco"></span>
+    <span id="recuadroInformacion">
+      <span id="texto">
+        <p id="parrafoPrincipal" class="parrafo">{{elemento.parrafoPrincial}}</p>
+        <p id="parrafoSecundario" class="parrafo">{{elemento.parrafoSecundario}}</p>
+      </span>
+      <br>
+      <br>
+      <span id="datos">
+        <ul>
+          <li *ngFor="let dato of datosAleatorios">
+            {{dato.dato}}
+          </li>
+        </ul>
+       </span>
+    </span>
+
+    
+  </span>
+  <span (click)="volver()" id="click">
+    <app-boton-logo (click)="volver()"></app-boton-logo>
+  </span>
+ 
+  <app-vista-footer id="footer"></app-vista-footer>
+</span>

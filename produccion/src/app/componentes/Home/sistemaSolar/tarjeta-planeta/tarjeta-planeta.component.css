@@ -1,0 +1,31 @@
+span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10rem;
+    top: 11rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255)
+}
+
+p
+{
+
+    font-size: small;
+    margin: 1rem;
+    color: rgba(36, 34, 34, 0.877);
+}
+
+button
+{
+    background-color: #11468F;
+    border-radius: 1rem;
+    border-style: none;
+    height: 3rem;
+    margin: 1rem;
+    font-size: large;
+    color: aliceblue;
+
+}

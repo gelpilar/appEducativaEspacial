@@ -77,11 +77,24 @@ body
     color: rgb(59, 58, 58);
 }
 
-
-
+@font-face {
+    font-family: 'lato'; /* Puedes asignar un nombre a la fuente */
+    src: url('../../../../../assets/fuentes/lato.ttf'); 
+  }
 .cartel {
     position: absolute;
-    background-color: #ffffff; 
-    border: 1px solid #000; 
+    top:25rem;
+    left:44%;
+    background: #FEB906;
+    color: #161615;
+    border-color: #262625;
+    border-style: solid;
+    border-radius: 1rem;
+    text-align: center;
+   
+
+    font-family: "lato";
+   
     padding: 10px; 
+    max-width:  25rem;
 }

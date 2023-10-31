@@ -4,6 +4,18 @@
     height: 5rem;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.TarjetaC
+{
+    position: absolute;
+    
+    left: 4rem;
+
+    top: 1rem;
+    width: 13rem;
+    z-index: 3;
 }
 
 
@@ -195,6 +207,30 @@
     box-shadow: 0 0 10px #447fd1;
     background: linear-gradient(#447fd1, #c1d8f7);
 }
+#neptuno:hover{
+    box-shadow: 0 0 7rem #94a3d6;
+}
+#tierra:hover{
+    box-shadow: 0 0 7rem #d3cccc;
+}
+#jupiter:hover{
+    box-shadow: 0 0 7rem #d3cccc;
+}
+#venus:hover{
+    box-shadow: 0 0 7rem #d3cccc;
+}
+#marte:hover{
+    box-shadow: 0 0 7rem #d3cccc;
+}
+#mercurio:hover{
+    box-shadow: 0 0 7rem #d3cccc;
+}
+#saturno:hover{
+    box-shadow: 0 0 7rem #d3cccc;
+}
+#urano:hover{
+    box-shadow: 0 0 7rem #d3cccc;
+}
 #neptuno
 {
     width: 6rem;
@@ -218,17 +254,4 @@
     background-color: #d3e4fd11;
 
 }
-.crater
-{
-    width: 0.7rem;
-    height: 0.7rem;
-    background-color: #cdcecf00;
-    border-color: rgb(153, 157, 161);
-    border-style:groove;
-    display: block;
-    position: relative;
-   
-    border-radius: 10rem;
-    
 
-}

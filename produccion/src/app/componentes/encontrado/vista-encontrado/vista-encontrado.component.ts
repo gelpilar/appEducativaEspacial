@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute ,Router} from '@angular/router';
 import { ElementosService } from 'src/app/services/elementos.service';
 import { Datos, Elemento } from 'src/interfaces/interface';
 
@@ -15,7 +15,7 @@ export class VistaEncontradoComponent implements OnInit {
 
 
   constructor(private elementosService: ElementosService,
-              private route: ActivatedRoute 
+              private route: ActivatedRoute,private router: Router
              ) {}
 
 
@@ -23,6 +23,10 @@ export class VistaEncontradoComponent implements OnInit {
     this.mostrarElemento()
   }
 
+  volver()
+  {
+    this.router.navigate(['/']);
+  }
 
   async mostrarElemento(){
     this.route.params.subscribe(async param => {

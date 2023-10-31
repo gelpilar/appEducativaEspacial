@@ -27,6 +27,7 @@ import { BotonCircularComponent } from './componentes/shared/boton-circular/boto
 import { FormsModule } from '@angular/forms';
 import { VistaContactoComponent } from './componentes/Home/contacto/vista-contacto/vista-contacto.component';
 import { OrbitaComponent } from './componentes/Home/sistemaSolar/orbita/orbita.component';
+import { TarjetaPlanetaComponent } from './componentes/Home/sistemaSolar/tarjeta-planeta/tarjeta-planeta.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { OrbitaComponent } from './componentes/Home/sistemaSolar/orbita/orbita.c
     BotonesNavComponent,
     BotonCircularComponent,
     VistaContactoComponent,
-    OrbitaComponent
+    OrbitaComponent,
+    TarjetaPlanetaComponent
   ],
   imports: [
     BrowserModule,
