@@ -1439,6 +1439,306 @@
         }
       ],
       "id": 48
+    },
+    {
+      "nombre": "Pluton",
+      "parrafoPrincial": "Es un planeta enano que se encuentra en el cinturón de Kuiper. Es un área llena de objetos helados y otros planetas enanos en el borde de nuestro sistema solar. Debido a que Plutón es el objeto más grande conocido en esta región, algunos lo llaman 'Rey del Cinturón de Kuiper'.",
+      "parrafoSecundario": "El resto de los planetas viajan alrededor del sol en círculos casi perfectos. ¡Pero no Plutón! Hace un recorrido elíptico, con el Sol situado lejos de su centro. Aún más, su recorrido se inclina bastante del plano ordenado en el cual el resto de los planetas giran alrededor del Sol. (Mercurio también tiene una órbita un poco elíptica, pero nunca tanto como la de Plutón).",
+      "imagen": "../recursos/galaxias/osaMayor.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Posee una variedad de características geológicas interesantes, incluyendo llanuras heladas, montañas, etc."
+        },
+        {
+          "id": 2,
+          "dato": "Plutón tiene cinco lunas conocidas: Caronte, Hidra, Nix, Estigia y Kerberos."
+        },
+        {
+          "id": 3,
+          "dato": "Su atmósfera, compuesta principalmente de nitrógeno, se congela y colapsa durante su órbita lejana alrededor del Sol."
+        },
+        {
+          "id": 4,
+          "dato": "Fue descubierto por el astrónomo Clyde Tombaugh el 18 de febrero de 1930."
+        },
+        {
+          "id": 5,
+          "dato": "La órbita de Plutón varía significativamente en distancia al Sol a lo largo de su órbita elíptica."
+        }
+      ],
+      "id": 49
+    },
+    {
+      "nombre": "Ceres",
+      "parrafoPrincial": "Ceres es el objeto más grande en el cinturón de asteroides, una región del sistema solar entre Marte y Júpiter. Aunque es un asteroide, Ceres tiene características que lo hacen único y se le ha clasificado como un planeta enano.",
+      "parrafoSecundario": " Fue descubierto en 1801 por Giuseppe Piazzi y es el objeto más grande y masivo en el cinturón de asteroides. Ceres es un mundo enano con una superficie cubierta de cráteres y una capa de hielo en su interior. También se cree que podría tener agua líquida bajo su superficie, lo que lo convierte en un lugar de interés para la búsqueda de vida extraterrestre. La misión Dawn de la NASA estudió Ceres de cerca y proporcionó datos fascinantes sobre este objeto.",
+      "imagen": "../recursos/asteroides/ceres.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Ceres es el objeto más grande en el cinturón de asteroides, con un diámetro de aproximadamente 940 kilómetros."
+        },
+        {
+          "id": 2,
+          "dato": "Fue nombrado en honor a la diosa romana de la agricultura y la maternidad."
+        },
+        {
+          "id": 3,
+          "dato": "Ceres ha sido visitado por la misión Dawn de la NASA."
+        },
+        {
+          "id": 4,
+          "dato": "Se cree que Ceres podría contener depósitos de agua en forma de hielo y que podría albergar un océano subsuperficial."
+        },
+        {
+          "id": 5,
+          "dato": "Como Ceres es esférico se diferencia de la mayoría de los otros miembros del cinturón de asteroides."
+        }
+      ],
+      "id": 50
+    },
+    {
+      "nombre": "Exoplaneta",
+      "parrafoPrincipal": "Un exoplaneta es un planeta que se encuentra fuera de nuestro sistema solar, orbitando alrededor de una estrella diferente a nuestro Sol. Estos planetas son una parte fundamental de la investigación astronómica y la búsqueda de vida en el universo.",
+      "parrafoSecundario": "La detección y estudio de exoplanetas se ha convertido en un campo de estudio importante en la astronomía. Los métodos para descubrir exoplanetas incluyen la observación de tránsitos (cuando un exoplaneta pasa frente a su estrella anfitriona), la velocidad radial (midiendo pequeñas oscilaciones en la velocidad de una estrella causadas por la gravedad del planeta) y la interferometría. La existencia de miles de exoplanetas ha ampliado nuestra comprensión de la diversidad y distribución de planetas en el universo.",
+      "imagen": "../recursos/exoplanetas/exoplaneta.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Los exoplanetas pueden variar en tamaño, composición y órbita."
+        },
+        {
+          "id": 2,
+          "dato": "El primer exoplaneta fue descubierto en 1992, y desde entonces, se han identificado miles de exoplanetas."
+        },
+        {
+          "id": 3,
+          "dato": "La detección de exoplanetas se realiza a través de métodos como la observación de tránsitos, la velocidad radial y la interferometría."
+        },
+        {
+          "id": 4,
+          "dato": "Los exoplanetas han ampliado nuestra comprensión de la diversidad y distribución de planetas en el universo."
+        },
+        {
+          "id": 5,
+          "dato": "La búsqueda de exoplanetas es esencial para buscar signos de vida fuera de la Tierra."
+        }
+      ],
+      "id": 51
+    },
+    {
+      "nombre": "Asteroide",
+      "parrafoPrincial": "Los asteroides son objetos rocosos o metálicos que orbitan alrededor del Sol en el sistema solar. Son remanentes de la formación del sistema solar hace miles de millones de años y se encuentran principalmente en el cinturón de asteroides.",
+      "parrafoSecundario": "Los asteroides varían en tamaño, desde pequeñas rocas hasta cuerpos más grandes de cientos de kilómetros de diámetro. Estos objetos han sido objeto de estudio y exploración en la astronomía, y algunos de ellos pueden acercarse peligrosamente a la Tierra, lo que ha llevado a la investigación en la defensa planetaria.",
+      "imagen": "../recursos/asteroides/asteroide.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Los asteroides se componen principalmente de minerales y metales."
+        },
+        {
+          "id": 2,
+          "dato": "El cinturón de asteroides, situado entre Marte y Júpiter, alberga una gran cantidad de estos objetos."
+        },
+        {
+          "id": 3,
+          "dato": "A pesar de su número y variabilidad, los asteroides no son planetas debido a su tamaño y forma irregular."
+        },
+        {
+          "id": 4,
+          "dato": "Los impactos de asteroides en la Tierra en el pasado han tenido un impacto significativo en la evolución de nuestro planeta."
+        },
+        {
+          "id": 5,
+          "dato": "La exploración y estudio de los asteroides es importante para desarrollar estrategias de defensa planetaria en caso de amenazas de impacto con la Tierra."
+        }
+      ],
+      "id": 52
+    },
+    {
+      "nombre": "Cometa",
+      "parrafoPrincial": "Los cometas son objetos celestes compuestos principalmente de hielo, polvo y roca que orbitan alrededor del Sol en el sistema solar. A diferencia de los asteroides, los cometas tienen órbitas altamente elípticas que los llevan desde las regiones más lejanas del sistema solar hacia el Sol.",
+      "parrafoSecundario": "Los cometas han sido observados durante miles de años y a menudo se asocian con eventos históricos y culturales. Son objetos fascinantes que proporcionan información sobre la composición del sistema solar temprano.",
+      "imagen": "../recursos/cometas/cometa.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Los cometas se componen principalmente de hielo de agua, dióxido de carbono y otros compuestos volátiles, así como partículas de polvo y pequeñas rocas."
+        },
+        {
+          "id": 2,
+          "dato": "Cuando un cometa se acerca al Sol, la radiación solar calienta su núcleo, liberando gas y polvo en forma de una coma brillante y una cola que apunta lejos del Sol debido a la presión del viento solar."
+        },
+        {
+          "id": 3,
+          "dato": "Los cometas pueden tener órbitas muy largas y pueden tardar muchos años, e incluso siglos, en completar una sola órbita alrededor del Sol."
+        },
+        {
+          "id": 4,
+          "dato": "La observación de cometas ha sido importante en la historia de la astronomía."
+        },
+        {
+          "id": 5,
+          "dato": "Las misiones espaciales, como la sonda Rosetta de la ESA, han estudiado de cerca los cometas, lo que ha proporcionado valiosa información."
+        }
+      ],
+      "id": 53
+    },
+    {
+      "nombre": "Meteorito",
+      "parrafoPrincial": "Los meteoritos son fragmentos de asteroides, cometas o incluso de la Luna o Marte que han sobrevivido a su paso a través de la atmósfera de la Tierra y han impactado la superficie terrestre.",
+      "parrafoSecundario": "Se dividen en tres tipos principales: meteoritos de hierro, meteoritos de piedra y meteoritos de hierro-piedra. Los meteoritos son valiosas muestras de material extraterrestre que proporcionan información sobre la composición del sistema solar y la evolución de los cuerpos celestes. También han sido objeto de estudio en la ciencia de la astrogeología.",
+      "imagen": "../recursos/meteoritos/meteorito.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Los meteoritos de hierro están compuestos principalmente de hierro y níquel, y a menudo tienen una superficie brillante y metálica."
+        },
+        {
+          "id": 2,
+          "dato": "Los meteoritos de piedra están hechos principalmente de minerales y roca, y son los más comunes entre los meteoritos que impactan la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "Los meteoritos de hierro-piedra contienen tanto material metálico como rocoso, y son una combinación de los dos tipos anteriores."
+        },
+        {
+          "id": 4,
+          "dato": "El estudio de meteoritos ha proporcionado información sobre la formación de planetas y asteroides."
+        },
+        {
+          "id": 5,
+          "dato": "Algunos meteoritos son famosos por contener inclusiones ricas en carbono."
+        }
+      ],
+      "id": 54
+    },
+    {
+      "nombre": "Nebulosa",
+      "parrafoPrincial": "Las nebulosas son vastas nubes de gas y polvo en el espacio interestelar. Pueden ser el resultado de la explosión de una estrella en una supernova o el lugar de formación de nuevas estrellas. Las nebulosas son objetos celestes de gran belleza y misterio.",
+      "parrafoSecundario": "Las nebulosas son áreas ricas en gas y polvo que pueden extenderse por miles de años luz en el espacio. Se iluminan a menudo por la radiación de estrellas cercanas o por procesos de formación estelar en su interior.",
+      "imagen": "../recursos/nebulosas/nebulosa.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Existen diferentes tipos de nebulosas, incluyendo nebulosas de emisión, nebulosas de reflexión y nebulosas oscuras."
+        },
+        {
+          "id": 2,
+          "dato": "Las nebulosas de emisión son nubes de gas brillante que emiten luz propia, a menudo debido a la radiación de estrellas jóvenes y calientes en su interior."
+        },
+        {
+          "id": 3,
+          "dato": "Las nebulosas de reflexión son nubes de polvo que reflejan la luz de estrellas cercanas."
+        },
+        {
+          "id": 4,
+          "dato": "Las nebulosas oscuras son regiones opacas de polvo que bloquean la luz de fondo."
+        },
+        {
+          "id": 5,
+          "dato": "Las nebulosas desempeñan un papel fundamental en la formación de estrellas y planetas."
+        }
+      ],
+      "id": 55
+    },
+    {
+      "nombre": "Agujero negro",
+      "parrafoPrincial": "Los agujeros negros son regiones del espacio donde la gravedad es tan intensa que nada, ni siquiera la luz, puede escapar de su atracción. Están formados por la implosión de estrellas masivas que han agotado su combustible nuclear y colapsado.",
+      "parrafoSecundario": "Los agujeros negros son objetos extraordinarios que desafían nuestras leyes de la física convencional. Su estudio ha revolucionado la astronomía y la comprensión del cosmos.",
+      "imagen": "../recursos/agujeros_negros/agujero_negro.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "La gravedad en un agujero negro es tan intensa que crea una singularidad en su centro, una región de densidad infinita donde las leyes de la física."
+        },
+        {
+          "id": 2,
+          "dato": "Existen diferentes tipos de agujeros negros, incluyendo agujeros negros estelares, agujeros negros supermasivos y agujeros negros primordiales."
+        },
+        {
+          "id": 3,
+          "dato": "Los agujeros negros supermasivos, que se encuentran en el centro de muchas galaxias, pueden tener masas equivalentes a millones o incluso miles de millones de veces la masa del Sol."
+        },
+        {
+          "id": 4,
+          "dato": "La teoría de la relatividad general de Einstein proporciona la base para nuestra comprensión de la gravedad en la proximidad de los agujeros negros."
+        },
+        {
+          "id": 5,
+          "dato": "La detección de ondas gravitacionales, como las generadas por la fusión de agujeros negros, ha abierto una nueva era en la observación de estos objetos."
+        }
+      ],
+      "id": 56
+    },
+    {
+      "nombre": "Quasares",
+      "parrafoPrincipal": "Los quasares, abreviatura de 'fuentes cuasi estelares radio', son objetos astronómicos extremadamente luminosos y distantes que se encuentran en el centro de las galaxias. Emiten grandes cantidades de energía en forma de radiación electromagnética.",
+      "parrafoSecundario": "Los quasares son conocidos por ser algunos de los objetos más brillantes y lejanos en el universo observable. Son fuentes de estudio clave en la cosmología y la astronomía.",
+      "imagen": "../recursos/quasares/quasar.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Los quasares son núcleos galácticos activos que contienen agujeros negros supermasivos en su centro."
+        },
+        {
+          "id": 2,
+          "dato": "La luz de los quasares ha viajado miles de millones de años luz antes de llegar a la Tierra."
+        },
+        {
+          "id": 3,
+          "dato": "A pesar de su lejanía, los quasares son visibles en el espectro electromagnético."
+        },
+        {
+          "id": 4,
+          "dato": "Se caracterizan por su espectro de líneas de emisión altamente desplazadas hacia el rojo (redshift), lo que indica su gran distancia y expansión del universo."
+        },
+        {
+          "id": 5,
+          "dato": "La energía generada por los quasares proviene de la materia que cae hacia el agujero negro supermasivo central y se calienta a temperaturas extremas."
+        }
+      ],
+      "id": 57
+    },
+    {
+      "nombre": "Materia oscura",
+      "parrafoPrincial": "La materia oscura es una forma de materia que no emite, absorbe ni refleja luz electromagnética, lo que la hace invisible a los detectores convencionales. A pesar de su falta de interacción electromagnética, la materia oscura ejerce una influencia gravitatoria significativa en el universo.",
+      "parrafoSecundario": "La materia oscura es uno de los misterios más intrigantes de la cosmología y la astrofísica. Su existencia se deduce a partir de observaciones de la dinámica galáctica y la expansión del universo.",
+      "imagen": "../recursos/materia_oscura/materia_oscura.jpg",
+      "categoria": "otros",
+      "datos": [
+        {
+          "id": 1,
+          "dato": "Aunque no interactúa con la luz, la materia oscura se manifiesta a través de su influencia gravitatoria."
+        },
+        {
+          "id": 2,
+          "dato": "Se estima que la materia oscura constituye aproximadamente el 27% de la masa y energía del universo, mientras que la materia bariónica representa solo alrededor del 5%."
+        },
+        {
+          "id": 3,
+          "dato": "La naturaleza precisa de la materia oscura aún no se comprende completamente."
+        },
+        {
+          "id": 4,
+          "dato": "La materia oscura desempeña un papel fundamental en la formación y evolución de las estructuras en el universo."
+        },
+        {
+          "id": 5,
+          "dato": "Su existencia es una de las principales razones para la formulación de la teoría de la materia oscura, que busca explicar los efectos gravitatorios observados."
+        }
+      ],
+      "id": 58
     }
   ],
   "sistemaSolar": [
