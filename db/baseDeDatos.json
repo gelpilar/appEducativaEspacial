@@ -121,7 +121,7 @@
       "id": 4
     },
     {
-      "nombre": "Júpiter",
+      "nombre": "Jupiter",
       "parrafoPrincial": "Júpiter es el quinto planeta desde el Sol y es el planeta más grande en nuestro sistema solar. Es un gigante gaseoso compuesto principalmente de hidrógeno y helio.",
       "parrafoSecundario": "Júpiter es conocido por su impresionante sistema de anillos y numerosas lunas, incluyendo las cuatro lunas galileanas, descubiertas por Galileo Galilei. La gran mancha roja en la atmósfera de Júpiter es una característica distintiva, que es en realidad una gigantesca tormenta que ha existido durante siglos. El planeta también tiene una intensa radiación y un fuerte campo magnético. Júpiter es un objeto brillante en el cielo nocturno y es visible a simple vista.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-jupiter.jpg",
@@ -631,7 +631,7 @@
       "id": 21
     },
     {
-      "nombre": "Proxima Centauri",
+      "nombre": "Proxima centauri",
       "parrafoPrincial": "Proxima Centauri es una enana roja que forma parte del sistema estelar Alfa Centauri, el sistema más cercano a nuestro sistema solar, ubicado a aproximadamente 4.24 años luz de distancia en la constelación de Centaurus.",
       "parrafoSecundario": "Es la estrella más cercana conocida a nuestro sistema solar y es una de las estrellas más destacadas en el cielo nocturno debido a su proximidad. Proxima Centauri es una enana roja de tipo espectral M5V, lo que significa que es una estrella pequeña, tenue y relativamente fría en comparación con el Sol. Su proximidad la convierte en un objetivo importante para la exploración espacial y la búsqueda de exoplanetas en la zona habitable.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/estrellas/estrella-proximaCentauri.jpg",
@@ -691,7 +691,7 @@
       "id": 23
     },
     {
-      "nombre": "Aldebarán",
+      "nombre": "Aldebaran",
       "parrafoPrincial": "Aldebarán es una estrella brillante que forma parte de la constelación de Tauro. Es una estrella gigante naranja de tipo espectral K5III y es conocida por su brillo y su prominencia en la constelación de Tauro, que representa al toro en la mitología griega y romana.",
       "parrafoSecundario": "La distancia entre Aldebarán y la Tierra es de aproximadamente 65 años luz. Aldebarán es una de las estrellas más destacadas en la constelación de Tauro y es fácilmente reconocible por su color anaranjado y su posición cerca del cúmulo estelar Las Pléyades.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/estrellas/estrella-aldebaran.jpg",
@@ -841,7 +841,7 @@
       "id": 28
     },
     {
-      "nombre": "Galaxia del Ojo Negro",
+      "nombre": "Galaxia del ojo negro",
       "parrafoPrincial": "La Galaxia del Ojo Negro, también conocida como M64 o NGC 4826, es una galaxia espiral que se encuentra en la constelación Coma Berenices. Debe su nombre a la inusual característica de un anillo oscuro que rodea su núcleo brillante. Este anillo oscuro contrasta fuertemente con las regiones más brillantes de la galaxia.",
       "parrafoSecundario": "M64 es parte del catálogo de Messier y fue descubierto por el astrónomo Edward Pigott en 1779. La galaxia se encuentra a una distancia de aproximadamente 17 millones de años luz de la Tierra. Es conocida por ser un ejemplo de una galaxia espiral con una estructura inusual, ya que su anillo oscuro es raro en comparación con otras galaxias espirales.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-ojoNegro.jpg",
@@ -871,7 +871,7 @@
       "id": 29
     },
     {
-      "nombre": "Galaxia del Remolino",
+      "nombre": "Galaxia del remolino",
       "parrafoPrincial": "La Galaxia del Remolino, también conocida como M51 o NGC 5194, es una icónica galaxia espiral situada en la constelación de Canes Venatici. Es conocida por su hermosa estructura en espiral y por su interacción con una galaxia enana cercana, NGC 5195, que se encuentra cerca de su núcleo.",
       "parrafoSecundario": "M51 es un ejemplo clásico de una galaxia espiral. Su estructura en espiral es el resultado de la rotación de sus brazos estelares alrededor de su núcleo central. La interacción gravitatoria con NGC 5195 ha causado ondas en los brazos espirales de M51, lo que la hace un objeto fascinante para su estudio.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-remolino.jpg",
@@ -901,7 +901,7 @@
       "id": 30
     },
     {
-      "nombre": "Galaxia de Andrómeda",
+      "nombre": "Galaxia de Andromeda",
       "parrafoPrincial": "La Galaxia de Andrómeda, también conocida como M31 o NGC 224, es la galaxia espiral más cercana a la Vía Láctea y es parte del Grupo Local de galaxias. Andrómeda es visible a simple vista en el cielo nocturno y es un objeto astronómico fascinante. Se encuentra a una distancia de aproximadamente 2,5 millones de años luz de la Tierra.",
       "parrafoSecundario": "M31 es considerablemente más grande que la Vía Láctea y se estima que contiene alrededor de un billón de estrellas. Es una galaxia espiral con un núcleo brillante y brazos espirales prominentes. Se cree que Andrómeda y la Vía Láctea están en curso de colisión y se fusionarán en el futuro, formando una galaxia elíptica gigante.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-andromeda.jpg",
@@ -931,7 +931,7 @@
       "id": 31
     },
     {
-      "nombre": "Galaxia de Triángulo",
+      "nombre": "Galaxia de triangulo",
       "parrafoPrincial": "La Galaxia del Triángulo, también conocida como M33 o NGC 598, es otra galaxia espiral cercana al Grupo Local de galaxias. El Triángulo es visible en el cielo nocturno y es un objeto de gran interés en la astronomía.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 2,73 millones de años luz de la Tierra. M33 es una galaxia espiral con brazos espirales bien definidos y una estructura espiral abierta. Contiene una cantidad significativa de estrellas y es un objeto de estudio clave en la astronomía galáctica.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-triangulo.jpg",
@@ -961,7 +961,7 @@
       "id": 32
     },
     {
-      "nombre": "Galaxia del Sombrero",
+      "nombre": "Galaxia del sombrero",
       "parrafoPrincial": "La Galaxia del Sombrero, también conocida como M104 o NGC 4594, es una galaxia espiral situada en la constelación de Virgo. Es famosa por su forma distintiva que se asemeja a un sombrero de copa. Se encuentra a una distancia de aproximadamente 29 millones de años luz de la Tierra.",
       "parrafoSecundario": "La Galaxia del Sombrero es una galaxia espiral no barrada con un núcleo brillante y un disco prominente. Su forma inusual la hace un objeto de interés en la astronomía y la astrofotografía. La galaxia es parte del Cúmulo de Virgo y se encuentra en una región rica en galaxias.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-sombrero.jpg",
@@ -991,7 +991,7 @@
       "id": 33
     },
     {
-      "nombre": "Galaxia de Centaurus A",
+      "nombre": "Galaxia de centaurus a",
       "parrafoPrincial": "La Galaxia de Centaurus A, también conocida como NGC 5128, es una galaxia elíptica con un núcleo activo ubicada en la constelación de Centauro. Es una galaxia peculiar y fascinante que se destaca por su núcleo activo y su forma elíptica.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 11 millones de años luz de la Tierra. NGC 5128 es una galaxia elíptica gigante que contiene un agujero negro supermasivo en su núcleo. Este agujero negro es una fuente importante de radiación de alta energía, lo que hace que esta galaxia sea de gran interés para los astrónomos y los científicos. La Galaxia de Centaurus A es una de las galaxias más cercanas con un núcleo activo.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-centaurusA.jpg",
@@ -1021,7 +1021,7 @@
       "id": 34
     },
     {
-      "nombre": "Galaxia de Whirlpool",
+      "nombre": "Galaxia de whirlpool",
       "parrafoPrincial": "La Galaxia de Whirlpool, también conocida como M51 o NGC 5194, es una galaxia espiral situada en la constelación de Canes Venatici. Es famosa por su aspecto espiral bien definido y su interacción con una compañera, la galaxia enana NGC 5195.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 23 millones de años luz de la Tierra. M51 es conocida por su espectacular aspecto espiral y su relación cercana con la galaxia enana NGC 5195. La interacción gravitatoria entre estas dos galaxias ha causado perturbaciones en sus estructuras, incluyendo la formación de nuevas estrellas. La Galaxia de Whirlpool es un objetivo popular para observación y astrofotografía.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-whirlpool.jpg",
@@ -1051,7 +1051,7 @@
       "id": 35
     },
     {
-      "nombre": "Vía Láctea",
+      "nombre": "Via lactea",
       "parrafoPrincial": "La Vía Láctea es nuestra galaxia, un inmenso sistema estelar que contiene miles de millones de estrellas, planetas, gas y polvo. Es una galaxia espiral barrada que alberga al Sistema Solar y a la Tierra. La Vía Láctea es solo una de las miles de millones de galaxias en el universo observable.",
       "parrafoSecundario": "Nuestra galaxia es una vasta colección de estrellas que se extiende a lo largo de unos 100,000 años luz. El Sistema Solar se encuentra en uno de los brazos espirales exteriores de la Vía Láctea, conocido como el Brazo de Orión. La galaxia contiene una región central abultada y un disco plano en espiral con brazos, donde se encuentran muchas estrellas jóvenes y cúmulos estelares.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-viaLactea.jpg",
@@ -1081,7 +1081,7 @@
       "id": 36
     },
     {
-      "nombre": "Galaxia del Triángulo del Dragón",
+      "nombre": "Galaxia del triangulo del dragon",
       "parrafoPrincial": "La Galaxia del Triángulo del Dragón, también conocida como M81 o NGC 3031, es una galaxia espiral situada en la constelación de la Osa Mayor. Es un objeto destacado en el estudio de galaxias espirales y su estructura interna.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 12 millones de años luz de la Tierra. M81 es conocida por su apariencia espiral bien definida y su núcleo brillante. Es una de las galaxias más brillantes en el cielo nocturno y es un objetivo clave para la investigación en astronomía. Los estudios de M81 han proporcionado información valiosa sobre la formación y evolución de las galaxias espirales.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-trianguloDeDragon.jpg",
@@ -1111,7 +1111,7 @@
       "id": 37
     },
     {
-      "nombre": "Galaxia del Molinete",
+      "nombre": "Galaxia del molinete",
       "parrafoPrincial": "La Galaxia del Molinete, también conocida como M101 o NGC 5457, es una galaxia espiral ubicada en la constelación de la Osa Mayor. Es una de las galaxias espirales más grandes y notables en el cielo nocturno.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 21 millones de años luz de la Tierra. M101 es conocida por su estructura espiral bien definida y sus brillantes brazos espirales. Es un objeto destacado en la astronomía y la astrofotografía. La galaxia contiene una gran cantidad de estrellas y es un tema importante de estudio en la astronomía galáctica.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-molinete.jpg",
@@ -1141,7 +1141,7 @@
       "id": 38
     },
     {
-      "nombre": "Galaxia del Trenzado",
+      "nombre": "Galaxia del trenzado",
       "parrafoPrincial": "La Galaxia del Trenzado, también conocida como NGC 4565, es una galaxia espiral situada en la constelación de Coma Berenices. Es conocida por su perfil delgado y alargado, lo que la hace parecer una galaxia en forma de aguja en el cielo nocturno.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 30 millones de años luz de la Tierra. NGC 4565 es una galaxia espiral que se encuentra de lado desde nuestra perspectiva en la Tierra. Su forma alargada se debe a su orientación, y esta característica la hace un objeto de interés en la astronomía. La galaxia contiene una población diversa de estrellas y es parte del Grupo de M94 en la constelación de Coma Berenices.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-trenzado.jpg",
@@ -1171,7 +1171,7 @@
       "id": 39
     },
     {
-      "nombre": "Galaxia del Cigarro del Sur",
+      "nombre": "Galaxia del cigarro del sur",
       "parrafoPrincial": "La Galaxia del Cigarro del Sur, también conocida como NGC 6744, es una galaxia espiral ubicada en la constelación del Pavo. Es una de las galaxias espirales cercanas más destacadas en el cielo nocturno.",
       "parrafoSecundario": " Se encuentra a una distancia de aproximadamente 30 millones de años luz de la Tierra. NGC 6744 es conocida por su estructura espiral bien definida y su semejanza con nuestra propia Vía Láctea. Es un objeto de interés en la astronomía y la astrofotografía. La galaxia alberga una población diversa de estrellas y es un tema importante de estudio en la astronomía galáctica.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-cigarroDelSur.jpg",
@@ -1201,7 +1201,7 @@
       "id": 40
     },
     {
-      "nombre": "Galaxia del Girasol",
+      "nombre": "Galaxia del girasol",
       "parrafoPrincial": "La Galaxia del Girasol, también conocida como M63 o NGC 5055, es una galaxia espiral ubicada en la constelación de Canes Venatici. Debe su nombre a su característica apariencia espiral que se asemeja a un girasol.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 37 millones de años luz de la Tierra. M63 es conocida por su patrón espiral bien definido y sus brillantes brazos espirales. Es un objeto popular en la observación telescópica y la astrofotografía. La galaxia alberga una población diversa de estrellas y es parte del Grupo de M51 en la constelación de Canes Venatici.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-girasol.jpg",
@@ -1231,7 +1231,7 @@
       "id": 41
     },
     {
-      "nombre": "Galaxia de Sombrero de Copa",
+      "nombre": "Galaxia de sombrero de copa",
       "parrafoPrincial": "La Galaxia de Sombrero de Copa, también conocida como Messier 104 (M104) o NGC 4594, es una galaxia situada en la constelación de Virgo. Esta galaxia espiral es famosa por su forma distintiva que se asemeja a un sombrero de copa, de ahí su nombre.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 29 millones de años luz de la Tierra. La Galaxia de Sombrero de Copa es un objeto de interés en la astronomía debido a su apariencia inusual y su ubicación en el cúmulo de Virgo. Esta galaxia contiene un núcleo brillante y un disco prominente. Se cree que alberga un agujero negro supermasivo en su centro, que es una fuente importante de radiación de alta energía. La interacción gravitatoria entre las estrellas y el gas en la Galaxia de Sombrero de Copa ha llevado a la formación de nuevas estrellas en sus brazos espirales.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-sombreroDeCopa.jpg",
@@ -1261,7 +1261,7 @@
       "id": 42
     },
     {
-      "nombre": "Galaxia de Andrómeda enana",
+      "nombre": "Galaxia de andromeda enana",
       "parrafoPrincial": "La Galaxia de Andrómeda enana, también conocida como M32, es una galaxia enana elíptica que forma parte del Grupo Local, un conjunto de galaxias que incluye la Vía Láctea y la Galaxia de Andrómeda (M31).",
       "parrafoSecundario": "M32 orbita en torno a M31 y se encuentra a una distancia de aproximadamente 2,5 millones de años luz de la Tierra. M32 es una galaxia elíptica de tamaño relativamente pequeño en comparación con la Galaxia de Andrómeda. A pesar de su modesto tamaño, es un objeto importante en la astronomía debido a su proximidad a M31. La interacción gravitatoria entre M32 y M31 ha influido en la estructura y evolución de ambas galaxias.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-andromedaEnana.jpg",
@@ -1291,7 +1291,7 @@
       "id": 43
     },
     {
-      "nombre": "Galaxia de la Rueda del Carro",
+      "nombre": "Galaxia de la rueda del carro",
       "parrafoPrincial": "La Galaxia de la Rueda del Carro, también conocida como M101 o NGC 5457, es una galaxia espiral ubicada en la constelación de la Osa Mayor. Es un objeto destacado en el estudio de la formación estelar y la evolución de las galaxias. Se encuentra a una distancia de aproximadamente 21 millones de años luz de la Tierra.",
       "parrafoSecundario": "M101 es conocida por su estructura espiral bien definida y sus brillantes brazos espirales. Es un objeto de gran interés en la astronomía, particularmente en el estudio de la formación estelar. La galaxia alberga una gran cantidad de regiones de formación estelar donde nacen nuevas estrellas. Esta actividad estelar la convierte en un laboratorio natural para investigar el proceso de creación de estrellas.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-ruedaDelCarro.jpg",
@@ -1321,7 +1321,7 @@
       "id": 44
     },
     {
-      "nombre": "Galaxia del Collar",
+      "nombre": "Galaxia del collar",
       "parrafoPrincial": "La Galaxia del Collar, también conocida como NGC 4565, es una galaxia espiral situada en la constelación Coma Berenices, a una distancia de aproximadamente 30 millones de años luz de la Tierra.",
       "parrafoSecundario": "NGC 4565 se destaca por su perfil extremadamente delgado y su forma de 'collar' debido a su vista desde un ángulo casi de canto. Esto la hace parecer una línea fina en el cielo, y se asemeja a una aguja de costura. La galaxia contiene mucho polvo interestelar y numerosas estrellas. El polvo interestelar en la galaxia es visible en forma de oscurecimiento de la luz de las estrellas que se encuentra detrás de él. Es una galaxia muy conocida y estudiada por los astrónomos debido a su impresionante perfil y su notable forma.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-collar.jpg",
@@ -1351,7 +1351,7 @@
       "id": 45
     },
     {
-      "nombre": "Galaxia del Girasol enana",
+      "nombre": "Galaxia del girasol enana",
       "parrafoPrincial": "La Galaxia del Girasol enana, también conocida como NGC 4244, es una galaxia enana que se encuentra en la constelación de la Virgen. A pesar de su tamaño modesto, esta galaxia es conocida por su perfil delgado y alargado, lo que le da una apariencia similar a un girasol.",
       "parrafoSecundario": "Se encuentra a una distancia de aproximadamente 13 millones de años luz de la Tierra. NGC 4244 es un objeto destacado para la observación astronómica debido a su forma inusual. Aunque es una galaxia enana, su perfil alargado la hace destacar en el cielo nocturno. Los estudios de esta galaxia han proporcionado información valiosa sobre la formación y evolución de galaxias de este tipo.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-girasolEnana.jpg",
@@ -1381,7 +1381,7 @@
       "id": 46
     },
     {
-      "nombre": "Galaxia del Triángulo enana",
+      "nombre": "Galaxia del triangulo enana",
       "parrafoPrincial": "La Galaxia del Triángulo enana es una galaxia enana que forma parte del Grupo Local de galaxias y es satélite de la Galaxia del Triángulo, también conocida como M33 o NGC 598. Se encuentra en la constelación del Triángulo y es uno de los objetos celestes más destacados en el cielo nocturno.",
       "parrafoSecundario": "A pesar de su tamaño modesto en comparación con la Galaxia del Triángulo, la Galaxia del Triángulo enana es un objeto importante en la astronomía debido a su relación cercana con M33. Su interacción gravitatoria con la galaxia principal ha influido en su estructura y evolución a lo largo de las eras cósmicas.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-trianguloEnana.jpg",
@@ -1411,7 +1411,7 @@
       "id": 47
     },
     {
-      "nombre": "Galaxia de la Osa Mayor",
+      "nombre": "Galaxia de la osa mayor",
       "parrafoPrincial": "La Galaxia de la Osa Mayor incluye dos objetos celestes notables: Messier 108 (M108) y Messier 97 (M97). M108 es una galaxia espiral situada en la constelación de la Osa Mayor, mientras que M97 es una nebulosa planetaria cercana.",
       "parrafoSecundario": "M108 es una galaxia espiral con un núcleo brillante y brazos espirales prominentes. Por otro lado, M97 es una nebulosa planetaria que se caracteriza por su aspecto redondeado y su apariencia similar a un ojo. Ambos objetos son visibles en el cielo nocturno y son populares entre los observadores y astrónomos aficionados. Ambos objetos son parte del catálogo Messier, compilado por el astrónomo Charles Messier.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/galaxias/galaxia-osaMayor.jpeg",
@@ -1444,7 +1444,7 @@
       "nombre": "Pluton",
       "parrafoPrincial": "Es un planeta enano que se encuentra en el cinturón de Kuiper. Es un área llena de objetos helados y otros planetas enanos en el borde de nuestro sistema solar. Debido a que Plutón es el objeto más grande conocido en esta región, algunos lo llaman 'Rey del Cinturón de Kuiper'.",
       "parrafoSecundario": "El resto de los planetas viajan alrededor del sol en círculos casi perfectos. ¡Pero no Plutón! Hace un recorrido elíptico, con el Sol situado lejos de su centro. Aún más, su recorrido se inclina bastante del plano ordenado en el cual el resto de los planetas giran alrededor del Sol. (Mercurio también tiene una órbita un poco elíptica, pero nunca tanto como la de Plutón).",
-      "imagen": "../recursos/galaxias/osaMayor.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-pluton.png",
       "categoria": "otros",
       "datos": [
         {
@@ -1474,7 +1474,7 @@
       "nombre": "Ceres",
       "parrafoPrincial": "Ceres es el objeto más grande en el cinturón de asteroides, una región del sistema solar entre Marte y Júpiter. Aunque es un asteroide, Ceres tiene características que lo hacen único y se le ha clasificado como un planeta enano.",
       "parrafoSecundario": " Fue descubierto en 1801 por Giuseppe Piazzi y es el objeto más grande y masivo en el cinturón de asteroides. Ceres es un mundo enano con una superficie cubierta de cráteres y una capa de hielo en su interior. También se cree que podría tener agua líquida bajo su superficie, lo que lo convierte en un lugar de interés para la búsqueda de vida extraterrestre. La misión Dawn de la NASA estudió Ceres de cerca y proporcionó datos fascinantes sobre este objeto.",
-      "imagen": "../recursos/asteroides/ceres.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-ceres.jpg",
       "categoria": "otros",
       "datos": [
         {
@@ -1502,9 +1502,9 @@
     },
     {
       "nombre": "Exoplaneta",
-      "parrafoPrincipal": "Un exoplaneta es un planeta que se encuentra fuera de nuestro sistema solar, orbitando alrededor de una estrella diferente a nuestro Sol. Estos planetas son una parte fundamental de la investigación astronómica y la búsqueda de vida en el universo.",
+      "parrafoPrincial": "Un exoplaneta es un planeta que se encuentra fuera de nuestro sistema solar, orbitando alrededor de una estrella diferente a nuestro Sol. Estos planetas son una parte fundamental de la investigación astronómica y la búsqueda de vida en el universo.",
       "parrafoSecundario": "La detección y estudio de exoplanetas se ha convertido en un campo de estudio importante en la astronomía. Los métodos para descubrir exoplanetas incluyen la observación de tránsitos (cuando un exoplaneta pasa frente a su estrella anfitriona), la velocidad radial (midiendo pequeñas oscilaciones en la velocidad de una estrella causadas por la gravedad del planeta) y la interferometría. La existencia de miles de exoplanetas ha ampliado nuestra comprensión de la diversidad y distribución de planetas en el universo.",
-      "imagen": "../recursos/exoplanetas/exoplaneta.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-exoplaneta.png",
       "categoria": "otros",
       "datos": [
         {
@@ -1534,7 +1534,7 @@
       "nombre": "Asteroide",
       "parrafoPrincial": "Los asteroides son objetos rocosos o metálicos que orbitan alrededor del Sol en el sistema solar. Son remanentes de la formación del sistema solar hace miles de millones de años y se encuentran principalmente en el cinturón de asteroides.",
       "parrafoSecundario": "Los asteroides varían en tamaño, desde pequeñas rocas hasta cuerpos más grandes de cientos de kilómetros de diámetro. Estos objetos han sido objeto de estudio y exploración en la astronomía, y algunos de ellos pueden acercarse peligrosamente a la Tierra, lo que ha llevado a la investigación en la defensa planetaria.",
-      "imagen": "../recursos/asteroides/asteroide.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-asteroide.jpg",
       "categoria": "otros",
       "datos": [
         {
@@ -1564,7 +1564,7 @@
       "nombre": "Cometa",
       "parrafoPrincial": "Los cometas son objetos celestes compuestos principalmente de hielo, polvo y roca que orbitan alrededor del Sol en el sistema solar. A diferencia de los asteroides, los cometas tienen órbitas altamente elípticas que los llevan desde las regiones más lejanas del sistema solar hacia el Sol.",
       "parrafoSecundario": "Los cometas han sido observados durante miles de años y a menudo se asocian con eventos históricos y culturales. Son objetos fascinantes que proporcionan información sobre la composición del sistema solar temprano.",
-      "imagen": "../recursos/cometas/cometa.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-cometa.png",
       "categoria": "otros",
       "datos": [
         {
@@ -1594,7 +1594,7 @@
       "nombre": "Meteorito",
       "parrafoPrincial": "Los meteoritos son fragmentos de asteroides, cometas o incluso de la Luna o Marte que han sobrevivido a su paso a través de la atmósfera de la Tierra y han impactado la superficie terrestre.",
       "parrafoSecundario": "Se dividen en tres tipos principales: meteoritos de hierro, meteoritos de piedra y meteoritos de hierro-piedra. Los meteoritos son valiosas muestras de material extraterrestre que proporcionan información sobre la composición del sistema solar y la evolución de los cuerpos celestes. También han sido objeto de estudio en la ciencia de la astrogeología.",
-      "imagen": "../recursos/meteoritos/meteorito.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-meteorito.jpg",
       "categoria": "otros",
       "datos": [
         {
@@ -1624,7 +1624,7 @@
       "nombre": "Nebulosa",
       "parrafoPrincial": "Las nebulosas son vastas nubes de gas y polvo en el espacio interestelar. Pueden ser el resultado de la explosión de una estrella en una supernova o el lugar de formación de nuevas estrellas. Las nebulosas son objetos celestes de gran belleza y misterio.",
       "parrafoSecundario": "Las nebulosas son áreas ricas en gas y polvo que pueden extenderse por miles de años luz en el espacio. Se iluminan a menudo por la radiación de estrellas cercanas o por procesos de formación estelar en su interior.",
-      "imagen": "../recursos/nebulosas/nebulosa.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-nebulosa.jpg",
       "categoria": "otros",
       "datos": [
         {
@@ -1654,7 +1654,7 @@
       "nombre": "Agujero negro",
       "parrafoPrincial": "Los agujeros negros son regiones del espacio donde la gravedad es tan intensa que nada, ni siquiera la luz, puede escapar de su atracción. Están formados por la implosión de estrellas masivas que han agotado su combustible nuclear y colapsado.",
       "parrafoSecundario": "Los agujeros negros son objetos extraordinarios que desafían nuestras leyes de la física convencional. Su estudio ha revolucionado la astronomía y la comprensión del cosmos.",
-      "imagen": "../recursos/agujeros_negros/agujero_negro.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-agujeroNegro.jpg",
       "categoria": "otros",
       "datos": [
         {
@@ -1682,9 +1682,9 @@
     },
     {
       "nombre": "Quasares",
-      "parrafoPrincipal": "Los quasares, abreviatura de 'fuentes cuasi estelares radio', son objetos astronómicos extremadamente luminosos y distantes que se encuentran en el centro de las galaxias. Emiten grandes cantidades de energía en forma de radiación electromagnética.",
+      "parrafoPrincial": "Los quasares, abreviatura de 'fuentes cuasi estelares radio', son objetos astronómicos extremadamente luminosos y distantes que se encuentran en el centro de las galaxias. Emiten grandes cantidades de energía en forma de radiación electromagnética.",
       "parrafoSecundario": "Los quasares son conocidos por ser algunos de los objetos más brillantes y lejanos en el universo observable. Son fuentes de estudio clave en la cosmología y la astronomía.",
-      "imagen": "../recursos/quasares/quasar.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-quasares.png",
       "categoria": "otros",
       "datos": [
         {
@@ -1714,7 +1714,7 @@
       "nombre": "Materia oscura",
       "parrafoPrincial": "La materia oscura es una forma de materia que no emite, absorbe ni refleja luz electromagnética, lo que la hace invisible a los detectores convencionales. A pesar de su falta de interacción electromagnética, la materia oscura ejerce una influencia gravitatoria significativa en el universo.",
       "parrafoSecundario": "La materia oscura es uno de los misterios más intrigantes de la cosmología y la astrofísica. Su existencia se deduce a partir de observaciones de la dinámica galáctica y la expansión del universo.",
-      "imagen": "../recursos/materia_oscura/materia_oscura.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-materiaOscura.jpeg",
       "categoria": "otros",
       "datos": [
         {

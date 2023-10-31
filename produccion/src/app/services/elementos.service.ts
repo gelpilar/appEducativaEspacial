@@ -132,6 +132,7 @@ export class ElementosService {
     try {
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
+      this.filtrarElementosPorCategoria('otros')
       const aux= this.seleccionarElementoAleatorio();
       const rta= new ModeloElemento(String(aux?.nombre),String(aux?.parrafoPrincial),String(aux?.imagen),String(aux?.categoria))
       return rta;
@@ -166,8 +167,8 @@ export class ElementosService {
       const planeta  =  await this.getPlaneta();
       const estrella = await this.getEstrella();
       const galaxia = await this.getGalaxia();
-      /* const otros = this.getOtros(); */
-      this.elementosAleatorios.push(Object(planeta), Object(estrella), Object(galaxia));
+      const otros = await this.getOtros();
+      this.elementosAleatorios.push(Object(planeta), Object(estrella), Object(galaxia), Object(otros));
       return this.elementosAleatorios;
     } catch (error) {
       console.log(error);

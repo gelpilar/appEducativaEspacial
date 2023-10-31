@@ -25,7 +25,6 @@ export class VistaNoEncontradoComponent implements OnInit {
   async mostrarElemento() {
     this.route.params.subscribe(async param => {
       this.nombre = param['nombre'];
-      console.log(this.nombre);
     });
   }
 
