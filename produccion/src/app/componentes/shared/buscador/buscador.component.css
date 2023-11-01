@@ -1,7 +1,5 @@
 input {
-  position: absolute;
-  top: 20rem;
-  left: 29%;
+
   width: 32rem;
   height: 3rem;
   font-size: 1.5rem;
@@ -11,27 +9,24 @@ input {
   border-radius: 1.5rem; /* Cambiar el valor a la mitad de la altura para que sea uniforme */
   border: 3px solid #BDC1CA; /* Simplificar la propiedad border */
   outline: none;
- 
 }
 
 button {
   border-radius: 50%; /* Hacer el botón circular */
   width: 2.5rem; /* Asegurarse de que el botón tenga el mismo alto y ancho para hacerlo circular */
   height: 2.5rem;
-  position: absolute;
-  top: 20.3rem; /* Asegurarse de que la posición sea la misma que la del input */
-  left: calc(26.9% + 30rem + 1rem); /* Alinear el botón a la derecha del input */
   border: none;
   background-color: #11468F;
   cursor: pointer;
+  right: 3rem;
+  top:0.2rem;
+  position: relative;
 }
-
-#contenedor {
+#input-container
+{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Añadir posición relativa al contenedor para posicionar el botón absoluto dentro de él */
 }
-
 
 

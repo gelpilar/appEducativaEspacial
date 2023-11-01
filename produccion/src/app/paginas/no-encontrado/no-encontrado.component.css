@@ -1,0 +1,14 @@
+app-vista-no-encontrado
+{
+    height: 100rem;
+    display: static;
+    position: relative;
+}
+app-vista-footer
+{
+    position: absolute;
+    width: 100vw;
+    top: 240vh;
+    right: 0.1rem;
+
+}

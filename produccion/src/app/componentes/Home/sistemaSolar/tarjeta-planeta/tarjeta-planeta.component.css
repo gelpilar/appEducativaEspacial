@@ -22,10 +22,10 @@ button
 {
     background-color: #11468F;
     border-radius: 1rem;
+    cursor: pointer;
     border-style: none;
     height: 3rem;
     margin: 1rem;
     font-size: large;
     color: aliceblue;
-
 }

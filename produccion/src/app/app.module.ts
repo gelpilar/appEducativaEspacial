@@ -28,6 +28,7 @@ import { FormsModule } from '@angular/forms';
 import { VistaContactoComponent } from './componentes/Home/contacto/vista-contacto/vista-contacto.component';
 import { OrbitaComponent } from './componentes/Home/sistemaSolar/orbita/orbita.component';
 import { TarjetaPlanetaComponent } from './componentes/Home/sistemaSolar/tarjeta-planeta/tarjeta-planeta.component';
+import { TarjetaElemetoImagenComponent } from './componentes/NoEncontrado/tarjeta-elemeto-imagen/tarjeta-elemeto-imagen.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { TarjetaPlanetaComponent } from './componentes/Home/sistemaSolar/tarjeta
     BotonCircularComponent,
     VistaContactoComponent,
     OrbitaComponent,
-    TarjetaPlanetaComponent
+    TarjetaPlanetaComponent,
+    TarjetaElemetoImagenComponent
   ],
   imports: [
     BrowserModule,

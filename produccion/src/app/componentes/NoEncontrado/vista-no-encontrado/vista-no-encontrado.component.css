@@ -1,0 +1,38 @@
+#buscador
+{
+  position: relative;
+  left: 30%;
+  width: 100%;
+}
+
+#volver
+{
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+}
+#recuadroAviso
+{
+    position: absolute;
+    display: block;
+    width: 25rem;
+    height: 5rem;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    margin-top:2rem ;
+    left:34%;
+}
+#elementos
+{
+    position: relative;
+    display: block;
+    top: 5rem;
+
+}
+#cuerpo
+{
+    display: block;
+    width: 90vw;
+    height: 210vh;
+}

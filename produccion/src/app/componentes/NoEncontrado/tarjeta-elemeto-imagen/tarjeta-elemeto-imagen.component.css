@@ -1,0 +1,85 @@
+#carta
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    top: 11rem;
+    height: 29rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    margin: 10rem;
+   
+}
+
+p
+{
+
+    font-size: small;
+    margin: 1rem;
+    color: rgba(36, 34, 34, 0.877);
+}
+
+button
+{
+    background-color: #11468F;
+    border-radius: 1rem;
+    border-style: none;
+    height: 3rem;
+    margin: 1rem;
+    font-size: large;
+    color: aliceblue;
+
+}
+#cat
+{
+    width: 5rem;
+    height: 2rem;
+    position: absolute;
+    font-size: x-large;
+    bottom: 39rem;
+    color:#BDC1CAFF ;
+    
+}
+
+img
+{
+    margin: 1rem;
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.todo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#planeta
+{
+    top: 0rem;
+    left: 0rem;
+    position: absolute;
+    
+  
+}
+#estrella
+{
+    top: 0rem;
+    left: 40rem;
+    position: absolute;
+}
+#galaxia
+{
+    top: 35rem;
+    left: 0rem;
+    position: absolute;
+}
+
+#otros
+{
+    top: 35rem;
+    left: 40rem;
+    position: absolute;
+}
