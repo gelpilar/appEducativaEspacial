@@ -5,7 +5,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: #aaacaf;
 
 }
@@ -18,7 +17,7 @@
 #decoAbajo
 {
     position: absolute;
-    bottom: 5vh;
+    bottom: 1vh;
     display: static;
     left: 0;
 
@@ -65,15 +64,15 @@ body
     background-color: transparent;
     border-style: none;
     position: relative;
-    top: 5rem;
+    top: 3.5rem;
+    left: 1rem;
     cursor: pointer;
 }
 
 #titulo
 {
     position: relative;
-    left: 8rem;
-    top:1rem;
+    left: 9rem;
     color: rgb(59, 58, 58);
 }
 
@@ -83,9 +82,9 @@ body
   }
 .cartel {
     position: absolute;
-    top:25rem;
-    left:44%;
-    background: #FEB906;
+    top:23rem;
+    left:46%;
+    background: #feb806ba;
     color: #161615;
     border-color: #262625;
     border-style: solid;
@@ -95,6 +94,9 @@ body
 
     font-family: "lato";
    
-    padding: 10px; 
-    max-width:  25rem;
+   padding-bottom: 1rem;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+    max-width:  22rem;
+    max-height:  4rem;
 }

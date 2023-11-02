@@ -37,40 +37,42 @@ export class ElementosService {
 
 
 
-  async getExistenciaBuscado(buscado: string): Promise<Boolean | undefined> {
+  async getExistenciaBuscado(buscado: string): Promise<boolean | undefined> {
     try {
-      const url: string = this.urlElementos + "?nombre=" + buscado;
+      const nombreBuscado = buscado.charAt(0).toUpperCase() + buscado.slice(1);
+      
+      const url: string = this.urlElementos + "?nombre=" + nombreBuscado;
       const resultado = await fetch(url);
       const elemento = await resultado.json();
 
       if (elemento[0] == null) {
-        return false;
+        return false; 
       } else {
         return true;
+        
       }
-
     } catch (error) {
       console.log(error);
     }
     return undefined;
   }
+  
+  
 
 
 
   async getElemento(buscado: string): Promise<Elemento | undefined> {
     try {
-      const url: string = this.urlElementos + "?nombre=" + buscado;
+      const nombreBuscado = buscado.charAt(0).toUpperCase() + buscado.slice(1);
+      const url: string = this.urlElementos + "?nombre=" + nombreBuscado;
       const resultado = await fetch(url);
       const elemento = await resultado.json();
-
 
       if (elemento[0] == null) {
         return undefined;
       } else {
         return elemento[0];
       }
-
-
     } catch (error) {
       console.log(error);
     }
@@ -81,7 +83,6 @@ export class ElementosService {
 
   async getPlaneta(): Promise<Elemento | undefined>{
     try {
-
       const resultado = await fetch(this.urlElementos);
       this.elementos = await resultado.json();
       this.filtrarElementosPorCategoria('planeta')

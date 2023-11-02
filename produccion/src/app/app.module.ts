@@ -30,7 +30,7 @@ import { OrbitaComponent } from './componentes/Home/sistemaSolar/orbita/orbita.c
 import { TarjetaPlanetaComponent } from './componentes/Home/sistemaSolar/tarjeta-planeta/tarjeta-planeta.component';
 import { TarjetaElemetoImagenComponent } from './componentes/NoEncontrado/tarjeta-elemeto-imagen/tarjeta-elemeto-imagen.component';
 import { MemotestComponent } from './paginas/memotest/memotest.component';
-import { LogicaJuegoComponent } from './componentes/juego/logica-juego/logica-juego.component';
+import { LogicaJuegoComponent } from './componentes/Juegos/logica-juego/logica-juego.component';
 
 
 @NgModule({
@@ -61,9 +61,8 @@ import { LogicaJuegoComponent } from './componentes/juego/logica-juego/logica-ju
     VistaContactoComponent,
     OrbitaComponent,
     TarjetaPlanetaComponent,
-    TarjetaElemetoImagenComponent,
-    MemotestComponent,
-    LogicaJuegoComponent
+    TarjetaElemetoImagenComponent, 
+    MemotestComponent, LogicaJuegoComponent
   ],
   imports: [
     BrowserModule,
