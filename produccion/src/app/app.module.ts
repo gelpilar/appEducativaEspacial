@@ -31,6 +31,10 @@ import { TarjetaPlanetaComponent } from './componentes/Home/sistemaSolar/tarjeta
 import { TarjetaElemetoImagenComponent } from './componentes/NoEncontrado/tarjeta-elemeto-imagen/tarjeta-elemeto-imagen.component';
 import { MemotestComponent } from './paginas/memotest/memotest.component';
 import { LogicaJuegoComponent } from './componentes/Juegos/logica-juego/logica-juego.component';
+import { ChatCuerpoComponent } from './componentes/Home/chat/chat-cuerpo/chat-cuerpo.component';
+import { MensajeComponent } from './componentes/Home/chat/mensaje/mensaje.component';
+import { MensajeChatComponent } from './componentes/Home/chat/mensaje-chat/mensaje-chat.component';
+import { MensajeUsuarioComponent } from './componentes/Home/chat/mensaje-usuario/mensaje-usuario.component';
 
 
 @NgModule({
@@ -62,7 +66,7 @@ import { LogicaJuegoComponent } from './componentes/Juegos/logica-juego/logica-j
     OrbitaComponent,
     TarjetaPlanetaComponent,
     TarjetaElemetoImagenComponent, 
-    MemotestComponent, LogicaJuegoComponent
+    MemotestComponent, LogicaJuegoComponent, ChatCuerpoComponent, MensajeComponent, MensajeChatComponent, MensajeUsuarioComponent
   ],
   imports: [
     BrowserModule,

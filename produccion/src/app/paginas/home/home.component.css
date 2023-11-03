@@ -22,3 +22,11 @@ body {
   background-image: url("../../../assets/imagenes/fondoEstrellas3.png");
   background-repeat: repeat;
 }
+
+#chat
+{
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 90vw;
+}

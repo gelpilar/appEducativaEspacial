@@ -1,0 +1,36 @@
+<!-- 
+    Partes del chat:
+    parte de arriba y cerrar
+    espacio mensajes
+    input chat
+    cuerpo 
+    fondo
+ -->
+
+ <span id="cuerpo">
+   <span id="recuadro">
+      <span id="arriba">
+
+        
+         <img  id="imagen" src="../../../../../assets/imagenes/senora.png" width="70%" height="90%">
+         <button id="close" (click)="cerrar()">
+            <img src="../../../../../assets/imagenes/close.png">
+         </button> 
+       </span>
+
+   
+          <app-mensaje id="mensajes"></app-mensaje>  
+
+          <form action="enviar()">
+            
+            <input type="text" >
+            <button type="submit" id="enviar" (click)="enviar()"><img src="../../../../../assets/imagenes/send.png" alt="" ></button>
+          </form>
+       
+       
+   </span>
+  
+    
+
+ </span>
+
