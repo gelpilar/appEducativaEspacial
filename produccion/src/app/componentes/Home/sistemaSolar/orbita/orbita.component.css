@@ -86,7 +86,7 @@
     /* Agregar una imagen de textura o un gradiente de fondo para dar realismo */
     box-shadow: 0 0 10px rgba(255, 99, 71, 0.7);
     background: radial-gradient(#e4c387, #d29f57);
-   
+    z-index: 10;
 }
 
 #tierra
@@ -97,14 +97,12 @@
     top: 0rem;
     left: 31rem;
     position: absolute;
-   
     display: flex;
     justify-content: space-between;
     align-items: end;
     box-shadow: 0px 0px 3rem  #7799da;
-   
     background: radial-gradient(#7999d4, #4a71bb);
-   
+    z-index: 10;
 }
 
 
@@ -146,6 +144,7 @@
     align-items: center;
     box-shadow: 0 0 10px #e47070;
     background: radial-gradient(#c93131, #e67575);
+    z-index: 10;
    
 }
 #jupiter
@@ -161,7 +160,6 @@
     align-items: center;
     box-shadow: 0 0 10px #eb975f;
     background: radial-gradient(#e49886, #f1711b);
-   
 }
 
 #saturno

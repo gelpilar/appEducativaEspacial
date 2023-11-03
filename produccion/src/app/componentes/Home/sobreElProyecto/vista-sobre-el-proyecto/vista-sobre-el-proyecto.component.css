@@ -1,0 +1,43 @@
+.containerSobreNosotros{
+    display: flex;
+    z-index: 99;
+}
+
+#luna {
+    background-color: rgb(214, 211, 211);
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 3rem auto;
+    padding: 4rem;
+    padding-top: 2.5rem;
+    box-shadow: 0px 0px 3rem #7799da;
+    position: relative; /* Importante para que los pseudoelementos se posicionen correctamente */
+    z-index: 98;
+}
+
+#luna::before,
+#luna::after {
+    content: "";
+    position: absolute;
+    background-color: #d2cbcb83; 
+    border-radius: 50%;
+    width: 2.8rem; 
+    height: 2.2rem; 
+}
+
+#luna::before {
+    top: 26rem; 
+    left: 23rem;
+}
+
+#luna::after {
+    top: 5.5rem;
+    left: 5rem;
+}
+
+

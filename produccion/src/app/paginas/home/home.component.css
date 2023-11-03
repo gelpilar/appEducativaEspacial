@@ -1,15 +1,15 @@
-body{
-    display: flex;
-    justify-content: "start";
-    flex-direction: column;
-    align-content: space-between;
-  
-    width: 100%;
-    height:152rem;
+body {
+  display: flex;
+  justify-content: "start";
+  flex-direction: column;
+  align-content: space-between;
+
+  width: 100%;
+  height: 156em;
 }
-.elemento
-{
- width: 101%;
+
+.elemento {
+  width: 101%;
   height: 102vh;
   margin: 0;
   padding: 0;
@@ -18,4 +18,7 @@ body{
   bottom: 1rem;
 }
 
-
+#nosotros {
+  background-image: url("../../../assets/imagenes/fondoEstrellas3.png");
+  background-repeat: repeat;
+}

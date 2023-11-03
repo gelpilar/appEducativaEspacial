@@ -1,25 +1,23 @@
-span
-{
+span {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 10rem;
-    top: 11rem;
+    top: 4rem;
     border-radius: 1rem;
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 99;
 }
 
-p
-{
-
+p {
     font-size: small;
     margin: 1rem;
     color: rgba(36, 34, 34, 0.877);
 }
 
-button
-{
+button {
     background-color: #11468F;
     border-radius: 1rem;
     cursor: pointer;

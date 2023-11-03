@@ -32,7 +32,7 @@ export class VistaEncontradoComponent implements OnInit {
     this.route.params.subscribe(async param => {
       const nombre = param['nombre'];
       this.elemento = await this.elementosService.getElemento(nombre);
-
+      console.log(this.elemento);
       /* Datos aleatorios */
       if (this.elemento) {
         const datosOriginales = this.elemento.datos;

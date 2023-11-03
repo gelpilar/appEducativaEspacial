@@ -19,6 +19,7 @@ export class VistaInicioComponent implements OnInit {
   }
 
   async  handleTerminoBusqueda(termino:string){   
+    console.log(termino)
     this.flagBusqueda = await this.elementosService.getExistenciaBuscado(termino)
 
     if(this.flagBusqueda)
