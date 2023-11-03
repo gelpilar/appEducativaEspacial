@@ -1,6 +1,7 @@
 .containerSobreNosotros{
     display: flex;
     z-index: 99;
+    margin-top: 1rem;
 }
 
 #luna {
@@ -12,7 +13,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin: 3rem auto;
+    margin: 2rem auto;
     padding: 4rem;
     padding-top: 2.5rem;
     box-shadow: 0px 0px 3rem #7799da;
@@ -24,7 +25,7 @@
 #luna::after {
     content: "";
     position: absolute;
-    background-color: #d2cbcb83; 
+    background-color: #d2cbcbeb; 
     border-radius: 50%;
     width: 2.8rem; 
     height: 2.2rem; 
@@ -41,3 +42,7 @@
 }
 
 
+h1{
+    font-size: 2.5rem;
+    margin: 1rem;
+}

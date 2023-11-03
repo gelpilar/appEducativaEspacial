@@ -1,76 +1,75 @@
 body{
-    width: 100.2%;
-    height: 102vh;
-    margin: 0;
-    padding: 0;
-    background-image: url("../../../../../assets/imagenes/fondoInicio.png");
-    background-size: 100% 100%;
+  width: 100.2%;
+  height: 102vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../../../../assets/imagenes/fondoInicio.png");
+  background-size: 100% 100%;
 }
 
 
 .texto {
-  transition: color 1s; 
-  color: #ffffffd8;
-  background-color: #1e212813;
+transition: color 1s; 
+color: #ffffffd8;
+background-color: #1e212813;
+margin-top: 4rem;
+font-family: Roboto;
+border-radius: 5rem;
+font-size: 4.375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute; /* Añade esta línea */
+top:5%;
+left: 35.39%;
+ /* Añade esta línea para ajustar la posición verticalmente */
+ /* Añade esta línea para ajustar la posición horizontalmente */
  
-  font-family: Roboto;
-  border-radius: 5rem;
-  font-size: 4.375rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  position: absolute; /* Añade esta línea */
-  top:5%;
-  left: 35.39%;
-   /* Añade esta línea para ajustar la posición verticalmente */
-   /* Añade esta línea para ajustar la posición horizontalmente */
-   
 }
 .texto {
-  transition: 1s;
+transition: 1s;
 }
 
 .texto:hover {
-  color: #ffffff;
-  background-color: #1e212800;
-  
-  font-size: 4.475rem;
+color: #ffffff;
+background-color: #1e212800;
+
+font-size: 4.475rem;
 }
 
 .texto::before {
-  transition: 1s;
+transition: 1s;
 }
 
 .texto:hover::before {
-  color: #d9d4d4;
-  font-size: 4.375rem;
-  background-color: #1e212800;
+color: #d9d4d4;
+font-size: 4.375rem;
+background-color: #1e212800;
 }
 #atras
 {
-    position: relative;
-    top: 2.9rem;
+  position: relative;
+  top: 2.9rem;
 }
 
 #titulo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative; 
-  top: 5rem;
-  
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative; 
+top: 5rem;
+
 
 }
 #nav
 {
-    position: relative;
-    top:7rem
+  position: relative;
+  top:7rem
 }
 
 #buscador
 {
-  position: relative;
-  top: 19rem;
-  left: 30%;
+position: relative;
+top: 19rem;
+left: 30%;
 }
-
