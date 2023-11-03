@@ -5,7 +5,7 @@
     -> cuerpo chat (OC)
  -->
  
-<app-chat-cuerpo *ngIf="true"  (childEvent)="handleChildEvent($event)" ></app-chat-cuerpo>
+<app-chat-cuerpo *ngIf="flag"  (childEvent)="handleChildEvent($event)" ></app-chat-cuerpo>
  <button *ngIf="!flag" type="button" id="abrirChat" (click)="abrir()">
    <img src="../../../../../assets/imagenes/senora.png" width="90%">
  </button> 
