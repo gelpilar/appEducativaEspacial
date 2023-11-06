@@ -10,15 +10,17 @@
 #decoArriba
 {
     position: absolute;
-    top: -15vh;
+    bottom: 86vh;
     left: 0;
+    
 }
 #decoAbajo
 {
     position: absolute;
-    bottom: 1vh;
+    top: 80vh;
     display: static;
     left: 0;
+   
 
 }
 .deco
@@ -26,7 +28,6 @@
     width: 98.76vw;
     height: 5rem;
     display: flex;
-    background-image: url("../../../../../assets/imagenes/fondoEstrellas2.png");
 }
 
 #cuerpo
@@ -41,14 +42,20 @@
 
 .circulo
 {
-    z-index: 2;
     background-color:  #09244BFF;
     width: 10rem;
-    height: 10rem;
-    display: block;
-    border-radius: 50%;
-    margin: -1.245rem;
-    background-image: url("../../../../../assets/imagenes/fondoEstrellas2.png");
+    height: 5rem;
+    display: block;    
+   
+}
+#abajo
+{
+    border-radius: 100rem 100rem 0 0;
+}
+#arriba
+{
+    border-radius:  0 0 100rem 100rem;
+    background-image: url("../../../../../assets/imagenes/fondoEstrellas3.png");
 }
 
 

@@ -1,7 +1,11 @@
-.containerSobreNosotros{
-    display: flex;
-    z-index: 99;
-    margin-top: 1rem;
+
+#contenedor
+{
+        background-image: url("../../../../../assets/imagenes/fondoEstrellas3.png");
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+      
 }
 
 #luna {
@@ -16,11 +20,13 @@
     margin: 2rem auto;
     padding: 4rem;
     padding-top: 2.5rem;
+    position: relative;
     box-shadow: 0px 0px 3rem #7799da;
-    position: relative; /* Importante para que los pseudoelementos se posicionen correctamente */
-    z-index: 98;
 }
 
+
+
+/*
 #luna::before,
 #luna::after {
     content: "";
@@ -41,7 +47,7 @@
     left: 5rem;
 }
 
-
+*/
 h1{
     font-size: 2.5rem;
     margin: 1rem;

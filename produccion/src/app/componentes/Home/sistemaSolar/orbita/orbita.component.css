@@ -7,16 +7,22 @@
     cursor: pointer;
 }
 
+#Tnep
+{
+    position: relative;
+    top: -10rem;
+    
+}
+
 .TarjetaC
 {
     position: absolute;
-    
     left: 4rem;
-
-    top: 1rem;
+    top: 1vh;
     width: 13rem;
-    z-index: 3;
+    z-index: 10;
 }
+
 
 
 #sol
@@ -86,7 +92,7 @@
     /* Agregar una imagen de textura o un gradiente de fondo para dar realismo */
     box-shadow: 0 0 10px rgba(255, 99, 71, 0.7);
     background: radial-gradient(#e4c387, #d29f57);
-    z-index: 10;
+   
 }
 
 #tierra
@@ -102,7 +108,7 @@
     align-items: end;
     box-shadow: 0px 0px 3rem  #7799da;
     background: radial-gradient(#7999d4, #4a71bb);
-    z-index: 10;
+ 
 }
 
 
@@ -144,7 +150,7 @@
     align-items: center;
     box-shadow: 0 0 10px #e47070;
     background: radial-gradient(#c93131, #e67575);
-    z-index: 10;
+    
    
 }
 #jupiter

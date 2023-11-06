@@ -10,7 +10,7 @@ body {
 
 .elemento {
   width: 101%;
-  height: 102vh;
+  height: 105vh;
   margin: 0;
   padding: 0;
   position: relative;
@@ -18,9 +18,11 @@ body {
   bottom: 1rem;
 }
 
-#nosotros {
-  background-image: url("../../../assets/imagenes/fondoEstrellas3.png");
-  background-repeat: repeat;
+#nosotros
+{
+  
+  height: 120vh;
+  
 }
 
 #chat

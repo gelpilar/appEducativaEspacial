@@ -33,11 +33,14 @@ export class LogicaJuegoComponent {
 
     if (this.tarjetasDestapadas === 1) {
       const element = document.getElementById(id.toString());
+      console.log("------------------------------------");
+      console.log(element);
       if (element) {
         this.tarjeta1 = element;
         this.primerResultado = this.numeros[id];
         this.renderer.setProperty(element, 'innerHTML', `<img src="../assets/imagenesJuego/${this.primerResultado.toString()}.png">`);
         this.renderer.setProperty(element, 'disabled', true);
+       
       }
     } else if (this.tarjetasDestapadas === 2) {
       const element = document.getElementById(id.toString());
@@ -46,13 +49,15 @@ export class LogicaJuegoComponent {
         this.segundoResultado = this.numeros[id];
         this.renderer.setProperty(element, 'innerHTML', `<img src="../assets/imagenesJuego/${this.segundoResultado.toString()}.png">`);
         this.renderer.setProperty(element, 'disabled', true);
+        
       }
       this.movimientos++;
 
       if (this.primerResultado === this.segundoResultado) {
         this.tarjetasDestapadas = 0;
         this.aciertos++;
-
+        this.renderer.setStyle(this.tarjeta1,"background-color","#53A75D");
+        this.renderer.setStyle(this.tarjeta2,"background-color","#53A75D");
         if (this.aciertos === 8) {
       
           this.ganador = true;
@@ -64,6 +69,14 @@ export class LogicaJuegoComponent {
       else {
         setTimeout(() => {
           if (this.tarjeta1 && this.tarjeta2) {
+          
+            this.renderer.setStyle(this.tarjeta1,"background-color","#D65C5C");
+        this.renderer.setStyle(this.tarjeta2,"background-color","#D65C5C");
+          }
+        }, 1);
+        setTimeout(() => {
+          if (this.tarjeta1 && this.tarjeta2) {
+          
             this.renderer.setProperty(this.tarjeta1, 'innerHTML', '');
             this.renderer.removeStyle(this.tarjeta1, 'background-color');
             this.renderer.setProperty(this.tarjeta2, 'innerHTML', '');

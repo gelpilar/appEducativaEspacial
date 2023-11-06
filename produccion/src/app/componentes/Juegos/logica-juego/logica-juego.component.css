@@ -5,13 +5,27 @@ main{
     align-items: center;
 }
 
+.eleccion
+{animation:scale-up-center 0.9s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
 .section1{
     background-color: rgb(265, 265, 265, 0.2);
     padding: 0 10px 10px 10px;
     border-radius: 8px;
 }
-
+.eleccion
+{
+    border-radius: 10%;
+    border-style:none ;
+    background-color: #a5b6cc;
+}
+.eleccion:hover
+{
+    background-color: #0274ff;
+    box-shadow:  0rem 0rem 1rem 0.01rem #fbfdff33;
+}
 h1{
+    
     text-align: center;
 }
 
@@ -47,4 +61,4 @@ button:hover{
 img{
     width: 70%;
 }
-  
+
