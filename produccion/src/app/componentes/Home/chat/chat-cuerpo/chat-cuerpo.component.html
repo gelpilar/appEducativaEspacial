@@ -9,9 +9,8 @@
 
 <span id="cuerpo">
    <span id="recuadro">
+
       <span id="arriba">
-
-
          <img id="imagen" src="../../../../../assets/imagenes/senora.png" width="70%" height="90%">
          <button id="close" (click)="cerrar()">
             <img src="../../../../../assets/imagenes/close.png">
@@ -19,26 +18,19 @@
       </span>
 
 
-      <span class="scrollable-span">
-         <app-mensaje-chat class="spanChat" [mensaje]="'Hola terricola, soy Christina Koch-chat bot, ¿En que te puedo ayudar? '"></app-mensaje-chat>
+      <span class="scrollable-span" #chatContainer>
+         <app-mensaje-chat class="spanChat"
+            [mensaje]="'Hola terricola, soy Christina Koch-chat bot, ¿En que te puedo ayudar? '"></app-mensaje-chat>
+
+         <span class="spanUsuario"> {{pregUsuario}}</span>
+
+         <span>
+            <app-mensaje-chat class="scrollable-span" class="spanChat" [mensaje]="respuesta"></app-mensaje-chat>
+         </span>
+
+         <span>
+            <app-mensaje-usuario (buscarTermino)="preguntaUsuario($event)"></app-mensaje-usuario>
+         </span>
       </span>
- 
-      <span class="spanUsuario">
-         <app-mensaje-usuario (buscarTermino)="preguntaUsuario($event)"></app-mensaje-usuario>
-      </span>
-
-
-      <span class="scrollable-span">
-         <app-mensaje-chat class="spanChat" [mensaje]="preg"></app-mensaje-chat>
-       </span>
-       
-      
-      
-
-
-
    </span>
-
-
-
 </span>

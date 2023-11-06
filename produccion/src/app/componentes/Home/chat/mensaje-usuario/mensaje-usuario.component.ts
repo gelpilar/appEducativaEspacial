@@ -23,9 +23,10 @@ export class MensajeUsuarioComponent implements OnInit {
   enviar() {
     if (this.pregunta.trim() !== '') {
       this.buscarTermino.emit(this.pregunta);
+      this.pregunta = ''; 
     }
   }
-
+  
   mostrarPregunta() {
     this.route.params.subscribe((param) => {
       this.nombre = param['nombre'];
