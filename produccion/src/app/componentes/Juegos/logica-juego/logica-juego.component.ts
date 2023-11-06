@@ -91,9 +91,6 @@ export class LogicaJuegoComponent {
   }
 
 
-
-
-  
 bloquearTarjetas(){
   for (let index = 0; index <= 15; index++) {
     const element = document.getElementById(index.toString());

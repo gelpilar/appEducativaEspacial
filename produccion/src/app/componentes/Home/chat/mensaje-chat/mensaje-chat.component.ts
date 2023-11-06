@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./mensaje-chat.component.css']
 })
 export class MensajeChatComponent {
-  @Input() mensaje:string="...";
+  @Input() mensaje:string | void ="...";
 
 }

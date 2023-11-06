@@ -19,3 +19,4 @@ export interface SistemaSolar {
     dato: string,
     id: number
 }
+
