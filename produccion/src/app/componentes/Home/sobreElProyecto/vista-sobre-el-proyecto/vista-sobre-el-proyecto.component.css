@@ -22,32 +22,12 @@
     padding-top: 2.5rem;
     position: relative;
     box-shadow: 0px 0px 3rem #7799da;
+    transition: all 2s;
 }
-
-
-
-/*
-#luna::before,
-#luna::after {
-    content: "";
-    position: absolute;
-    background-color: #d2cbcbeb; 
-    border-radius: 50%;
-    width: 2.8rem; 
-    height: 2.2rem; 
+#luna:hover
+{
+    box-shadow: 0 0 3rem 1rem #c2cde2;
 }
-
-#luna::before {
-    top: 26rem; 
-    left: 23rem;
-}
-
-#luna::after {
-    top: 5.5rem;
-    left: 5rem;
-}
-
-*/
 h1{
     font-size: 2.5rem;
     margin: 1rem;

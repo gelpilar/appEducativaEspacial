@@ -27,9 +27,13 @@ export class BuscadorComponent implements OnInit {
   @Output() buscarTermino = new EventEmitter<string>();
 
   realizarBusqueda() {
-    if (this.terminoBusqueda.trim() !== '') {
-      this.buscarTermino.emit(this.terminoBusqueda);
-    }
+    setInterval(()=>
+    {
+      if (this.terminoBusqueda.trim() !== '') {
+        this.buscarTermino.emit(this.terminoBusqueda);
+      }
+    },500)
+    
   }
 
   mostrarElemento() {

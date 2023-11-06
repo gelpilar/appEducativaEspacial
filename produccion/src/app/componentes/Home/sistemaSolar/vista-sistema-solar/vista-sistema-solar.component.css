@@ -10,7 +10,7 @@
 #decoArriba
 {
     position: absolute;
-    bottom: 86vh;
+    bottom: 96vh;
     left: 0;
     
 }
@@ -51,6 +51,7 @@
 #abajo
 {
     border-radius: 100rem 100rem 0 0;
+    background-color: rgb(30, 68, 121);
 }
 #arriba
 {
@@ -74,7 +75,7 @@ body
     border-style: none;
     position: relative;
     top: 3.5rem;
-    left: 1rem;
+    right: 1.5rem;
     cursor: pointer;
 }
 

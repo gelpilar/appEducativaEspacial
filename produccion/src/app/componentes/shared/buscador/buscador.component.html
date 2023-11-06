@@ -1,13 +1,17 @@
 
-<input #nombre (input)="filtrarNombre(nombre.value)" type="text" [(ngModel)]="terminoBusqueda" placeholder="Buscar..."
+<input (keydown.enter)="realizarBusqueda()" #nombre (input)="filtrarNombre(nombre.value)" type="text" [(ngModel)]="terminoBusqueda" placeholder="Buscar..."
   autocomplete="off">
 
-<button (click)="realizarBusqueda()"><img src="../../../../assets/imagenes/search.png" alt="" srcset=""
+<button (click)="realizarBusqueda()" ><img src="../../../../assets/imagenes/search.png" alt="" srcset=""
     width="100%"></button>
-<ul *ngIf="nombre.value != '' ">
-<li *ngFor="let item of listaFiltrada" (click)="seleccionarElemento(item.nombre)">
-  <span>{{item.nombre}}</span>
-</li>
-</ul>
+
+<span *ngIf="nombre.value != '' ">
+  <ul *ngIf="nombre.value != '' ">
+    <li *ngFor="let item of listaFiltrada" (click)="seleccionarElemento(item.nombre)" (click)="realizarBusqueda()">
+      <span >{{item.nombre}}</span>
+    </li>
+    </ul>
+</span>
+
 
 

@@ -1,0 +1,38 @@
+section
+{  
+    height: 76vh;
+    width: 98.7vw;
+    bottom:5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    background-color: rgb(30, 68, 121);
+
+}
+
+button
+{
+    width: 35rem;
+    height: 10rem;
+    border-radius: 20rem;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-image: url("../../../../../assets/imagenes/fondoEstrellas3.jpg");
+    font-size: xx-large;
+    color:  rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+button:hover
+{
+    transform: scale(1.1);
+    animation:scale-up-center 0.1s;
+    box-shadow: 0rem 0rem 1rem 0.1rem rgb(148, 162, 182);
+}
+
+button:active
+{
+
+    box-shadow: 0rem 0rem 1rem 50rem  rgb(148, 162, 182);
+}

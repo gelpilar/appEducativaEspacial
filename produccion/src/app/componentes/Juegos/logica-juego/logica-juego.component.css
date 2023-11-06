@@ -3,7 +3,15 @@ main{
     margin: 70px auto 50px;
     display: flex;
     align-items: center;
+    
 }
+#cuerpo
+{
+    background-image: url("../../../../assets/imagenes/fondoEstrellas3.png");
+    width: 98vw;
+    height: 98vh;
+    display: block;
+    position: absolute;}
 
 .eleccion
 {animation:scale-up-center 0.9s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
@@ -17,11 +25,11 @@ main{
 {
     border-radius: 10%;
     border-style:none ;
-    background-color: #a5b6cc;
+    background-color: #186fe286;
 }
 .eleccion:hover
 {
-    background-color: #0274ff;
+    background-color: #186fe2;
     box-shadow:  0rem 0rem 1rem 0.01rem #fbfdff33;
 }
 h1{

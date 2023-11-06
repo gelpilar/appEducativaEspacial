@@ -1,12 +1,19 @@
 body {
   display: flex;
-  justify-content: "start";
+  justify-content: start;
   flex-direction: column;
   align-content: space-between;
-
   width: 100%;
   height: 156em;
 }
+#calendarioV
+{
+  width: 98.6vw;
+  height: 60vh;
+  position:relative;
+  background-color: rgb(30, 68, 121);
+}
+
 
 .elemento {
   width: 101%;
@@ -32,3 +39,4 @@ body {
   top: 50%;
   left: 90vw;
 }
+
