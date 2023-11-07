@@ -1,5 +1,11 @@
-
 export class PreguntasGuardadas {
-    preguntasGuardadas: { tipo: string, texto: string }[] = [];
+
+  tipo: string;
+  texto: string;
+
+  constructor(tipo: string, texto: string) {
+    this.tipo = tipo;
+    this.texto = texto;
   }
-  
+}
+
