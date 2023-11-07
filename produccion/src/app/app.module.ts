@@ -35,6 +35,8 @@ import { ChatCuerpoComponent } from './componentes/Home/chat/chat-cuerpo/chat-cu
 import { MensajeComponent } from './componentes/Home/chat/mensaje/mensaje.component';
 import { MensajeChatComponent } from './componentes/Home/chat/mensaje-chat/mensaje-chat.component';
 import { MensajeUsuarioComponent } from './componentes/Home/chat/mensaje-usuario/mensaje-usuario.component';
+import { QuizComponent } from './paginas/quiz/quiz.component';
+import { LogicaJuegoQuizComponent } from './componentes/Juegos/logica-juego-quiz/logica-juego-quiz.component';
 
 
 @NgModule({
@@ -66,7 +68,7 @@ import { MensajeUsuarioComponent } from './componentes/Home/chat/mensaje-usuario
     OrbitaComponent,
     TarjetaPlanetaComponent,
     TarjetaElemetoImagenComponent, 
-    MemotestComponent, LogicaJuegoComponent, ChatCuerpoComponent, MensajeComponent, MensajeChatComponent, MensajeUsuarioComponent
+    MemotestComponent, LogicaJuegoComponent, ChatCuerpoComponent, MensajeComponent, MensajeChatComponent, MensajeUsuarioComponent, QuizComponent, LogicaJuegoQuizComponent
   ],
   imports: [
     BrowserModule,

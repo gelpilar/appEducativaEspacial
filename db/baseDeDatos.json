@@ -1942,5 +1942,367 @@
       "dato": "El Sol representa aproximadamente el 99.86% de la masa del sistema solar.",
       "id": 50
     }
+  ],
+  "quiz": [
+    {
+      "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+      "imagen": "../recursos/materia_oscura/materia_oscura.jpg",
+      "respuesta": "Júpiter",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Venus"
+        },
+        {
+          "id": 2,
+          "opcion": "Marte"
+        },
+        {
+          "id": 3,
+          "opcion": "Saturno"
+        },
+        {
+          "id": 4,
+          "opcion": "Júpiter"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "pregunta": "¿Qué es un cometa?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-cometa.png",
+      "respuesta": "Un cuerpo celeste con una cola de gas y polvo",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Un planeta enano"
+        },
+        {
+          "id": 2,
+          "opcion": "Un asteroide"
+        },
+        {
+          "id": 3,
+          "opcion": "Un cuerpo celeste con una cola de gas y polvo"
+        },
+        {
+          "id": 4,
+          "opcion": "Una estrella fugaz"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "pregunta": "¿Cuál es la estrella central de nuestro sistema solar?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/estrellas/estrella-deneb.jpg",
+      "respuesta": "El Sol",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Alfa Centauri"
+        },
+        {
+          "id": 2,
+          "opcion": "El Sol"
+        },
+        {
+          "id": 3,
+          "opcion": "Rigel"
+        },
+        {
+          "id": 4,
+          "opcion": "Sirio"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "pregunta": "¿Cuál es la luna más grande de Júpiter?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/estrellas/estrella-deneb.jpg",
+      "respuesta": "Ganímedes",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Ganímedes"
+        },
+        {
+          "id": 2,
+          "opcion": "Deimos"
+        },
+        {
+          "id": 3,
+          "opcion": "Titán"
+        },
+        {
+          "id": 4,
+          "opcion": "Encélado"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "pregunta": "¿Cuál es el planeta que se muestra?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-venus.jpg",
+      "respuesta": "Venus",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Júpiter"
+        },
+        {
+          "id": 2,
+          "opcion": "Tierra"
+        },
+        {
+          "id": 3,
+          "opcion": "Mercurio"
+        },
+        {
+          "id": 4,
+          "opcion": "Venus"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "pregunta": "¿Cuál es el planeta enano que está más allá de Plutón?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-venus.jpg",
+      "respuesta": "Eris",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Ceres"
+        },
+        {
+          "id": 2,
+          "opcion": "Eris"
+        },
+        {
+          "id": 3,
+          "opcion": "Haumea"
+        },
+        {
+          "id": 4,
+          "opcion": "Makemake"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "pregunta": "¿Cuál es el período orbital de la Tierra alrededor del Sol?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-venus.jpg",
+      "respuesta": "365 días",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "24 horas"
+        },
+        {
+          "id": 2,
+          "opcion": "30 días"
+        },
+        {
+          "id": 3,
+          "opcion": "100 días"
+        },
+        {
+          "id": 4,
+          "opcion": "365 días"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "pregunta": "¿Qué es un eclipse solar?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-venus.jpg",
+      "respuesta": "Cuando la Luna se interpone entre la Tierra y el Sol",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Cuando la Luna se interpone entre la Tierra y el Sol"
+        },
+        {
+          "id": 2,
+          "opcion": "Cuando la Tierra se interpone entre la Luna y el Sol"
+        },
+        {
+          "id": 3,
+          "opcion": "Cuando la Tierra se encuentra entre Marte y el Sol"
+        },
+        {
+          "id": 4,
+          "opcion": "Cuando Júpiter se alinea con el Sol y la Tierra"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "pregunta": "¿Qué es un planeta enano?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-pluton.png",
+      "respuesta": "Un cuerpo celeste que no es un planeta pero es más grande que un asteroide",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Un planeta más pequeño que la Tierra"
+        },
+        {
+          "id": 2,
+          "opcion": "Un cuerpo celeste que no es un planeta pero es más grande que un asteroide"
+        },
+        {
+          "id": 3,
+          "opcion": "Un planeta que no orbita alrededor de una estrella"
+        },
+        {
+          "id": 4,
+          "opcion": "Un planeta que es muy frío"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "pregunta": "¿Qué es un agujero negro?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-agujeroNegro.jpg",
+      "respuesta": "Una región del espacio con una gravedad tan intensa que nada puede escapar, ni siquiera la luz",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Una región del espacio donde no hay gravedad"
+        },
+        {
+          "id": 2,
+          "opcion": "Un planeta sin luz"
+        },
+        {
+          "id": 3,
+          "opcion": "Una estrella que ha explotado"
+        },
+        {
+          "id": 4,
+          "opcion": "Una región del espacio con una gravedad tan intensa que nada puede escapar, ni siquiera la luz"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "pregunta": "¿Cuál es el planeta más frío del sistema solar?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-agujeroNegro.jpg",
+      "respuesta": "Urano",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Venus"
+        },
+        {
+          "id": 2,
+          "opcion": "Urano"
+        },
+        {
+          "id": 3,
+          "opcion": "Neptuno"
+        },
+        {
+          "id": 4,
+          "opcion": "Mercurio"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "pregunta": "¿Cuál es el nombre de la misión de la NASA que envió al rover Curiosity a Marte en 2012?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-marte.jpg",
+      "respuesta": "Misión Mars Science Laboratory",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Misión Marte 2020"
+        },
+        {
+          "id": 2,
+          "opcion": "Misión ExoMars"
+        },
+        {
+          "id": 3,
+          "opcion": "Misión New Horizons"
+        },
+        {
+          "id": 4,
+          "opcion": "Misión Mars Science Laboratory"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "pregunta": "¿Cuál es el planeta que tiene el día más largo en el sistema solar?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-marte.jpg",
+      "respuesta": "Júpiter",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Venus"
+        },
+        {
+          "id": 2,
+          "opcion": "Júpiter"
+        },
+        {
+          "id": 3,
+          "opcion": "Mercurio"
+        },
+        {
+          "id": 4,
+          "opcion": "Neptuno"
+        }
+      ],
+      "id": 13
+    },
+    {
+      "pregunta": "¿Qué es un tránsito planetario?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-marte.jpg",
+      "respuesta": "Cuando un planeta pasa por delante del Sol desde la perspectiva de la Tierra",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Cuando un planeta se alinea entre la Tierra y el Sol"
+        },
+        {
+          "id": 2,
+          "opcion": "Cuando un planeta pasa por delante del Sol desde la perspectiva de la Tierra"
+        },
+        {
+          "id": 3,
+          "opcion": "Cuando dos planetas chocan en el espacio"
+        },
+        {
+          "id": 4,
+          "opcion": "Cuando un planeta gira sobre su propio eje"
+        }
+      ],
+      "id": 14
+    },
+    {
+      "pregunta": "¿Cuál es el siguiente planeta?",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-jupiter.jpg",
+      "respuesta": "Júpiter",
+      "distractores": [
+        {
+          "id": 1,
+          "opcion": "Júpiter"
+        },
+        {
+          "id": 2,
+          "opcion": "Venus"
+        },
+        {
+          "id": 3,
+          "opcion": "Tierra"
+        },
+        {
+          "id": 4,
+          "opcion": "Marte"
+        }
+      ],
+      "id": 15
+    }
   ]
 }

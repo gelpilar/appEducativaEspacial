@@ -20,3 +20,17 @@ export interface SistemaSolar {
     id: number
 }
 
+
+export interface Preguntas {
+    pregunta: string,
+    imagen: string,
+    respuesta: string,
+    distractores: Distractores[],
+    id: number
+}
+
+
+export interface Distractores {
+    id: number;
+    opcion: string;
+}
