@@ -5,7 +5,6 @@
     input chat
     cuerpo 
     fondo
- -->
 
 <span id="cuerpo">
    <span id="recuadro">
@@ -18,19 +17,50 @@
       </span>
 
 
-      <span class="scrollable-span" #chatContainer>
-         <app-mensaje-chat class="spanChat"
-            [mensaje]="'Hola terricola, soy Christina Koch-chat bot, ¿En que te puedo ayudar? '"></app-mensaje-chat>
+   <span id="recuadro">
+      <span class="scrollable-span" id="cuerpoMensajes"> 
+         <app-mensaje-chat [mensaje]="'Hola terricola, soy Christina Koch-chat bot, ¿En que te puedo ayudar? '" id="mensajes">
+         </app-mensaje-chat>
+         <app-mensaje-usuario></app-mensaje-usuario>
 
-         <span class="spanUsuario"> {{pregUsuario}}</span>
-
-         <span>
-            <app-mensaje-chat class="scrollable-span" class="spanChat" [mensaje]="respuesta"></app-mensaje-chat>
-         </span>
-
-         <span>
-            <app-mensaje-usuario (buscarTermino)="preguntaUsuario($event)"></app-mensaje-usuario>
-         </span>
       </span>
    </span>
+      
+   
+
+      <form >
+         <input type="text" [(ngModel)]="pregunta" autocomplete="off">
+         <button (click)="preguntaUsuario()" id="enviar"><img src="../../../../../assets/imagenes/send.png" alt="" ></button>
+      </form>
+      
+   </span>
+  
 </span>
+
+ -->
+ <span id="cuerpo">
+   <span id="recuadro">
+      <span id="arriba">
+
+
+         <img  id="imagen" src="../../../../../assets/imagenes/senora.png" width="70%" height="90%">
+         <button id="close" (click)="cerrar()">
+            <img src="../../../../../assets/imagenes/close.png">
+         </button> 
+       </span>
+
+
+          <span id="mensajes" class="scrollable-span">
+            <app-mensaje-chat [mensaje]="'Hola terricola, soy Christina Koch-chat bot, ¿En que te puedo ayudar? '" [categoria]="'chat'" id="mensajes">
+            </app-mensaje-chat>
+            <app-mensaje-chat *ngFor="let pregunta of preguntas" [mensaje]="pregunta.pregunta" [categoria]="pregunta.categoria"></app-mensaje-chat>
+          </span>  
+
+          <form action="">
+            <input type="text" (input)="onInputChange($event)"   autocomplete="off" placeholder="Escribe un mensaje a Cristina"> 
+            <button (click)="preguntaUsuario()" id="enviar" type="reset"><img src="../../../../../assets/imagenes/send.png" alt="" ></button>          </form>
+         </span>
+
+
+
+ </span>

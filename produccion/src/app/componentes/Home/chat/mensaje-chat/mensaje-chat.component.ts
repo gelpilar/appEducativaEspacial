@@ -7,5 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class MensajeChatComponent {
   @Input() mensaje:string | void ="...";
+  @Input() categoria:string|void="chat"
 
 }

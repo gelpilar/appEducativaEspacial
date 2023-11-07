@@ -1,7 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { PreguntasGuardadas } from 'src/app/preguntasGuardadas/preguntasGuardadas';
 import { ChatBotService } from 'src/app/services/chat-bot.service';
-
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-chat-cuerpo',
@@ -11,51 +10,77 @@ import { ChatBotService } from 'src/app/services/chat-bot.service';
 export class ChatCuerpoComponent implements OnInit {
 
   @Output() childEvent = new EventEmitter<string>();
+  preguntas:Pregunta[]=[];
 
 
   respuesta: string | void = undefined;
   pregUsuario: string | void = undefined;
   resChat: string = '';
-  preguntasYrespuestas: PreguntasGuardadas[] = [];
+  pregunta: string = '';
+  nombre: string | undefined;
+
 
 
   ngOnInit(): void {
+  }
+
+  constructor(private chatBotService: ChatBotService,private route: ActivatedRoute) {
 
   }
 
-  constructor(private chatBotService: ChatBotService) {
-
+  onInputChange(event: any) {
+    this.pregunta = event.target.value;
   }
 
   cerrar() {
     this.childEvent.emit("hola");
+    this.reiniciarArreglo();
+    
   }
-
-  async preguntaUsuario(pregunta: string) {
-
-    this.pregUsuario = pregunta;
-/*     const pregunta1 = new PreguntasGuardadas("pregunta", this.pregUsuario);
-    this.preguntasYrespuestas.push(pregunta1); */
-
-
-    try {
-      const response: Object | undefined | any = await this.chatBotService.query({ "in-0": pregunta });
-
-      if (response) {
-        this.respuesta = response["out-0"];
-
-
-      } else {
-        console.warn("La respuesta de la API es undefined.");
+   //funcion que pasa cuando pregunta el usario
+  async preguntaUsuario() {
+    if(this.pregunta.trim()!=""){
+      this.agregarAlArreglo(this.pregunta,"usuario");
+      this.pregunta="";
+      
+      
+      try {
+       const response: Object| undefined|any= await this.chatBotService.query({ "in-0": this.pregunta });
+  
+        if (typeof(response["out-0"])!=undefined) {
+    
+          this.agregarAlArreglo(response["out-0"],"chat");
+  
+        } else {
+          
+          this.agregarAlArreglo("Lo siento por el momento no te puedo responder :(","chat");
+        }
+        
+      } catch (error) {
+        
+        this.agregarAlArreglo("Lo siento por el momento no te puedo responder :(","chat");
       }
-    } catch (error) {
-      console.error("Error en la llamada a la API:", error);
+  
     }
+    
+  }
+
+  
+ 
+  
+  agregarAlArreglo(pregunta:string,categoria:string) {
+    this.preguntas.push({pregunta,categoria});
+  }
+
+  reiniciarArreglo(){
+
+    this.preguntas=[];
+  }
 
   }
 
-
-
-
-}
+  interface Pregunta{
+    pregunta:string;
+    categoria:string;
+  }
 

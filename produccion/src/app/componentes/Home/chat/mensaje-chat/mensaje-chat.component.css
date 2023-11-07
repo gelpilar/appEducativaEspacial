@@ -1,4 +1,4 @@
-/* span
+#chat
 {
     background-color: #1E2128BF;
     width: 95%;
@@ -17,4 +17,18 @@ p
     text-align: start;
     margin: 1rem;
     padding: 2%;
-} */
+} 
+
+#usuario
+{
+    background-color: #1969D9D9;
+    width: 95%;
+    border-radius: 1rem;
+    color: #E9EDEFFF;
+    text-align: center;
+    max-height: 1000rem;
+    position: relative;
+    display: block;
+    
+   
+}

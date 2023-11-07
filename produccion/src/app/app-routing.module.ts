@@ -4,6 +4,7 @@ import{HomeComponent} from './paginas/home/home.component'
 import { NoEncontradoComponent } from './paginas/no-encontrado/no-encontrado.component';
 import { EncontradoComponent } from './paginas/encontrado/encontrado.component';
 import { ErrorComponent } from './paginas/error/error.component';
+import { HttpClientModule } from '@angular/common/http';
 import { MemotestComponent } from './paginas/memotest/memotest.component';
 
 
@@ -18,7 +19,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes), HttpClientModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
