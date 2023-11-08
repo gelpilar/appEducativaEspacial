@@ -1946,7 +1946,8 @@
   "quiz": [
     {
       "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
-      "imagen": "../recursos/materia_oscura/materia_oscura.jpg",
+      "ayuda": "Tiene un sistema de anillos aunque no son tan llamativos como los de Saturno.",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/juegoQuiz/quiz-pregunta1-13.jpg",
       "respuesta": "Júpiter",
       "distractores": [
         {
@@ -1970,6 +1971,7 @@
     },
     {
       "pregunta": "¿Qué es un cometa?",
+      "ayuda": "Se asemeja a una 'bola de nieve sucia' en su apariencia.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-cometa.png",
       "respuesta": "Un cuerpo celeste con una cola de gas y polvo",
       "distractores": [
@@ -1994,6 +1996,7 @@
     },
     {
       "pregunta": "¿Cuál es la estrella central de nuestro sistema solar?",
+      "ayuda": "Es una esfera brillante que nos proporciona luz y calor.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/estrellas/estrella-deneb.jpg",
       "respuesta": "El Sol",
       "distractores": [
@@ -2018,7 +2021,8 @@
     },
     {
       "pregunta": "¿Cuál es la luna más grande de Júpiter?",
-      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/estrellas/estrella-deneb.jpg",
+      "ayuda": "La luna más grande de Júpiter es conocida como la 'luna galileana' más grande.",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/juegoQuiz/quiz-pregunta4.jpg",
       "respuesta": "Ganímedes",
       "distractores": [
         {
@@ -2041,7 +2045,8 @@
       "id": 4
     },
     {
-      "pregunta": "¿Cuál es el planeta que se muestra?",
+      "pregunta": "¿Cuál es el planeta que se muestra en la imagen?",
+      "ayuda": "Es el planeta más brillante en nuestro cielo nocturno después de la Luna.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-venus.jpg",
       "respuesta": "Venus",
       "distractores": [
@@ -2066,7 +2071,8 @@
     },
     {
       "pregunta": "¿Cuál es el planeta enano que está más allá de Plutón?",
-      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-venus.jpg",
+      "ayuda": "Fue descubierto en 2005 y es parte de la región del cinturón de Kuiper.",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/juegoQuiz/quiz-pregunta6.jpg",
       "respuesta": "Eris",
       "distractores": [
         {
@@ -2090,7 +2096,8 @@
     },
     {
       "pregunta": "¿Cuál es el período orbital de la Tierra alrededor del Sol?",
-      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-venus.jpg",
+      "ayuda": "A menudo se realiza un ajuste adicional para tener en cuenta los años bisiestos.",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/juegoQuiz/quiz-pregunta7.jpg",
       "respuesta": "365 días",
       "distractores": [
         {
@@ -2114,7 +2121,8 @@
     },
     {
       "pregunta": "¿Qué es un eclipse solar?",
-      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-venus.jpg",
+      "ayuda": "Un eclipse solar es un evento celestial que involucra la alineación de objetos en el espacio.",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/juegoQuiz/quiz-pregunta8.jpg",
       "respuesta": "Cuando la Luna se interpone entre la Tierra y el Sol",
       "distractores": [
         {
@@ -2138,6 +2146,7 @@
     },
     {
       "pregunta": "¿Qué es un planeta enano?",
+      "ayuda": "Un planeta enano tiene una característica importante que lo diferencia de los planetas convencionales.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-pluton.png",
       "respuesta": "Un cuerpo celeste que no es un planeta pero es más grande que un asteroide",
       "distractores": [
@@ -2162,6 +2171,7 @@
     },
     {
       "pregunta": "¿Qué es un agujero negro?",
+      "ayuda": "Este se forma cuando una estrella masiva colapsa bajo su propia gravedad.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-agujeroNegro.jpg",
       "respuesta": "Una región del espacio con una gravedad tan intensa que nada puede escapar, ni siquiera la luz",
       "distractores": [
@@ -2186,7 +2196,8 @@
     },
     {
       "pregunta": "¿Cuál es el planeta más frío del sistema solar?",
-      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/otros/otros-agujeroNegro.jpg",
+      "ayuda": "Este planeta gigante es conocido por su coloración distintiva y su inclinación extrema.",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/juegoQuiz/quiz-pregunta11.jpeg",
       "respuesta": "Urano",
       "distractores": [
         {
@@ -2210,6 +2221,7 @@
     },
     {
       "pregunta": "¿Cuál es el nombre de la misión de la NASA que envió al rover Curiosity a Marte en 2012?",
+      "ayuda": "La misión que envió al rover Curiosity a Marte en 2012 tenía un nombre que refleja su enfoque en la investigación científica.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-marte.jpg",
       "respuesta": "Misión Mars Science Laboratory",
       "distractores": [
@@ -2234,7 +2246,8 @@
     },
     {
       "pregunta": "¿Cuál es el planeta que tiene el día más largo en el sistema solar?",
-      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-marte.jpg",
+      "ayuda": "El planeta con el día más largo en el sistema solar es también el planeta más grande.",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/juegoQuiz/quiz-pregunta1-13.jpg",
       "respuesta": "Júpiter",
       "distractores": [
         {
@@ -2258,7 +2271,8 @@
     },
     {
       "pregunta": "¿Qué es un tránsito planetario?",
-      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-marte.jpg",
+      "ayuda": "Es un fenómeno astronómico que involucra la alineación de dos cuerpos celestes en el espacio.",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/juegoQuiz/quiz-pregunta14.jpg",
       "respuesta": "Cuando un planeta pasa por delante del Sol desde la perspectiva de la Tierra",
       "distractores": [
         {
@@ -2281,7 +2295,8 @@
       "id": 14
     },
     {
-      "pregunta": "¿Cuál es el siguiente planeta?",
+      "pregunta": "Cuál es el planeta que se muestra en la imagen?",
+      "ayuda": "Es uno de los gigantes gaseosos.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-jupiter.jpg",
       "respuesta": "Júpiter",
       "distractores": [

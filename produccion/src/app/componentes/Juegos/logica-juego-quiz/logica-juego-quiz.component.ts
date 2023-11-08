@@ -79,7 +79,7 @@ export class LogicaJuegoQuizComponent implements OnInit {
     this.mostrarSiguientePregunta();
   }
   
-  /* CAMBIARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+
   mostrarAyuda(opcion: string | undefined) {
     Swal.fire({
       title: 'Ayuda',
@@ -98,7 +98,7 @@ export class LogicaJuegoQuizComponent implements OnInit {
 
   reiniciarJuego() {
     this.score = 0;
-    this.preguntas = this.shuffleArray(this.preguntas).slice(0, 3);
+    this.preguntas = this.shuffleArray(this.preguntas).slice(0, 11);
     this.mostrarSiguientePregunta();
   }  
 }

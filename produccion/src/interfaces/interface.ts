@@ -23,6 +23,7 @@ export interface SistemaSolar {
 
 export interface Preguntas {
     pregunta: string,
+    ayuda: string,
     imagen: string,
     respuesta: string,
     distractores: Distractores[],

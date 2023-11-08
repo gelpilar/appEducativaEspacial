@@ -1,13 +1,18 @@
 <body>
-    <div id="tablero-de-juego">
+    <section id="tablero-de-juego">
         <div id="encabezado">
-            <button (click)="mostrarAyuda(currentQuestion?.pregunta)">Ayuda</button>
-            <p>{{ currentQuestion?.pregunta }}</p>
+            <button id="botonAyuda" (click)="mostrarAyuda(currentQuestion?.ayuda)"> <img id="imagenAyuda" src="../../../../assets/imagenes/ayuda.png" alt="" ></button>
+            <p class="pregunta" >{{ currentQuestion?.pregunta }}</p>
             <img *ngIf="currentQuestion?.imagen" [src]="currentQuestion?.imagen" alt="Sin imagen">
         </div>
+        
+        <div class="opciones-container">
         <div *ngFor="let distractor of currentQuestion?.distractores; let i = index">
             <button class="opcion" (click)="verificarRespuesta(distractor.opcion)">{{ distractor?.opcion }}</button>
         </div>
+        </div>
 
-    </div>
+    </section>
 </body>
+
+
