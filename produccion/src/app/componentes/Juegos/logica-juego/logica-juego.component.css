@@ -1,7 +1,22 @@
+#titulo
+{
+    font-size: xx-large;
+    background-color: #09244b ;
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    position: relative;
+    top: 3rem;
+    justify-content: center;
+}
+
 main{
-    width: 730px;
+    width: 46rem;
     margin: 70px auto 50px;
     display: flex;
+
     align-items: center;
     
 }
@@ -10,15 +25,19 @@ main{
     background-image: url("../../../../assets/imagenes/fondoEstrellas3.png");
     width: 98vw;
     height: 98vh;
-    display: block;
-    position: absolute;}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
 
 .eleccion
 {animation:scale-up-center 0.9s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
 
 .section1{
-    background-color: rgb(265, 265, 265, 0.2);
-    padding: 0 10px 10px 10px;
+    background-color:#3c70b423;
+    padding: 1rem 1rem  1rem  1rem ;
     border-radius: 8px;
 }
 .eleccion
@@ -26,10 +45,11 @@ main{
     border-radius: 10%;
     border-style:none ;
     background-color: #186fe286;
+    transition: all 0.4s;
 }
 .eleccion:hover
 {
-    background-color: #186fe2;
+    background-color: #056cf3;
     box-shadow:  0rem 0rem 1rem 0.01rem #fbfdff33;
 }
 h1{
@@ -70,3 +90,10 @@ img{
     width: 70%;
 }
 
+#volver
+{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  
+}

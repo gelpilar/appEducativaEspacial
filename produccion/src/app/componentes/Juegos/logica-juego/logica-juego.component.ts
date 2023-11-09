@@ -1,4 +1,7 @@
 import { Component, Renderer2, ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
+import { QuizService } from 'src/app/services/quiz.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-logica-juego',
@@ -20,12 +23,13 @@ export class LogicaJuegoComponent {
 
   numeros: number[] = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
 
-  constructor(private renderer: Renderer2, private el: ElementRef) {
+  constructor(private renderer: Renderer2, private el: ElementRef,private quizService: QuizService,
+    private router: Router) {
     this.numeros.sort(() => Math.random() - 0.5);
     console.log(this.numeros);
   }
 
-  destapar(id: number): void {
+  async destapar(id: number): Promise<void> {
 
    
 
@@ -61,6 +65,21 @@ export class LogicaJuegoComponent {
         if (this.aciertos === 8) {
       
           this.ganador = true;
+          await Swal.fire({
+            title: "Juego terminado",
+            text: `Los movimientos realizados fueron:`+this.movimientos,
+            showDenyButton: true,
+            confirmButtonText: "Inicio",
+            denyButtonText: "Volver a jugar",
+            confirmButtonColor:"#09244B",
+            denyButtonColor:"#11468F"
+          }).then((result:any) => {
+            if (result.isConfirmed) {
+              this.router.navigate(['/Home']);
+            } else if (result.isDenied) {
+              window.location.reload();
+            }
+          });
           
         }
         

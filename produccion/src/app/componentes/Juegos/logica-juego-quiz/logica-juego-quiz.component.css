@@ -4,12 +4,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 97vh;
     background-image: url("../../../../assets/imagenes/fondoEstrellas3.png");
 }
 
+#titulo
+{
+    font-size: x-large;
+ 
+    color: aliceblue;
+    position: relative;
+    bottom: 0.5rem;
+
+}
+
+
 #encabezado {
-    width: 70vw;
+    width: 60vw;
     min-height: 150px;
     display: flex;
     justify-content: center;
@@ -20,15 +32,21 @@ body{
     margin-top: 0.4rem;
     margin-bottom: 1rem;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 2rem;
 
 }
 
 .opcion:hover{
-    background-color: rgb(159, 157, 157);
+    background-color: rgb(30, 104, 179);
     cursor: pointer;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.5rem 1px rgba(109, 85, 196, 0.301)
 }
 
+.opcion
+{
+    transition: all 0.2s;
+}
 img{
     height: 200px;
     object-fit: contain;
@@ -42,33 +60,72 @@ img{
     align-items: center;
     flex-wrap: wrap;
 }
-
+#tablero-de-juego
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .opcion {
     width: 33vw;
     align-items: center;
     min-height: 55px;
     background-color: rgba(255, 255, 255, 0.875);
-    border-radius: 10px;
+    border-radius: 2rem;
     border: none;
     padding: 0.8rem;
     text-align: center; 
     margin-bottom: 0.5rem;
+    font-family: "roboto";
 }
-
+#caja
+{
+    width: 70%;
+    height: 110%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3c70b423;
+    border-radius: 0.5rem;
+    padding-top: 1.5rem;
+    position: relative;
+    left: 2rem;
+  
+}
 #botonAyuda
 {
     background-color: transparent;
     border-style: none;
     position: relative;
     cursor: pointer;
+    top: 13rem;
+    left: 3rem;
 }
 
 #imagenAyuda {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 100%;
 }
 
 .pregunta {
     font-size: 1.6rem; 
     text-align: center;
+}
+
+.botonFinal
+{
+    background-color: rgb(15, 0, 230) !important;
+    border-radius: 10px !important;
+    height: 70px !important;
+    width: 190px !important;
+    font-size: 1.5rem !important;
+}
+
+#volver
+{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  
 }

@@ -44,6 +44,8 @@ export class LogicaJuegoQuizComponent implements OnInit {
         showDenyButton: true,
         confirmButtonText: "Inicio",
         denyButtonText: "Volver a jugar",
+        confirmButtonColor:"#09244B",
+        denyButtonColor:"#11468F"
       }).then((result) => {
         if (result.isConfirmed) {
           this.router.navigate(['/Home']);
@@ -63,6 +65,7 @@ export class LogicaJuegoQuizComponent implements OnInit {
      await Swal.fire({
         title: "Respuesta correcta",
         text: "La respuesta ha sido correcta",
+        confirmButtonColor:"#11468F",
         icon: "success",  
       });
       this.score++;
@@ -72,7 +75,8 @@ export class LogicaJuegoQuizComponent implements OnInit {
       await Swal.fire({
         title: "Respuesta incorrecta",
         text: `La respuesta correcta es: "${respuestaCorrecta}"`,
-        icon: "error",  // Cambié "success" a "error" para mostrar un icono de error en caso de respuesta incorrecta.
+        confirmButtonColor:"#11468F",
+        icon: "error"
       });
     }
 
@@ -84,10 +88,12 @@ export class LogicaJuegoQuizComponent implements OnInit {
     Swal.fire({
       title: 'Ayuda',
       text: opcion,
+      confirmButtonColor:"#09244B",
       customClass: {
         container: 'my-custom-container',
         title: 'my-custom-title',
-        confirmButton: 'my-custom-confirm-button', 
+        confirmButton: 'my-custom-confirm-button',
+        
       }
     });
   }

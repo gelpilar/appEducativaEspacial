@@ -1,18 +1,32 @@
-<body>
-    <section id="tablero-de-juego">
-        <div id="encabezado">
-            <button id="botonAyuda" (click)="mostrarAyuda(currentQuestion?.ayuda)"> <img id="imagenAyuda" src="../../../../assets/imagenes/ayuda.png" alt="" ></button>
-            <p class="pregunta" >{{ currentQuestion?.pregunta }}</p>
-            <img *ngIf="currentQuestion?.imagen" [src]="currentQuestion?.imagen" alt="Sin imagen">
-        </div>
-        
-        <div class="opciones-container">
-        <div *ngFor="let distractor of currentQuestion?.distractores; let i = index">
-            <button class="opcion" (click)="verificarRespuesta(distractor.opcion)">{{ distractor?.opcion }}</button>
-        </div>
-        </div>
 
-    </section>
+
+    <body>
+    
+        <span id="titulo">
+            <h1>CosmoQuiz</h1>
+        </span>
+        <section id="tablero-de-juego">
+            <span id="caja">
+                <div id="encabezado">
+                    
+                    <p class="pregunta" >{{ currentQuestion?.pregunta }}</p>
+                    <img *ngIf="currentQuestion?.imagen" [src]="currentQuestion?.imagen" alt="Sin imagen">
+                </div>
+                
+                <div class="opciones-container">
+                <div *ngFor="let distractor of currentQuestion?.distractores; let i = index">
+                    <button class="opcion" (click)="verificarRespuesta(distractor.opcion)">{{ distractor?.opcion }}</button>
+                </div>
+                </div>
+            </span>
+    
+            <button id="botonAyuda" (click)="mostrarAyuda(currentQuestion?.ayuda)"> <img id="imagenAyuda" src="../../../../assets/imagenes/ayuda.png" alt=""></button>
+        </section>
+        <a href="/#calendarioV" id="volver"><app-boton-logo id="volver"></app-boton-logo></a>
+    
 </body>
+
+
+
 
 
