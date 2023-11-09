@@ -19,6 +19,7 @@
     margin-right:0.5rem;
     margin-top:0.5rem;
     border-style:solid ;
+    border-color:rgb(49, 48, 48) ;
     
     cursor: pointer;
 }
@@ -80,10 +81,14 @@ input
     z-index: 3;
 }
 
+#nombre
+{
+    color: rgb(75, 73, 73);
+}
 #close
 {
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50rem;
     border-style: none;
     background-color:transparent;
@@ -95,7 +100,10 @@ input
     margin-right: 1.5rem;
     margin-top: 1rem;
     box-shadow: none;
+    bottom:0.5rem;
+    left: 1rem;
 }
+
 
 #mensajes
 {

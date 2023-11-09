@@ -37,6 +37,8 @@
     border-radius: 50%;
     box-shadow: 0 0 10px #F4C909;
     background: radial-gradient(#f5e8b0, #f7d74d);
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
 #orbita
@@ -213,6 +215,9 @@
 }
 #neptuno:hover{
     box-shadow: 0 0 7rem #94a3d6;
+}
+#sol:hover{
+    box-shadow: 0 0 10rem rgb(179, 169, 127);
 }
 #tierra:hover{
     box-shadow: 0 0 7rem #d3cccc;
