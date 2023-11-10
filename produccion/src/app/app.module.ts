@@ -37,6 +37,9 @@ import { MensajeChatComponent } from './componentes/Home/chat/mensaje-chat/mensa
 import { MensajeUsuarioComponent } from './componentes/Home/chat/mensaje-usuario/mensaje-usuario.component';
 import { QuizComponent } from './paginas/quiz/quiz.component';
 import { LogicaJuegoQuizComponent } from './componentes/Juegos/logica-juego-quiz/logica-juego-quiz.component';
+import { EstadisticasJuegoComponent } from './componentes/Juegos/estadisticas-juego/estadisticas-juego.component';
+import { LocalstorageService } from './services/localstorage.service';
+
 
 
 @NgModule({
@@ -68,14 +71,29 @@ import { LogicaJuegoQuizComponent } from './componentes/Juegos/logica-juego-quiz
     OrbitaComponent,
     TarjetaPlanetaComponent,
     TarjetaElemetoImagenComponent, 
-    MemotestComponent, LogicaJuegoComponent, ChatCuerpoComponent, MensajeComponent, MensajeChatComponent, MensajeUsuarioComponent, QuizComponent, LogicaJuegoQuizComponent
+    MemotestComponent, 
+    LogicaJuegoComponent, 
+    ChatCuerpoComponent, 
+    MensajeComponent, 
+    MensajeChatComponent, 
+    MensajeUsuarioComponent, 
+    QuizComponent, 
+    LogicaJuegoQuizComponent, 
+    EstadisticasJuegoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [LocalstorageService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+  title = 'localStore';
+
+  constructor(){
+  }
+
+ }

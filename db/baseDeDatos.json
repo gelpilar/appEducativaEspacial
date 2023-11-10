@@ -2220,26 +2220,26 @@
       "id": 11
     },
     {
-      "pregunta": "¿Cuál es el nombre de la misión de la NASA que envió al rover Curiosity a Marte en 2012?",
-      "ayuda": "La misión que envió al rover Curiosity a Marte en 2012 tenía un nombre que refleja su enfoque en la investigación científica.",
+      "pregunta": "¿Cuál es el nombre del robot explorador de Marte?",
+      "ayuda": "Este robot tiene un nombre relacionado con su deseo de explorar y descubrir cosas nuevas en Marte.",
       "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-marte.jpg",
-      "respuesta": "Misión Mars Science Laboratory",
+      "respuesta": "Curiosity",
       "distractores": [
         {
           "id": 1,
-          "opcion": "Misión Marte 2020"
+          "opcion": "R2-D2"
         },
         {
           "id": 2,
-          "opcion": "Misión ExoMars"
+          "opcion": "ExoMars"
         },
         {
           "id": 3,
-          "opcion": "Misión New Horizons"
+          "opcion": "Curiosity"
         },
         {
           "id": 4,
-          "opcion": "Misión Mars Science Laboratory"
+          "opcion": "Wall-E"
         }
       ],
       "id": 12

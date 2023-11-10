@@ -1,7 +1,4 @@
-
-
     <body>
-    
         <span id="titulo">
             <h1>CosmoQuiz</h1>
         </span>
@@ -9,7 +6,7 @@
             <span id="caja">
                 <div id="encabezado">
                     
-                    <p class="pregunta" >{{ currentQuestion?.pregunta }}</p>
+                    <p class="pregunta" >{{currentQuestion?.pregunta}}</p>
                     <img *ngIf="currentQuestion?.imagen" [src]="currentQuestion?.imagen" alt="Sin imagen">
                 </div>
                 
@@ -19,11 +16,9 @@
                 </div>
                 </div>
             </span>
-    
             <button id="botonAyuda" (click)="mostrarAyuda(currentQuestion?.ayuda)"> <img id="imagenAyuda" src="../../../../assets/imagenes/ayuda.png" alt=""></button>
         </section>
         <a href="/#calendarioV" id="volver"><app-boton-logo id="volver"></app-boton-logo></a>
-    
 </body>
 
 

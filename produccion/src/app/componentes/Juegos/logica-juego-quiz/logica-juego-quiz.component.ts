@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { LocalstorageService } from 'src/app/services/localstorage.service';
 import { QuizService } from 'src/app/services/quiz.service';
 import { Preguntas } from 'src/interfaces/interface';
 import Swal from 'sweetalert2';
@@ -15,9 +16,14 @@ export class LogicaJuegoQuizComponent implements OnInit {
   currentQuestion: Preguntas | undefined;
   userAnswer: string = '';
   score: number = 0;
+  miScore: number | void;
 
   constructor(private quizService: QuizService,
-    private router: Router) { }
+    private router: Router,
+    private localstorageService: LocalstorageService) {
+
+      this.miScore = Number(this.localstorageService.get('scoreQuiz')) || 0;
+  }
 
   ngOnInit() {
     this.quizService.getPreguntas().then((data) => {
@@ -38,14 +44,21 @@ export class LogicaJuegoQuizComponent implements OnInit {
       this.currentQuestion = this.preguntas.pop();
       this.userAnswer = '';
     } else {
+
+      if (this.score > Number(this.miScore)) {
+        this.localstorageService.set('scoreQuiz', this.score);
+        this.miScore = Number(this.localstorageService.get('scoreQuiz'));
+      }
+
       await Swal.fire({
         title: "Juego terminado",
-        text: `Tu puntaje fue de ${this.score}/10`,
+        text: `Tu puntaje fue de ${this.score}/10. 
+               Historico: ${this.miScore}/10`,
         showDenyButton: true,
         confirmButtonText: "Inicio",
         denyButtonText: "Volver a jugar",
-        confirmButtonColor:"#09244B",
-        denyButtonColor:"#11468F"
+        confirmButtonColor: "#09244B",
+        denyButtonColor: "#11468F"
       }).then((result) => {
         if (result.isConfirmed) {
           this.router.navigate(['/Home']);
@@ -53,20 +66,20 @@ export class LogicaJuegoQuizComponent implements OnInit {
           window.location.reload();
         }
       });
-      
+
     }
   }
 
 
-  
-  
+
+
   async verificarRespuesta(opcion: string) {
     if (this.currentQuestion && opcion.toLowerCase() === this.currentQuestion.respuesta.toLowerCase()) {
-     await Swal.fire({
+      await Swal.fire({
         title: "Respuesta correcta",
         text: "La respuesta ha sido correcta",
-        confirmButtonColor:"#11468F",
-        icon: "success",  
+        confirmButtonColor: "#11468F",
+        icon: "success",
       });
       this.score++;
     }
@@ -75,29 +88,29 @@ export class LogicaJuegoQuizComponent implements OnInit {
       await Swal.fire({
         title: "Respuesta incorrecta",
         text: `La respuesta correcta es: "${respuestaCorrecta}"`,
-        confirmButtonColor:"#11468F",
+        confirmButtonColor: "#11468F",
         icon: "error"
       });
     }
 
     this.mostrarSiguientePregunta();
   }
-  
+
 
   mostrarAyuda(opcion: string | undefined) {
     Swal.fire({
       title: 'Ayuda',
       text: opcion,
-      confirmButtonColor:"#09244B",
+      confirmButtonColor: "#09244B",
       customClass: {
         container: 'my-custom-container',
         title: 'my-custom-title',
         confirmButton: 'my-custom-confirm-button',
-        
+
       }
     });
   }
-  
+
   shuffleArray(array: Preguntas[]) {
     return array.sort(() => Math.random() - 0.5);
   }
@@ -106,7 +119,7 @@ export class LogicaJuegoQuizComponent implements OnInit {
     this.score = 0;
     this.preguntas = this.shuffleArray(this.preguntas).slice(0, 11);
     this.mostrarSiguientePregunta();
-  }  
+  }
 }
 
 
