@@ -39,6 +39,8 @@ main{
     background-color:#3c70b423;
     padding: 1rem 1rem  1rem  1rem ;
     border-radius: 8px;
+    position: relative;
+
 }
 .eleccion
 {

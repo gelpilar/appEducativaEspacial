@@ -9,6 +9,8 @@ import Swal from 'sweetalert2';
 })
 export class LogicaJuegoNaveComponent {
 
+     audio = new Audio('../../assets/sonidos/sonidoPistolita.mp3');
+     audioA = new Audio('../../assets/sonidos/asteroide.mp3');
       canva:HTMLCanvasElement|null=null;
       puntajeActual=1;
       ctx:CanvasRenderingContext2D  | null=null;
@@ -29,12 +31,13 @@ export class LogicaJuegoNaveComponent {
       direccionNave:string="";
       misiles:Misil[]=[]; 
       estadoJuego=false;
+      finalizacion=false;
       @Input() puntajeHistorico: number;
 
       constructor(private localstorageService: LocalstorageService)
       {
         let ruta="../../../../assets/imagenes/"
-        this.backgroundImage.src=ruta+"fondoJuego.jpeg"
+        this.backgroundImage.src=ruta+"fondoJuego.png"
         this.naveImage.src=ruta+"/naveJuego.png"
         this.enemigo1.src = ruta+"/enemigo1.png"
         this.enemigo2.src = ruta+"/enemigo2.png"
@@ -54,7 +57,7 @@ export class LogicaJuegoNaveComponent {
         this.cW =this.ctx.canvas.width;
         this.cH= this.ctx.canvas.height;
 
-        const vistaInteval= setInterval(()=>{this.correrJuego()},6);
+        const vistaInteval= setInterval(()=>{this.correrJuego()},12);
 
 
       } else {
@@ -93,7 +96,7 @@ export class LogicaJuegoNaveComponent {
 
         if(e.y>=this.yNave && this.estadoJuego)
         {
-          this.finalizarJuego()
+            this.finalizarJuego()
         }
     }
 
@@ -116,6 +119,7 @@ impactoMisil(m:Misil)
                 {
                     
                     this.arregloEnemigos.splice(i,1);
+                    this.audioA.play()
                     this.puntajeActual += (i+1)*10;
                     this.agregarEnemigo();
              
@@ -136,30 +140,36 @@ impactoMisil(m:Misil)
   }
 
 
-  async finalizarJuego()
+   finalizarJuego()
   {
     if (this.puntajeActual > Number(this.puntajeHistorico) || Number(this.puntajeHistorico) === 0) {
       this.localstorageService.set('puntajeNave', this.puntajeActual);
       this.puntajeHistorico = Number(this.localstorageService.get('puntajeNave'));
     }
 
-    await Swal.fire({
-      title: "Juego terminado",
-      text: `Tu puntaje fue: ${this.puntajeActual}
-      Historico: ${this.puntajeHistorico}`,
-      confirmButtonColor: "#11468F",
-      icon: "success",
-    });
-    /** 
-     *  1. avisar finalizacion: -> puntaje conseguido -> historico 
-     *  2. actualizacion del ls (solo si el puntaje actual > historico)
-     *  3.  puntaje actual = 0
-     *  4. reiniciar arreglo asteroides
-     *  5. reiniciar arreglo misiles
-    */
+    this.finalizacion=true
+    this.mostrarTarjeta();
+    this.arregloEnemigos= new Array<Enemigos>();
+    this.misiles= new Array<Misil>();
+    this.puntajeActual=1;
+
+    this.estadoJuego=false;
+    
+
   }
 
 
+  async mostrarTarjeta()
+  {
+    await Swal.fire({
+      title: "Juego terminado",
+      text: `Tu puntaje fue: ${this.puntajeActual-1}
+      Puntaje historico: ${this.puntajeHistorico-1}`,
+      confirmButtonColor: "#11468F",
+    });
+    this.finalizacion=false
+    
+  }
   agregarEnemigo()
   {
     
@@ -233,6 +243,7 @@ impactoMisil(m:Misil)
         if(this.misiles.length<10)
         {
           this.misiles.push(new Misil(this.xNave,this.yNave))
+          this.audio.play()
         }
         
         
@@ -250,7 +261,11 @@ impactoMisil(m:Misil)
 
       this.ctx.drawImage(this.backgroundImage,0,0);
 
-      this.ctx.fillRect(0,this.yNave-15,this.cW,1)
+      this.ctx.strokeStyle = "white";
+      this.ctx.fillStyle = "white";
+
+      // Dibuja un rectángulo blanco
+      this.ctx.fillRect(0, this.yNave - 15, this.cW, 4);
       this.ctx.drawImage(this.naveImage,this.xNave,this.yNave,100,115)
 
 
@@ -285,26 +300,26 @@ direccion()
 {
     if(this.puntajeActual<80)
     {
-        this.xNave -=1.5
+        this.xNave -=2
     }else if(this.puntajeActual>=80 && this.puntajeActual<200)
     {
-      this.xNave -=2.5
+      this.xNave -=3
     }else
     {
-      this.xNave -=2.8
+      this.xNave -=3.5
     }
     
 }else if (this.direccionNave === 'right')
 {
     if(this.puntajeActual<100)
     {
-      this.xNave +=1.5
+      this.xNave +=2
     }else if(this.puntajeActual>=80 && this.puntajeActual<200)
     {
-      this.xNave +=2.5
+      this.xNave +=3
     }else
     {
-      this.xNave +=2.8
+      this.xNave +=3.5
     }
 }
 

@@ -1,0 +1,86 @@
+body
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 90vh;
+    background-image: url("../../../../assets/imagenes/fondoEstrellas3.png");
+}
+#volver
+{
+    position: absolute;
+    top:1rem;
+    left: 1rem;
+}
+
+
+
+#juego
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+
+}
+#contenedor
+{
+    box-shadow: 0 0 1rem 0.1rem rgb(0, 0, 0);
+   
+}
+
+.estadisticas {
+    border: 1px solid #595dca;
+    height: 5rem;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f7c9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 66, 70);
+   
+}
+
+.section2{
+    background-color: #8487ec98;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 2rem;
+    padding: 0rem 1rem 1rem 1rem;
+    position: relative;
+}
+#contenedorE
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    left: 3rem;
+    bottom: 2rem;
+    position: relative;
+}
+#personaje
+{
+    width: 6rem;
+}
+
+#iniciar
+{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: aliceblue;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    background-color: #09244B;
+    cursor: pointer;
+    font-size: large;
+}
+

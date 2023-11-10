@@ -1,23 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Document</title>
-</head>
 <body>
+    <a href="/#calendarioV" id="volver"><app-boton-logo id="volver"></app-boton-logo></a>
+    <span id="juego">
 
-
-    <span id="contenedor">
-        <canvas id="my_canvas" width="700" height="550"></canvas>
+    
+        
+        <span id="contenedor">
+            <canvas id="my_canvas" width="700" height="550"></canvas>
+        </span>
+        <span *ngIf="finalizacion"></span>
     </span>
-  
-
-
-    <button id="iniciar" (click)="iniciarJuego()"> Iniciar la partida</button>
+    <span id="derecha">
+        <span id="contenedorE">
+            <img src="../../../../assets/imagenes/personaje.png"  id="personaje" alt="" >
+            <section class="section2">
+               <h2 id="aciertos" class="estadisticas">Puntaje actual: {{puntajeActual-1}}</h2>
+               <h2 class="estadisticas"> Mejor puntaje: {{puntajeHistorico-1}}</h2>
+               <button id="iniciar" (click)="iniciarJuego()"> Iniciar la partida</button>
+           </section> 
+           
+        </span>
+        
+    </span>
+    
     
    
-    
 </body>
-</html>
+

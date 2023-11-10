@@ -41,6 +41,7 @@ import { EstadisticasJuegoComponent } from './componentes/Juegos/estadisticas-ju
 import { LocalstorageService } from './services/localstorage.service';
 import { NaveComponent } from './paginas/nave/nave.component';
 import { LogicaJuegoNaveComponent } from './componentes/Juegos/logica-juego-nave/logica-juego-nave.component';
+import { AudioPlayerComponent } from './audio-player/audio-player.component';
 
 
 
@@ -81,7 +82,7 @@ import { LogicaJuegoNaveComponent } from './componentes/Juegos/logica-juego-nave
     MensajeUsuarioComponent, 
     QuizComponent, 
     LogicaJuegoQuizComponent, 
-    EstadisticasJuegoComponent, NaveComponent, LogicaJuegoNaveComponent
+    EstadisticasJuegoComponent, NaveComponent, LogicaJuegoNaveComponent, AudioPlayerComponent
   ],
   imports: [
     BrowserModule,
