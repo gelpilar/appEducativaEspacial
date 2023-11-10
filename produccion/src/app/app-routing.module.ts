@@ -7,6 +7,7 @@ import { ErrorComponent } from './paginas/error/error.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MemotestComponent } from './paginas/memotest/memotest.component';
 import { QuizComponent } from './paginas/quiz/quiz.component';
+import { NaveComponent } from './paginas/nave/nave.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path:'error',component: ErrorComponent},
   {path:'Juego',component: MemotestComponent},
   {path:'Quiz',component: QuizComponent},
+  {path:"Nave",component:NaveComponent},
   {path:'**', component:HomeComponent}
  
 ];
