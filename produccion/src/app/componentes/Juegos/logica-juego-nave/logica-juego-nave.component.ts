@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { LocalstorageService } from 'src/app/services/localstorage.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-logica-juego-nave',
@@ -8,7 +10,6 @@ import { Component } from '@angular/core';
 export class LogicaJuegoNaveComponent {
 
       canva:HTMLCanvasElement|null=null;
-      puntajeHistorico=0;
       puntajeActual=1;
       ctx:CanvasRenderingContext2D  | null=null;
       //localStorage
@@ -28,8 +29,9 @@ export class LogicaJuegoNaveComponent {
       direccionNave:string="";
       misiles:Misil[]=[]; 
       estadoJuego=false;
+      @Input() puntajeHistorico: number;
 
-      constructor()
+      constructor(private localstorageService: LocalstorageService)
       {
         let ruta="../../../../assets/imagenes/"
         this.backgroundImage.src=ruta+"fondoJuego.jpeg"
@@ -39,7 +41,7 @@ export class LogicaJuegoNaveComponent {
         this.enemigo3.src = ruta+"/enemigo3.png"
         this.bala.src=ruta+"/bala.png";
         //asignar historico en el localStorage
-
+        this.puntajeHistorico = Number(this.localstorageService.get('puntajeNave')) || 0;
       }
 
    ngOnInit():void{
@@ -134,8 +136,20 @@ impactoMisil(m:Misil)
   }
 
 
-  finalizarJuego()
+  async finalizarJuego()
   {
+    if (this.puntajeActual > Number(this.puntajeHistorico) || Number(this.puntajeHistorico) === 0) {
+      this.localstorageService.set('puntajeNave', this.puntajeActual);
+      this.puntajeHistorico = Number(this.localstorageService.get('puntajeNave'));
+    }
+
+    await Swal.fire({
+      title: "Juego terminado",
+      text: `Tu puntaje fue: ${this.puntajeActual}
+      Historico: ${this.puntajeHistorico}`,
+      confirmButtonColor: "#11468F",
+      icon: "success",
+    });
     /** 
      *  1. avisar finalizacion: -> puntaje conseguido -> historico 
      *  2. actualizacion del ls (solo si el puntaje actual > historico)

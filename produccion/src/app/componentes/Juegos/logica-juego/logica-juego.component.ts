@@ -31,7 +31,6 @@ export class LogicaJuegoComponent {
 
     this.numeros.sort(() => Math.random() - 0.5);
     this.miValor = Number(this.localstorageService.get('movimientosMemotest')) || 0;
-    console.log(this.numeros)
   }
 
   async destapar(id: number): Promise<void> {
