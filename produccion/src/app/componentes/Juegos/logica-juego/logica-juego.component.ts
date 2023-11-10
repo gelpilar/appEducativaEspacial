@@ -16,13 +16,9 @@ export class LogicaJuegoComponent {
   tarjeta2: HTMLElement | undefined;
   primerResultado: number | null = null;
   segundoResultado: number | null = null;
-  miValor: number | void;
-  movimientos: number = 0;
-  aciertos: number = 0;
-  @Input() valorAciertos: number = 0;
-  @Input() valorMovimientos: number = 0;
-
-
+  @Input() miValor: number;
+  @Input() aciertos: number = 0;
+  @Input() movimientos: number = 0;
 
 
   numeros: number[] = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
@@ -35,6 +31,7 @@ export class LogicaJuegoComponent {
 
     this.numeros.sort(() => Math.random() - 0.5);
     this.miValor = Number(this.localstorageService.get('movimientosMemotest')) || 0;
+    console.log(this.numeros)
   }
 
   async destapar(id: number): Promise<void> {
@@ -72,6 +69,7 @@ export class LogicaJuegoComponent {
 
           if (this.movimientos < Number(this.miValor) || Number(this.miValor) === 0) {
             this.localstorageService.set('movimientosMemotest', this.movimientos);
+            this.miValor = Number(this.localstorageService.get('movimientosMemotest'));
           }
 
           await Swal.fire({

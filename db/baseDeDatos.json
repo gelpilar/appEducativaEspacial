@@ -2222,7 +2222,7 @@
     {
       "pregunta": "¿Cuál es el nombre del robot explorador de Marte?",
       "ayuda": "Este robot tiene un nombre relacionado con su deseo de explorar y descubrir cosas nuevas en Marte.",
-      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/planetas/planeta-marte.jpg",
+      "imagen": "https://raw.githubusercontent.com/gelpilar/appEducativaEspacial/main/recursos/juegoQuiz/quiz-pregunta12.jpg",
       "respuesta": "Curiosity",
       "distractores": [
         {
