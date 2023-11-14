@@ -31,6 +31,7 @@ button
     font-size: large;
     color: aliceblue;
 
+    cursor: pointer;
 }
 #cat
 {

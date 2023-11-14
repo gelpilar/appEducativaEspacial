@@ -10,10 +10,10 @@ export class ChatBotService {
 
   async query(data: {[key: string]: string}): Promise<Object| undefined>{
     const response = await fetch(
-    "https://www.stack-inference.com/run_deployed_flow?flow_id=654a902e60e1fbea0c972a44&org=7d6145a3-484b-4ecc-86c8-3831fd810b66",
+    "https://www.stack-inference.com/run_deployed_flow?flow_id=655230437951a5fbe3954a9c&org=628e7163-e339-486f-bbaa-fd82fe32b126",
     {
         headers: {'Authorization':
-   'Bearer 2b867137-2e42-4401-aaed-be1c6330c14f',
+   'Bearer 3b701380-e3e0-4188-817d-3ee88b363e91',
    'Content-Type': 'application/json'
 },
         method: "POST",
@@ -23,8 +23,7 @@ export class ChatBotService {
    
 
     const result = await response.json();
-    
-    
+    console.log(result)
     return result;
   }
 

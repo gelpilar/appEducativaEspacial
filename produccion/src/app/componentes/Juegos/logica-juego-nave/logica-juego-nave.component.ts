@@ -24,7 +24,7 @@ export class LogicaJuegoNaveComponent {
       arregloEnemigos:Enemigos[]=[];
       cH=0;
       cW=0;
-      yNave=430;
+      yNave=440;
       xNave=300;
       wNave=100;
       hNave=100;
@@ -32,6 +32,7 @@ export class LogicaJuegoNaveComponent {
       misiles:Misil[]=[]; 
       estadoJuego=false;
       finalizacion=false;
+      alerta=false;
       @Input() puntajeHistorico: number;
 
       constructor(private localstorageService: LocalstorageService)
@@ -43,13 +44,39 @@ export class LogicaJuegoNaveComponent {
         this.enemigo2.src = ruta+"/enemigo2.png"
         this.enemigo3.src = ruta+"/enemigo3.png"
         this.bala.src=ruta+"/bala.png";
+        this.cW=700;
+        this.cW=550;
         //asignar historico en el localStorage
-        this.puntajeHistorico = Number(this.localstorageService.get('puntajeNave')) || 0;
+        this.puntajeHistorico = Number(this.localstorageService.get('puntajeNave')) || 1;
+        document.addEventListener('keydown', (event) => this.escuchadoresAlta(event.keyCode));
+        document.addEventListener('keyup', (event) => this.escuchadoresBaja(event.keyCode));     
       }
 
    ngOnInit():void{
-    this.canva = <HTMLCanvasElement>document.getElementById("my_canvas");
-    if (this.canva) {
+    const canvas = document.getElementById("my_canvas") as HTMLCanvasElement;
+   
+   
+    if (!canvas) {
+      throw new Error("Canvas element with id 'my_canvas' not found.");
+    }
+
+
+  const ctx = canvas.getContext("2d");
+
+  if (!ctx) {
+    throw new Error("2D context is not supported on this canvas.");
+  }
+
+  this.canva = canvas;
+  this.ctx = ctx;
+  this.cW = this.ctx.canvas.width;
+  this.cH = this.ctx.canvas.height;
+
+ 
+  const vistaInterval = setInterval(() => this.render(), 5);
+   
+   
+    /*  if (this.canva) {
       this.ctx = this.canva.getContext("2d");
 
       if (this.ctx) {
@@ -57,7 +84,7 @@ export class LogicaJuegoNaveComponent {
         this.cW =this.ctx.canvas.width;
         this.cH= this.ctx.canvas.height;
 
-        const vistaInteval= setInterval(()=>{this.correrJuego()},12);
+        const vistaInteval= setInterval(()=>{this.correrJuego()},5);
 
 
       } else {
@@ -65,7 +92,12 @@ export class LogicaJuegoNaveComponent {
       }
     } else {
       console.error("Canvas element with id 'my_canvas' not found.");
-    }
+    } */
+  }
+
+  aviso()
+  {
+    this.alerta= !this.alerta;
   }
   
   recorrerEnemigos()
@@ -79,7 +111,7 @@ export class LogicaJuegoNaveComponent {
       let velo=.1
       if(enemy.velo!==1)
       {
-        velo= enemy.velo*0.01
+        velo= enemy.velo*0.005
       }
       
      
@@ -130,13 +162,13 @@ impactoMisil(m:Misil)
  
   correrJuego()
   {
-    this.render();
+   /*  
     document.addEventListener('keydown', (event: KeyboardEvent) => {
       this.escuchadoresAlta(event.keyCode);
     });
     document.addEventListener('keyup', (event: KeyboardEvent) => {
       this.escuchadoresBaja(event.keyCode);
-    });
+    });  */
   }
 
 
@@ -195,12 +227,15 @@ impactoMisil(m:Misil)
   // contato limite
   escuchadoresBaja(keyCode:number)
   {
+    
+
     if(keyCode === 39 ||keyCode===68)
       {
           
         this.direccionNave='';
       
-      }else if(keyCode === 37 ||keyCode===65)
+      }
+      if(keyCode === 37 ||keyCode===65)
       {
           
         this.direccionNave=''; 
@@ -266,7 +301,7 @@ impactoMisil(m:Misil)
 
       // Dibuja un rectángulo blanco
       this.ctx.fillRect(0, this.yNave - 15, this.cW, 4);
-      this.ctx.drawImage(this.naveImage,this.xNave,this.yNave,100,115)
+      this.ctx.drawImage(this.naveImage,this.xNave,this.yNave,80,90)
 
 
       this.misilesDisparar();
@@ -298,10 +333,10 @@ misilesDisparar()
 direccion()
 { if(this.direccionNave === 'left')
 {
-    if(this.puntajeActual<80)
+    if(this.puntajeActual<150)
     {
         this.xNave -=2
-    }else if(this.puntajeActual>=80 && this.puntajeActual<200)
+    }else if(this.puntajeActual>=150 && this.puntajeActual<250)
     {
       this.xNave -=3
     }else
@@ -311,10 +346,10 @@ direccion()
     
 }else if (this.direccionNave === 'right')
 {
-    if(this.puntajeActual<100)
+    if(this.puntajeActual<150)
     {
       this.xNave +=2
-    }else if(this.puntajeActual>=80 && this.puntajeActual<200)
+    }else if(this.puntajeActual>=150 && this.puntajeActual<250)
     {
       this.xNave +=3
     }else

@@ -57,6 +57,7 @@
             <app-mensaje-chat *ngFor="let pregunta of preguntas" [mensaje]="pregunta.pregunta" [categoria]="pregunta.categoria"></app-mensaje-chat>
           </span>  
 
+          <p *ngIf="Espera" style="color: rgb(100, 100, 182);">Escribiendo...</p>
           <form action="">
             <input type="text" (input)="onInputChange($event)"   autocomplete="off" placeholder="Escribe un mensaje a Cristina"> 
             <button (click)="preguntaUsuario()" id="enviar" type="reset"><img src="../../../../../assets/imagenes/send.png" alt="" ></button>          </form>

@@ -17,6 +17,7 @@ export class ChatCuerpoComponent implements OnInit {
   pregUsuario: string | void = undefined;
   resChat: string = '';
   pregunta: string = '';
+  Espera=false;
   nombre: string | undefined;
 
 
@@ -41,14 +42,19 @@ export class ChatCuerpoComponent implements OnInit {
   async preguntaUsuario() {
     if(this.pregunta.trim()!=""){
       this.agregarAlArreglo(this.pregunta,"usuario");
-      this.pregunta="";
+   
+      this.Espera=true
       
+    
       
       try {
        const response: Object| undefined|any= await this.chatBotService.query({ "in-0": this.pregunta });
-  
-        if (typeof(response["out-0"])!=undefined) {
+       this.pregunta="";
+       this.Espera=false;
+       
+        if (typeof(response["out-0"])!=undefined && response.status_code!=400) {
     
+          
           this.agregarAlArreglo(response["out-0"],"chat");
   
         } else {
