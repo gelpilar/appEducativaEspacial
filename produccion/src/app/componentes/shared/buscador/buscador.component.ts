@@ -2,7 +2,7 @@ import { Component, Output, EventEmitter, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ElementosService } from 'src/app/services/elementos.service';
 import { Elemento } from 'src/interfaces/interface';
-
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 @Component({
   selector: 'app-buscador',
   templateUrl: './buscador.component.html',
@@ -13,10 +13,14 @@ export class BuscadorComponent implements OnInit {
   terminoBusqueda: string = '';
   listaFiltrada: Elemento[] = [];
   listaElementos: Elemento[] | undefined = [];
+  myForm: FormGroup = this.fb.group({
+    entrada: ['',[Validators.required, Validators.minLength(3), Validators.pattern('^[a-zA-Z]+$')]]
+  });
 
   constructor(
     private route: ActivatedRoute,
-    private elementoService: ElementosService
+    private elementoService: ElementosService,
+    private fb: FormBuilder
   ) {}
 
   ngOnInit(): void {
@@ -24,16 +28,12 @@ export class BuscadorComponent implements OnInit {
     this.cargarElementos();
   }
 
+ 
   @Output() buscarTermino = new EventEmitter<string>();
 
   realizarBusqueda() {
-    setInterval(()=>
-    {
-      if (this.terminoBusqueda.trim() !== '') {
+    if(this.myForm.invalid) return
         this.buscarTermino.emit(this.terminoBusqueda);
-      }
-    },500)
-    
   }
 
   mostrarElemento() {

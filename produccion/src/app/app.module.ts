@@ -42,8 +42,7 @@ import { LocalstorageService } from './services/localstorage.service';
 import { NaveComponent } from './paginas/nave/nave.component';
 import { LogicaJuegoNaveComponent } from './componentes/Juegos/logica-juego-nave/logica-juego-nave.component';
 import { AudioPlayerComponent } from './audio-player/audio-player.component';
-
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -87,7 +86,8 @@ import { AudioPlayerComponent } from './audio-player/audio-player.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [LocalstorageService],
   bootstrap: [AppComponent]
