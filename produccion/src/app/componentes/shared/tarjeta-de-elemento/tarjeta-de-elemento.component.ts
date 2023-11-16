@@ -8,14 +8,12 @@ import { Elemento } from 'src/interfaces/interface';
   templateUrl: './tarjeta-de-elemento.component.html',
   styleUrls: ['./tarjeta-de-elemento.component.css']
 })
-export class TarjetaDeElementoComponent implements OnInit{
+export class TarjetaDeElementoComponent implements OnInit {
   nombre: string | undefined;
-  sugerenciasAleatorias: Elemento[] | undefined = []; 
+  sugerenciasAleatorias: Elemento[] | undefined = [];
 
   constructor(
-    private elementosService: ElementosService,
-    private route: ActivatedRoute,
-    private router: Router
+    private elementosService: ElementosService
   ) { }
 
   async ngOnInit(): Promise<void> {
@@ -23,10 +21,7 @@ export class TarjetaDeElementoComponent implements OnInit{
     await this.elementosAleatorios();
   }
 
-
-
   async elementosAleatorios() {
     this.sugerenciasAleatorias = await this.elementosService.obtenerAletorios();
   }
-
 }

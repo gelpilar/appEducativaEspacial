@@ -1,29 +1,27 @@
-
- <span id="cuerpo">
+<span id="cuerpo">
    <span id="recuadro">
       <span id="arriba">
-
-
-         <img  id="imagen" src="../../../../../assets/imagenes/senora.png" width="70%" height="90%">
+         <img id="imagen" src="../../../../../assets/imagenes/senora.png" width="70%" height="90%">
          <h3 id="nombre">Christina Koch</h3>
          <button id="close" (click)="cerrar()">
             <img src="../../../../../assets/imagenes/close.png" width="100%">
-         </button> 
-       </span>
+         </button>
+      </span>
 
+      <span id="mensajes" class="scrollable-span">
+         <app-mensaje-chat [mensaje]="'Hola terricola, soy Christina Koch-chat bot, ¿En que te puedo ayudar? '"
+            [categoria]="'chat'" id="mensajes">
+         </app-mensaje-chat>
+         <app-mensaje-chat *ngFor="let pregunta of preguntas" [mensaje]="pregunta.pregunta"
+            [categoria]="pregunta.categoria"></app-mensaje-chat>
+      </span>
 
-          <span id="mensajes" class="scrollable-span">
-            <app-mensaje-chat [mensaje]="'Hola terricola, soy Christina Koch-chat bot, ¿En que te puedo ayudar? '" [categoria]="'chat'" id="mensajes">
-            </app-mensaje-chat>
-            <app-mensaje-chat *ngFor="let pregunta of preguntas" [mensaje]="pregunta.pregunta" [categoria]="pregunta.categoria"></app-mensaje-chat>
-          </span>  
-
-          <p *ngIf="Espera" style="color: rgb(100, 100, 182);">Escribiendo...</p>
-          <form action="">
-            <input id="myInput" type="text" (input)="onInputChange($event)" autocomplete="off" placeholder="Escribe un mensaje a Cristina" (keydown.enter)="limpiarConEnter($event)"> 
-            <button (click)="preguntaUsuario()" id="enviar" type="reset"><img src="../../../../../assets/imagenes/send.png" alt="" ></button>  </form>
-         </span>
-
-
-
- </span>
+      <p *ngIf="Espera" style="color: rgb(100, 100, 182);">Escribiendo...</p>
+      <form action="">
+         <input id="myInput" type="text" (input)="onInputChange($event)" autocomplete="off"
+            placeholder="Escribe un mensaje a Cristina" (keydown.enter)="limpiarConEnter($event)">
+         <button (click)="preguntaUsuario()" id="enviar" type="reset"><img src="../../../../../assets/imagenes/send.png"
+               alt=""></button>
+      </form>
+   </span>
+</span>

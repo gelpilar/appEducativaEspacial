@@ -8,18 +8,15 @@ export interface Elemento {
     id: number
 }
 
-
 export interface Datos {
     id: number;
     dato: string;
 }
 
-
 export interface SistemaSolar {
     dato: string,
     id: number
 }
-
 
 export interface Preguntas {
     pregunta: string,
@@ -29,7 +26,6 @@ export interface Preguntas {
     distractores: Distractores[],
     id: number
 }
-
 
 export interface Distractores {
     id: number;

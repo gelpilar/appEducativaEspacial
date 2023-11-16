@@ -43,5 +43,4 @@ export class VistaNoEncontradoComponent implements OnInit {
       this.router.navigate(['/NoEncontrado', termino]);
     }
   }
-
 }

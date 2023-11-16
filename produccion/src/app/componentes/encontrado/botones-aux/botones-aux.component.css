@@ -1,18 +1,17 @@
-#recuadro
-{
+#recuadro {
     width: 15rem;
     height: 7rem;
     position: relative;
     background-color: #1E2128FF;
     display: flex;
-    top:1rem;
-    border-radius:0.4em;
+    top: 1rem;
+    border-radius: 0.4em;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-h1
-{
+
+h1 {
     font-size: medium;
     color: aliceblue;
 }

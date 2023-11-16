@@ -7,18 +7,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./tarjeta-elemeto-imagen.component.css']
 })
 export class TarjetaElemetoImagenComponent {
-  @Input() nombre:string|undefined='';
-  @Input() parrafo:string|undefined='';
-  @Input() url:string|undefined="";
-  @Input() categoria:string|undefined="";
 
-  constructor(private router:Router)
-  {
+  @Input() nombre: string | undefined = '';
+  @Input() parrafo: string | undefined = '';
+  @Input() url: string | undefined = "";
+  @Input() categoria: string | undefined = "";
+
+  constructor(private router: Router) { }
+
+  verMas() {
+    this.router.navigate(['/Encontrado', this.nombre])
   }
-
-  verMas()
-  {
-   this.router.navigate(['/Encontrado', this.nombre])
-  }
-
 }

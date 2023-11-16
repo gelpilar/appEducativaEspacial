@@ -1,5 +1,4 @@
-#carta
-{
+#carta {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,19 +9,15 @@
     border-radius: 1rem;
     background-color: rgb(255, 255, 255);
     margin: 10rem;
-   
 }
 
-p
-{
-
+p {
     font-size: small;
     margin: 1rem;
     color: rgba(36, 34, 34, 0.877);
 }
 
-button
-{
+button {
     background-color: #11468F;
     border-radius: 1rem;
     border-style: none;
@@ -33,53 +28,47 @@ button
 
     cursor: pointer;
 }
-#cat
-{
+
+#cat {
     width: 5rem;
     height: 2rem;
     position: absolute;
     font-size: x-large;
     bottom: 39rem;
-    color:#BDC1CAFF ;
-    
+    color: #BDC1CAFF;
 }
 
-img
-{
+img {
     margin: 1rem;
     max-width: 10rem;
     max-height: 10rem;
 }
 
-.todo
-{
+.todo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#planeta
-{
+
+#planeta {
     top: 0rem;
     left: 0rem;
     position: absolute;
-    
-  
 }
-#estrella
-{
+
+#estrella {
     top: 0rem;
     left: 40rem;
     position: absolute;
 }
-#galaxia
-{
+
+#galaxia {
     top: 35rem;
     left: 0rem;
     position: absolute;
 }
 
-#otros
-{
+#otros {
     top: 35rem;
     left: 40rem;
     position: absolute;

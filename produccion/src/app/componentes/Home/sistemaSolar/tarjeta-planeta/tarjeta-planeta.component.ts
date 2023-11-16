@@ -7,16 +7,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./tarjeta-planeta.component.css']
 })
 export class TarjetaPlanetaComponent {
-  @Input() nombre:string|undefined='';
-  @Input() parrafo:string|undefined='';
+  @Input() nombre: string | undefined = '';
+  @Input() parrafo: string | undefined = '';
 
-  constructor(private router:Router)
-  {
+  constructor(private router: Router) { }
+
+  verMas() {
+    this.router.navigate(['/Encontrado', this.nombre])
   }
-
-  verMas()
-  {
-   this.router.navigate(['/Encontrado', this.nombre])
-  }
-
 }

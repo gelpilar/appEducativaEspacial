@@ -8,11 +8,12 @@ import { Elemento } from 'src/interfaces/interface';
   styleUrls: ['./orbita.component.css']
 })
 export class OrbitaComponent implements OnInit {
+
   nombre: string = '';
   mostrarElemento: boolean = false;
   elemento: Elemento | undefined;
 
-  constructor(private elementosService: ElementosService) {}
+  constructor(private elementosService: ElementosService) { }
 
   ngOnInit(): void {
   }

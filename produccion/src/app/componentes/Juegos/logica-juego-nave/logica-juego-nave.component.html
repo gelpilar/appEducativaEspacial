@@ -1,53 +1,41 @@
 <body>
     <a href="/#calendarioV" id="volver"><app-boton-logo id="volver"></app-boton-logo></a>
     <span id="juego">
-
-    
-        
         <span id="contenedor">
             <canvas id="my_canvas" width="700" height="550"></canvas>
         </span>
         <span *ngIf="finalizacion"></span>
     </span>
+
     <span id="derecha">
         <span id="contenedorE">
-            <img src="../../../../assets/imagenes/personaje.png"  id="personaje" alt="" >
+            <img src="../../../../assets/imagenes/personaje.png" id="personaje" alt="">
             <section class="section2">
-               <h2 id="aciertos" class="estadisticas">Puntaje actual: {{puntajeActual-1}}</h2>
-               <h2 class="estadisticas"> Mejor puntaje: {{puntajeHistorico-1}}</h2>
-               <button id="iniciar" (click)="iniciarJuego()"> Iniciar la partida</button>
-               <h3 style="color:rgb(238, 231, 231); cursor:pointer;"(click)="aviso()">Comandos</h3>
-           </section> 
-
-
-           
-           
+                <h2 id="aciertos" class="estadisticas">Puntaje actual: {{puntajeActual-1}}</h2>
+                <h2 class="estadisticas"> Mejor puntaje: {{puntajeHistorico-1}}</h2>
+                <button id="iniciar" (click)="iniciarJuego()"> Iniciar la partida</button>
+                <h3 style="color:rgb(238, 231, 231); cursor:pointer;" (click)="aviso()">Comandos</h3>
+            </section>
         </span>
-        <span class="overlay" *ngIf="alerta" >
-            <span id="instrucciones" *ngIf="alerta" class="directiva" >
-                <button (click)="aviso()" class="directiva" id="close"><img src="../../../../assets/imagenes/cerrar.png" width="100%" alt="" srcset=""></button>
+        <span class="overlay" *ngIf="alerta">
+            <span id="instrucciones" *ngIf="alerta" class="directiva">
+                <button (click)="aviso()" class="directiva" id="close"><img src="../../../../assets/imagenes/cerrar.png"
+                        width="100%" alt="" srcset=""></button>
                 <span id="derecha" class="directiva">
                     <p id="tecla" class="control">D</p>
                     <img src="../../../../assets/imagenes/izquierda.png" width="9%" alt="" srcset="" id="tecla">
                     <p>Derecha</p>
                 </span>
                 <span id="izquierda" class="directiva">
-                <p id="tecla" class="control">A</p>
-                <img src="../../../../assets/imagenes/derecha.png" width="9%" alt="" srcset="" id="tecla">
-                <p>izquierda</p></span>
+                    <p id="tecla" class="control">A</p>
+                    <img src="../../../../assets/imagenes/derecha.png" width="9%" alt="" srcset="" id="tecla">
+                    <p>izquierda</p>
+                </span>
                 <span id="espacio" class="directiva">
                     <p id="tecla" class="espacio">Espace</p><br>
                     <p>Disparar</p>
                 </span>
-            
-               </span>
-
+            </span>
         </span>
-        
-        
     </span>
-    
-    
-   
 </body>
-

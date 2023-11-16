@@ -4,9 +4,7 @@
     </span>
 
     <main>
-        <!-- botones que representan tarjetas -->
         <section class="section1">
-
             <table>
                 <tr>
                     <td><button id="0" (click)="destapar(0)" class="eleccion"></button></td>
@@ -37,9 +35,8 @@
                 </tr>
             </table>
         </section>
-
-        <app-estadisticas-juego [aciertos]="aciertos" [movimientos]="movimientos" [miValor]="miValor"></app-estadisticas-juego> 
+        <app-estadisticas-juego [aciertos]="aciertos" [movimientos]="movimientos"
+            [miValor]="miValor"></app-estadisticas-juego>
         <a href="/#calendarioV" id="volver"><app-boton-logo id="volver"></app-boton-logo></a>
     </main>
-
 </section>

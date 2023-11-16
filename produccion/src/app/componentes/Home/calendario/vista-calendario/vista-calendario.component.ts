@@ -1,5 +1,4 @@
 import { ChangeDetectorRef, Component } from '@angular/core';
-import { FlexAlignDirective } from '@angular/flex-layout';
 
 @Component({
   selector: 'app-vista-calendario',
@@ -7,25 +6,19 @@ import { FlexAlignDirective } from '@angular/flex-layout';
   styleUrls: ['./vista-calendario.component.css']
 })
 export class VistaCalendarioComponent {
-  flag:boolean=false;
- 
-  constructor(private cd: ChangeDetectorRef)
-  {
-    this.flag=false;
+
+  flag: boolean = false;
+
+  constructor(private cd: ChangeDetectorRef) {
+    this.flag = false;
   }
 
-
-
- estado() {
-    if(this.flag)
-    {
-      this.flag=false;
-      
-    }else
-    {
-      this.flag=true;
+  estado() {
+    if (this.flag) {
+      this.flag = false;
+    } else {
+      this.flag = true;
     }
     this.cd.detectChanges();
   }
-
 }

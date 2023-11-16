@@ -1,5 +1,4 @@
-#recuadro
-{
+#recuadro {
     width: 60rem;
     height: 35rem;
     display: flex;
@@ -7,31 +6,27 @@
     align-items: center;
     background-color: #e3e5e794;
 }
-#decoArriba
-{
+
+#decoArriba {
     position: absolute;
     bottom: 96vh;
     left: 0;
-    
 }
-#decoAbajo
-{
+
+#decoAbajo {
     position: absolute;
     top: 80vh;
     display: static;
     left: 0;
-   
-
 }
-.deco
-{
+
+.deco {
     width: 98.76vw;
     height: 5rem;
     display: flex;
 }
 
-#cuerpo
-{
+#cuerpo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,37 +35,31 @@
     background-color: #0B2F61FF;
 }
 
-.circulo
-{
-    background-color:  #09244BFF;
+.circulo {
+    background-color: #09244BFF;
     width: 10rem;
     height: 5rem;
-    display: block;    
-   
+    display: block;
 }
-#abajo
-{
+
+#abajo {
     border-radius: 100rem 100rem 0 0;
     background-color: rgb(30, 68, 121);
 }
-#arriba
-{
-    border-radius:  0 0 100rem 100rem;
+
+#arriba {
+    border-radius: 0 0 100rem 100rem;
     background-image: url("../../../../../assets/imagenes/fondoEstrellas3.png");
 }
 
-
-body
-{
+body {
     background-color: #09244BFF;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-#botonAleatorio
-{
+#botonAleatorio {
     background-color: transparent;
     border-style: none;
     position: relative;
@@ -79,34 +68,31 @@ body
     cursor: pointer;
 }
 
-#titulo
-{
+#titulo {
     position: relative;
     left: 9rem;
     color: rgb(59, 58, 58);
 }
 
 @font-face {
-    font-family: 'lato'; /* Puedes asignar un nombre a la fuente */
-    src: url('../../../../../assets/fuentes/lato.ttf'); 
-  }
+    font-family: 'lato';
+    src: url('../../../../../assets/fuentes/lato.ttf');
+}
+
 .cartel {
     position: absolute;
-    top:23rem;
-    left:46%;
+    top: 23rem;
+    left: 46%;
     background: #feb806ba;
     color: #161615;
     border-color: #262625;
     border-style: solid;
     border-radius: 1rem;
     text-align: center;
-   
-
     font-family: "lato";
-   
-   padding-bottom: 1rem;
-   padding-left: 0.5rem;
-   padding-right: 0.5rem;
-    max-width:  22rem;
-    max-height:  4rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: 22rem;
+    max-height: 4rem;
 }

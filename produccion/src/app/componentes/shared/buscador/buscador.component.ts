@@ -9,31 +9,32 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./buscador.component.css']
 })
 export class BuscadorComponent implements OnInit {
+
   nombre: string | undefined;
   terminoBusqueda: string = '';
   listaFiltrada: Elemento[] = [];
   listaElementos: Elemento[] | undefined = [];
+
   myForm: FormGroup = this.fb.group({
-    entrada: ['',[Validators.required, Validators.minLength(3), Validators.pattern('^[a-zA-Z]+$')]]
+    entrada: ['', [Validators.required, Validators.minLength(3), Validators.pattern('^[a-zA-Z]+$')]]
   });
 
   constructor(
     private route: ActivatedRoute,
     private elementoService: ElementosService,
     private fb: FormBuilder
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.mostrarElemento();
     this.cargarElementos();
   }
 
- 
   @Output() buscarTermino = new EventEmitter<string>();
 
   realizarBusqueda() {
-    if(this.myForm.invalid) return
-        this.buscarTermino.emit(this.terminoBusqueda);
+    if (this.myForm.invalid) return
+    this.buscarTermino.emit(this.terminoBusqueda);
   }
 
   mostrarElemento() {
@@ -53,7 +54,6 @@ export class BuscadorComponent implements OnInit {
       this.listaFiltrada = [];
     }
 
-    console.log(this.listaFiltrada)
   }
 
   async cargarElementos() {
@@ -64,9 +64,7 @@ export class BuscadorComponent implements OnInit {
     }
   }
 
-
-  seleccionarElemento(nombreRecibido : string) {
+  seleccionarElemento(nombreRecibido: string) {
     this.terminoBusqueda = nombreRecibido;
   }
-
-}
+} 

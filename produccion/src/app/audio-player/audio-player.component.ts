@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AudioPlayerComponent {
   audio = new Audio('../../assets/sonidos/sonidoPistolita.mp3');
-  
 
   play() {
     this.audio.play();

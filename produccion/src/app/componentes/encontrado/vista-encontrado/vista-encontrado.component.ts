@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute ,Router} from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { AuthGuard } from 'src/app/auth.guard';
 import { ElementosService } from 'src/app/services/elementos.service';
 import { Datos, Elemento } from 'src/interfaces/interface';
@@ -11,16 +11,14 @@ import { Datos, Elemento } from 'src/interfaces/interface';
 })
 export class VistaEncontradoComponent implements OnInit {
 
-  elemento : Elemento | undefined;
+  elemento: Elemento | undefined;
   datosAleatorios: Datos[] = [];
 
-
   constructor(private elementosService: ElementosService,
-              private route: ActivatedRoute,
-              private router: Router,
-              private authGuard: AuthGuard
-             ) {}
-
+    private route: ActivatedRoute,
+    private router: Router,
+    private authGuard: AuthGuard
+  ) { }
 
   ngOnInit(): void {
     if (!this.authGuard.canActivate()) {
@@ -29,12 +27,11 @@ export class VistaEncontradoComponent implements OnInit {
     this.mostrarElemento()
   }
 
-  volver()
-  {
+  volver() {
     this.router.navigate(['/']);
   }
 
-  async mostrarElemento(){
+  async mostrarElemento() {
     this.route.params.subscribe(async param => {
       const nombre = param['nombre'];
       this.elemento = await this.elementosService.getElemento(nombre);
@@ -49,7 +46,6 @@ export class VistaEncontradoComponent implements OnInit {
         }
         this.datosAleatorios = datosElegidos;
       }
-    })
+    });
   }
-
 }

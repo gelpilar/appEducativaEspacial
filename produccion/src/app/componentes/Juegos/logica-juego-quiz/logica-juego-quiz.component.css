@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,16 +9,12 @@ body{
     background-image: url("../../../../assets/imagenes/fondoEstrellas3.png");
 }
 
-#titulo
-{
+#titulo {
     font-size: x-large;
- 
     color: aliceblue;
     position: relative;
     bottom: 0.5rem;
-
 }
-
 
 #encabezado {
     width: 60vw;
@@ -33,39 +29,39 @@ body{
     margin-bottom: 1rem;
     padding: 10px;
     border-radius: 2rem;
-
 }
 
-.opcion:hover{
+.opcion:hover {
     background-color: rgb(30, 104, 179);
     cursor: pointer;
     color: rgb(255, 255, 255);
     box-shadow: 0 0 0.5rem 1px rgba(109, 85, 196, 0.301)
 }
 
-.opcion
-{
+.opcion {
     transition: all 0.2s;
 }
-img{
+
+img {
     height: 200px;
     object-fit: contain;
 }
 
 .opciones-container {
     display: flex;
-    grid-template-columns: 1fr 1fr; 
-    gap: 1.2rem; 
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-#tablero-de-juego
-{
+
+#tablero-de-juego {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .opcion {
     width: 33vw;
     align-items: center;
@@ -74,15 +70,15 @@ img{
     border-radius: 2rem;
     border: none;
     padding: 0.8rem;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 0.5rem;
     font-family: "roboto";
 }
-#caja
-{
+
+#caja {
     width: 70%;
     height: 110%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -91,34 +87,28 @@ img{
     padding-top: 1.5rem;
     position: relative;
     left: 2rem;
-  
 }
 
-
-
-
 .pregunta {
-    font-size: 1.6rem; 
+    font-size: 1.6rem;
     text-align: center;
 }
 
-.botonFinal
-{
+.botonFinal {
     background-color: rgb(15, 0, 230) !important;
     border-radius: 10px !important;
     height: 70px !important;
     width: 190px !important;
     font-size: 1.5rem !important;
 }
-#volver
-{
+
+#volver {
     position: absolute;
     top: 1rem;
     left: 1rem;
 }
 
-#consulta
-{
+#consulta {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,7 +117,8 @@ img{
     top: 5rem;
     left: 5rem;
 }
-#frase{
+
+#frase {
     position: relative;
     color: aliceblue;
     background-color: rgb(31, 23, 139);
@@ -138,21 +129,19 @@ img{
     border-radius: 3rem;
     transition: all 0.5s;
 }
-#frase:hover
-{
+
+#frase:hover {
     background-color: rgb(18, 12, 102);
     border-color: rgb(245, 245, 245);
 }
 
-#botonAyuda
-{
+#botonAyuda {
     background-color: transparent;
-    border-style:none;
+    border-style: none;
     font-family: "Roboto";
     font-size: larger;
-   
 }
-#imagenAyuda
-{
+
+#imagenAyuda {
     width: 70%;
 }

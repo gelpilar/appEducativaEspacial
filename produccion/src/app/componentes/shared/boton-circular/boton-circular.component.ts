@@ -6,31 +6,11 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./boton-circular.component.css']
 })
 export class BotonCircularComponent {
- 
-  @Input() categoria:string="";
-  url:string="";
-  ngOnInit()
-  {
-     this.url=`../../../../assets/imagenes/${this.categoria}.png`;
-     console.log(this.url);
 
-  }
- 
-  }
-  
-  /* 
-  @Input() nombre:string="logo";
-  urlP:string="../../../../assets/imagenes/";
-  imagen:string=this.urlP+this.nombre+".png";
-  @Input() flag:boolean=true;
-  clase:string='scale-up-vertical-center';
-  @Input() ruta:string='';
+  @Input() categoria: string = "";
+  url: string = "";
 
-  ngOnInit():void{
-    setInterval(()=>{this.imagen=this.urlP+this.nombre+".png";
- 
-  },0)
+  ngOnInit() {
+    this.url = `../../../../assets/imagenes/${this.categoria}.png`;
   }
-  constructor()
-  { }*/
-
+}

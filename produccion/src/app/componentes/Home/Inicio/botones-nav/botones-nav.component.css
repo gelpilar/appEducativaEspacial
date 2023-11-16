@@ -1,38 +1,30 @@
-span
-{
+span {
     position: absolute;
     top: 0;
     left: 0;
-    
 }
 
-#calendario
-{
-
+#calendario {
     position: relative;
     top: 10rem;
     left: 10rem;
 }
 
-#sistema
-{
+#sistema {
     position: relative;
     bottom: 4rem;
     left: 19rem;
 }
 
 
-#contacto
-{
+#contacto {
     position: relative;
     bottom: 4rem;
     left: 50rem;
 }
 
-#proyecto
-{
+#proyecto {
     position: relative;
     top: 10rem;
     left: 60rem;
 }
-

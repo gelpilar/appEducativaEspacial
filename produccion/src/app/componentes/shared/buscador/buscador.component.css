@@ -1,62 +1,56 @@
 input {
-
   width: 32rem;
   height: 3rem;
   font-size: 1.5rem;
   text-align: center;
   color: #323740;
-  background: #FFFFFF; 
-  border-radius: 1.5rem; 
+  background: #FFFFFF;
+  border-radius: 1.5rem;
   border: 3px solid #BDC1CA;
   outline: none;
 }
 
-
 button {
-  border-radius: 50%; 
-  width: 2.5rem; 
+  border-radius: 50%;
+  width: 2.5rem;
   height: 2.5rem;
   border: none;
   background-color: #11468F;
   cursor: pointer;
- 
-  bottom:8vh;
+  bottom: 8vh;
   left: 34.5vw;
   position: relative;
 }
 
-form
-{
+form {
   width: 32rem;
 }
-#input-container
-{
+
+#input-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 ul {
   width: 29.2rem;
   max-height: 6rem;
+  top: 3.5rem;
   overflow: auto;
   list-style: none;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin: 0.3rem ;
+  margin: 0.3rem;
   background-color: rgba(255, 255, 255, 0.908);
-  
-  border-radius: 0.7rem; 
-  position: absolute; 
+  border-radius: 0.7rem;
+  position: absolute;
 }
-
 
 li {
   font-size: 1.2rem;
-  padding: 0.5rem 1rem; 
+  padding: 0.5rem 1rem;
   cursor: pointer;
-  transition: background-color 0.2s; 
+  transition: background-color 0.2s;
   border-radius: 0.5rem;
   position: relative;
   right: 2rem;
@@ -64,8 +58,5 @@ li {
 }
 
 li:hover {
-  background-color: #463e3e44; /* Cambiar el color de fondo al pasar el mouse */
-
-  
+  background-color: #463e3e44;
 }
-

@@ -20,7 +20,6 @@ const routes: Routes = [
   {path:'Quiz',component: QuizComponent},
   {path:"Nave",component:NaveComponent},
   {path:'**', component:HomeComponent}
- 
 ];
 
 @NgModule({

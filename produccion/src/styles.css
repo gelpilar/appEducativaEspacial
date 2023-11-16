@@ -1,16 +1,15 @@
-@font-face {
-    font-family: 'Roboto'; /* Puedes asignar un nombre a la fuente */
-    src: url('./assets/fuentes/roboto.ttf'); 
-  }
-body
-{
-    background-color:#09244B ;
-    font-family: 'Roboto';
-
-}
-
 @import 'sweetalert2/dist/sweetalert2.min.css';
 
-button{
-  cursor:pointer;
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fuentes/roboto.ttf');
+}
+
+body {
+  background-color: #09244B;
+  font-family: 'Roboto';
+}
+
+button {
+  cursor: pointer;
 }

@@ -1,58 +1,50 @@
-section
-{  
+section {
     height: 76vh;
     width: 98.7vw;
-    bottom:5rem;
+    bottom: 5rem;
     position: relative;
     display: flex;
-    justify-content:space-around;
-
-    align-items:center;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgb(30, 68, 121);
-
 }
 
-#seleccion
-{
+#seleccion {
     background-image: url("../../../../../assets/imagenes/fondoEstrellas3.png");
     width: 10rem;
     height: 3rem;
     border-radius: 10rem;
-    border-style:solid;
+    border-style: solid;
     color: aliceblue;
     font-family: "Roboto";
     font-size: x-large;
-    border-color:rgb(185, 179, 179) ;
+    border-color: rgb(185, 179, 179);
     cursor: pointer;
-
 }
-.juego
-{
+
+.juego {
     width: 18rem;
     height: 15rem;
     background-color: aliceblue;
     display: flex;
     border-radius: 1rem;
-    
-    
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#contenido
-{
+#contenido {
     position: relative;
-    bottom:3rem ;
-    font-size:xx-large;
+    bottom: 3rem;
+    font-size: xx-large;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: rgb(37, 36, 36);
 }
-#imagen
-{
+
+#imagen {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,8 +55,7 @@ section
     bottom: 3rem;
     box-shadow: 0rem 0rem 1rem 0.3rem rgba(43, 34, 170, 0.233);
 }
-img
-{
-    border-radius: 2rem;
 
+img {
+    border-radius: 2rem;
 }

@@ -1,5 +1,4 @@
-
-#imagen{
+#imagen {
     width: 5rem;
     height: 5rem;
     border-radius: 50rem;
@@ -9,31 +8,29 @@
     margin: 0.5rem;
 }
 
-#enviar
-{
+#enviar {
     background-color: rgb(255, 255, 255);
-    border-radius:50rem ;
+    border-radius: 50rem;
     height: 2.8rem;
     width: 3rem;
     margin-left: 1rem;
-    margin-right:0.5rem;
-    margin-top:0.5rem;
-    border-style:solid ;
-    border-color:rgb(49, 48, 48) ;
-    
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    border-style: solid;
+    border-color: rgb(49, 48, 48);
     cursor: pointer;
 }
-#arriba
-{
+
+#arriba {
     border-bottom: solid rgba(126, 125, 125, 0.212);
     display: flex;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 19%;
 }
-#cuerpoMensajes
-{
+
+#cuerpoMensajes {
     width: 100%;
     height: 100%;
     position: relative;
@@ -42,56 +39,55 @@
     justify-content: center;
     align-items: center;
 }
-input
-{
+
+input {
     width: 90%;
     height: 3rem;
     margin-bottom: 0.5rem;
     margin-top: 0.2rem;
     background-color: aliceblue;
-    border-style:solid ;
+    border-style: solid;
     position: relative;
     border-radius: 1rem;
     left: 0.5rem;
     text-align: center;
     color: rgb(51, 53, 56);
-    font-family:"Roboto";
+    font-family: "Roboto";
 }
-#recuadro
-{
+
+#recuadro {
     width: 92%;
     height: 97%;
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-radius:2rem;
+    border-radius: 2rem;
     background-color: aliceblue;
 }
-#cuerpo
-{
+
+#cuerpo {
     width: 21.5rem;
     height: 29.75rem;
     position: relative;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    background-color:#A6C7F5FF;
-    border-radius:2rem;
+    background-color: #A6C7F5FF;
+    border-radius: 2rem;
     z-index: 3;
 }
 
-#nombre
-{
+#nombre {
     color: rgb(75, 73, 73);
 }
-#close
-{
+
+#close {
     width: 4rem;
     height: 4rem;
     border-radius: 50rem;
     border-style: none;
-    background-color:transparent;
+    background-color: transparent;
     position: relative;
     display: flex;
     justify-content: center;
@@ -100,68 +96,50 @@ input
     margin-right: 1.5rem;
     margin-top: 1rem;
     box-shadow: none;
-    bottom:0.5rem;
+    bottom: 0.5rem;
     left: 1rem;
 }
 
-
-#mensajes
-{
- width: 100%;
- height: 100%;
-
+#mensajes {
+    width: 100%;
+    height: 100%;
 }
 
-form
-{display: flex;
+form {
+    display: flex;
 }
 
 .scrollable-span {
     display: inline-block;
     width: 100%;
-    max-height: 20rem; /* Altura máxima del span */
-    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+    max-height: 20rem;
+    overflow-y: auto;
     padding-left: 0.5rem;
-    
-  }
+}
 
-  ::-webkit-scrollbar {
-    width: 1.2rem; /* Ancho de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 1.2rem;
     background-color: #f0f0f0;
-      /* Color de fondo de la barra de desplazamiento */
-  }
-  
-  /* Cambiar el estilo del pulgar (la parte arrastrable) de la barra de desplazamiento */
-  ::-webkit-scrollbar-thumb {
-    background-color: #1969D9BF; /* Color del pulgar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1969D9BF;
     border-radius: 5rem;
-    border-style:solid;
-    border-color: #1165daa9;  /* Bordes redondeados del pulgar */
-  }
-  
-  /* Cambiar el estilo de las flechas de la barra de desplazamiento */
-  ::-webkit-scrollbar-button {
-    background-color: #0303031c; /* Color de las flechas de la barra de desplazamiento */
-  }
-  
+    border-style: solid;
+    border-color: #1165daa9;
+}
 
-  
-  /* Cambiar el estilo del borde de la barra de desplazamiento */
-  ::-webkit-scrollbar-track-piece {
+::-webkit-scrollbar-button {
+    background-color: #0303031c;
+}
+
+::-webkit-scrollbar-track-piece {
     background-color: #ffffff;
-   /* Color del borde de la barra de desplazamiento */
-  }
+}
 
-
-
-p
-{
+p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: start;
     margin: 1rem;
     padding: 2%;
 }
-
-
-
-

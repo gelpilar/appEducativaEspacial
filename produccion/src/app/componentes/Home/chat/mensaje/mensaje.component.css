@@ -1,38 +1,27 @@
 .scrollable-span {
-    display: inline-block;
-    width: 100%;
-    max-height: 20rem; /* Altura máxima del span */
-    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
-    padding-left: 0.5rem;
-    
-  }
+  display: inline-block;
+  width: 100%;
+  max-height: 20rem;
+  overflow-y: auto;
+  padding-left: 0.5rem;
+}
 
-  ::-webkit-scrollbar {
-    width: 1.2rem; /* Ancho de la barra de desplazamiento */
-    background-color: #f0f0f0;
-      /* Color de fondo de la barra de desplazamiento */
-  }
-  
-  /* Cambiar el estilo del pulgar (la parte arrastrable) de la barra de desplazamiento */
-  ::-webkit-scrollbar-thumb {
-    background-color: #1969D9BF; /* Color del pulgar */
-    border-radius: 5rem;
-    border-style:solid;
-    border-color: #1165daa9;  /* Bordes redondeados del pulgar */
-  }
-  
-  /* Cambiar el estilo de las flechas de la barra de desplazamiento */
-  ::-webkit-scrollbar-button {
-    background-color: #0303031c; /* Color de las flechas de la barra de desplazamiento */
-  }
-  
+::-webkit-scrollbar {
+  width: 1.2rem;
+  background-color: #f0f0f0;
+}
 
-  
-  /* Cambiar el estilo del borde de la barra de desplazamiento */
-  ::-webkit-scrollbar-track-piece {
-    background-color: #ffffff;
-   /* Color del borde de la barra de desplazamiento */
-  }
+::-webkit-scrollbar-thumb {
+  background-color: #1969D9BF;
+  border-radius: 5rem;
+  border-style: solid;
+  border-color: #1165daa9;
+}
 
+::-webkit-scrollbar-button {
+  background-color: #0303031c;
+}
 
-  
+::-webkit-scrollbar-track-piece {
+  background-color: #ffffff;
+}

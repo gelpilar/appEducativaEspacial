@@ -1,5 +1,4 @@
-#chat
-{
+#chat{
     background-color: #1E2128BF;
     width: 95%;
     border-radius: 1rem;
@@ -7,20 +6,17 @@
     text-align: center;
     max-height: 1000rem;
     position: relative;
-    display: block;
-    
-   
+    display: block;  
 }
-p
-{
+
+p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: start;
     margin: 1rem;
     padding: 2%;
 } 
 
-#usuario
-{
+#usuario{
     background-color: #1969D9D9;
     width: 95%;
     border-radius: 1rem;
@@ -28,7 +24,5 @@ p
     text-align: center;
     max-height: 1000rem;
     position: relative;
-    display: block;
-    
-   
+    display: block; 
 }

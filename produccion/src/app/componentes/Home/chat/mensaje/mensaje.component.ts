@@ -6,7 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./mensaje.component.css']
 })
 export class MensajeComponent {
-
   @Input() nueca:string="...";
-  
 }

@@ -6,19 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
-  flag:boolean=false;
-
+  flag: boolean = false;
 
   aparecer() {
-
-    if(this.flag)
-    {
-      this.flag=false;
-    }else
-    {
-      this.flag=true;
+    if (this.flag) {
+      this.flag = false;
+    } else {
+      this.flag = true;
     }
-    
   }
-
 }

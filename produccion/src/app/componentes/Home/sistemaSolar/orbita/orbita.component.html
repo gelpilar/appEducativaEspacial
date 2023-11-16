@@ -1,91 +1,81 @@
 <span id="orbita">
-
     <span id="ovalo"></span>
 
-
     <span id="mercurio" class="planeta" (click)="cargarNombre('Mercurio')">
-        <span class="TarjetaC">  
-            <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Mercurio'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
-            </app-tarjeta-planeta> 
-                    </span>
+        <span class="TarjetaC">
+            <app-tarjeta-planeta class="Tarjeta" *ngIf="mostrarElemento && nombre === 'Mercurio'"
+                [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial">
+            </app-tarjeta-planeta>
+        </span>
     </span>
-
 
     <span id="venus" class="planeta" (click)="cargarNombre('Venus')">
-        <span class="TarjetaC">  
-            <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Venus'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
-            </app-tarjeta-planeta> 
-                    </span>
+        <span class="TarjetaC">
+            <app-tarjeta-planeta class="Tarjeta" *ngIf="mostrarElemento && nombre === 'Venus'"
+                [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial">
+            </app-tarjeta-planeta>
+        </span>
     </span>
-    
-    
-        <span id="tierra" class="planeta" (click)="cargarNombre('Tierra')">  
-          
 
-        <span class="TarjetaC">  
-            <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Tierra'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
-            </app-tarjeta-planeta> 
-                    </span>
-        
+    <span id="tierra" class="planeta" (click)="cargarNombre('Tierra')">
+        <span class="TarjetaC">
+            <app-tarjeta-planeta class="Tarjeta" *ngIf="mostrarElemento && nombre === 'Tierra'"
+                [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial">
+            </app-tarjeta-planeta>
+        </span>
         <span class="continente continente1"></span>
         <span class="continente continente2"></span>
-
-       
     </span>
-  
-
-
-
 
     <span id="marte" class="planeta" (click)="cargarNombre('Marte')">
-        <span class="TarjetaC">  
-            <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Marte'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
-            </app-tarjeta-planeta> 
-                    </span>
+        <span class="TarjetaC">
+            <app-tarjeta-planeta class="Tarjeta" *ngIf="mostrarElemento && nombre === 'Marte'"
+                [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial">
+            </app-tarjeta-planeta>
+        </span>
     </span>
-
 
     <span id="jupiter" class="planeta" (click)="cargarNombre('Jupiter')">
-        <span class="TarjetaC">  
-            <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Jupiter'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
-            </app-tarjeta-planeta> 
-                    </span>
+        <span class="TarjetaC">
+            <app-tarjeta-planeta class="Tarjeta" *ngIf="mostrarElemento && nombre === 'Jupiter'"
+                [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial">
+            </app-tarjeta-planeta>
+        </span>
     </span>
-
 
     <span id="contenedor">
         <span id="saturno" class="planeta" (click)="cargarNombre('Saturno')">
-            <span class="TarjetaC">  
-                <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Saturno'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
-                </app-tarjeta-planeta> 
-                        </span>
+            <span class="TarjetaC">
+                <app-tarjeta-planeta class="Tarjeta" *ngIf="mostrarElemento && nombre === 'Saturno'"
+                    [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial">
+                </app-tarjeta-planeta>
+            </span>
         </span>
         <span id="anillo"></span>
     </span>
 
-
     <span id="urano" class="planeta" (click)="cargarNombre('Urano')">
-        <span class="TarjetaC" id="Tnep">  
-            <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Urano'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
-            </app-tarjeta-planeta> 
-                    </span>
+        <span class="TarjetaC" id="Tnep">
+            <app-tarjeta-planeta class="Tarjeta" *ngIf="mostrarElemento && nombre === 'Urano'"
+                [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial">
+            </app-tarjeta-planeta>
+        </span>
     </span>
 
     <span id="neptuno" class="planeta" (click)="cargarNombre('Neptuno')">
-        <span class="TarjetaC" id="Tnep">  
-            <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Neptuno'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
-            </app-tarjeta-planeta> 
-                    </span>
+        <span class="TarjetaC" id="Tnep">
+            <app-tarjeta-planeta class="Tarjeta" *ngIf="mostrarElemento && nombre === 'Neptuno'"
+                [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial">
+            </app-tarjeta-planeta>
+        </span>
         <span id="linea"></span>
     </span>
-
-
-
 </span>
 
 <span id="sol" (click)="cargarNombre('Sol')">
-    <span class="TarjetaC" id="Tnep">  
-        <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Sol'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
-        </app-tarjeta-planeta> 
-                </span>
+    <span class="TarjetaC" id="Tnep">
+        <app-tarjeta-planeta class="Tarjeta" *ngIf="mostrarElemento && nombre === 'Sol'" [nombre]="elemento?.nombre"
+            [parrafo]="elemento?.parrafoPrincial">
+        </app-tarjeta-planeta>
+    </span>
 </span>

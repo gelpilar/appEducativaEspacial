@@ -1,18 +1,15 @@
-
-<form [formGroup]="myForm" action=""><input  (keydown.enter)="realizarBusqueda()" formControlName="entrada" name="entrada" #nombre (input)="filtrarNombre(nombre.value)" type="text" [(ngModel)]="terminoBusqueda" placeholder="Buscar..."
-autocomplete="off">
-<button (click)="realizarBusqueda()" type="submit"><img src="../../../../assets/imagenes/search.png" alt="" srcset=""
-  width="100%" ></button>
+<form [formGroup]="myForm">
+  <input (keydown.enter)="realizarBusqueda()" formControlName="entrada" name="entrada" #nombre
+    (input)="filtrarNombre(nombre.value)" type="text" [(ngModel)]="terminoBusqueda" placeholder="Buscar..."
+    autocomplete="off">
+  <button (click)="realizarBusqueda()" type="submit"><img src="../../../../assets/imagenes/search.png" alt="" srcset=""
+      width="100%"></button>
 </form>
-
 
 <span *ngIf="nombre.value != '' ">
   <ul *ngIf="nombre.value != '' ">
     <li *ngFor="let item of listaFiltrada" (click)="seleccionarElemento(item.nombre)" (click)="realizarBusqueda()">
-      <span >{{item.nombre}}</span>
+      <span>{{item.nombre}}</span>
     </li>
-    </ul>
+  </ul>
 </span>
-
-
-

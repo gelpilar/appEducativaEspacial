@@ -21,6 +21,3 @@ export class QuizService {
     return undefined;
   }
 }
-
-
-

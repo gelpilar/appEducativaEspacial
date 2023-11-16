@@ -10,33 +10,26 @@ import { ElementosService } from 'src/app/services/elementos.service';
   styleUrls: ['./vista-inicio.component.css']
 })
 export class VistaInicioComponent implements OnInit {
- 
-  constructor(private elementosService: ElementosService,
-              private router: Router,
-              private authService: AuthService
-             ) {}
- 
+
   flagBusqueda: Boolean | undefined;
+
+  constructor(private elementosService: ElementosService,
+    private router: Router,
+    private authService: AuthService
+  ) { }
 
   ngOnInit(): void {
     this.authService.setAuthenticated(true);
   }
 
-  async  handleTerminoBusqueda(termino:string){   
+  async handleTerminoBusqueda(termino: string) {
     console.log(termino)
     this.flagBusqueda = await this.elementosService.getExistenciaBuscado(termino)
 
-    if(this.flagBusqueda)
-    {
+    if (this.flagBusqueda) {
       this.router.navigate(['/Encontrado', termino]);
-      
-    }else
-    {
+    } else {
       this.router.navigate(['/NoEncontrado', termino]);
     }
-    
   }
- 
 }
-
-

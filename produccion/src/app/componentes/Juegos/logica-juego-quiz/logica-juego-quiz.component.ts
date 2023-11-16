@@ -21,8 +21,7 @@ export class LogicaJuegoQuizComponent implements OnInit {
   constructor(private quizService: QuizService,
     private router: Router,
     private localstorageService: LocalstorageService) {
-
-      this.miScore = Number(this.localstorageService.get('scoreQuiz')) || 0;
+    this.miScore = Number(this.localstorageService.get('scoreQuiz')) || 0;
   }
 
   ngOnInit() {
@@ -44,7 +43,6 @@ export class LogicaJuegoQuizComponent implements OnInit {
       this.currentQuestion = this.preguntas.pop();
       this.userAnswer = '';
     } else {
-
       if (this.score > Number(this.miScore)) {
         this.localstorageService.set('scoreQuiz', this.score);
         this.miScore = Number(this.localstorageService.get('scoreQuiz'));
@@ -66,12 +64,8 @@ export class LogicaJuegoQuizComponent implements OnInit {
           window.location.reload();
         }
       });
-
     }
   }
-
-
-
 
   async verificarRespuesta(opcion: string) {
     if (this.currentQuestion && opcion.toLowerCase() === this.currentQuestion.respuesta.toLowerCase()) {
@@ -92,10 +86,8 @@ export class LogicaJuegoQuizComponent implements OnInit {
         icon: "error"
       });
     }
-
     this.mostrarSiguientePregunta();
   }
-
 
   mostrarAyuda(opcion: string | undefined) {
     Swal.fire({
@@ -106,7 +98,6 @@ export class LogicaJuegoQuizComponent implements OnInit {
         container: 'my-custom-container',
         title: 'my-custom-title',
         confirmButton: 'my-custom-confirm-button',
-
       }
     });
   }
@@ -121,5 +112,3 @@ export class LogicaJuegoQuizComponent implements OnInit {
     this.mostrarSiguientePregunta();
   }
 }
-
-

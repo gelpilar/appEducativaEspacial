@@ -1,5 +1,4 @@
-.planeta
-{
+.planeta {
     width: 5rem;
     height: 5rem;
     background-color: rgb(255, 255, 255);
@@ -7,15 +6,12 @@
     cursor: pointer;
 }
 
-#Tnep
-{
+#Tnep {
     position: relative;
     top: -10rem;
-    
 }
 
-.TarjetaC
-{
+.TarjetaC {
     position: absolute;
     left: 4rem;
     top: 1vh;
@@ -23,10 +19,7 @@
     z-index: 10;
 }
 
-
-
-#sol
-{
+#sol {
     width: 17rem;
     height: 16.5rem;
     background-color: #F4C909;
@@ -41,64 +34,56 @@
     transition: all 0.5s;
 }
 
-#orbita
-{
+#orbita {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#ovalo
-{
-    position: absolute; 
-    width: 70rem; 
-    height: 63rem; 
-    top:3rem;
+
+#ovalo {
+    position: absolute;
+    width: 70rem;
+    height: 63rem;
+    top: 3rem;
     left: 0;
-    background: #DEE1E600; 
-    border-radius: 50%; 
-    border-width: 5px; 
-    border-color: rgba(255, 255, 255, 0.678); 
-    border-style:dashed; 
+    background: #DEE1E600;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: rgba(255, 255, 255, 0.678);
+    border-style: dashed;
     clip-path: polygon(0 0, 100% 0, 100% 50%, 0 5%);
 }
 
-#mercurio
-{
+#mercurio {
     width: 6rem;
     height: 6rem;
     background-color: #5a5b5d;
     justify-content: center;
     display: flex;
-    align-items:center;
+    align-items: center;
     top: 5rem;
     left: 14rem;
     position: absolute;
     box-shadow: 0 0 10px rgba(107, 103, 102, 0.7);
     background: radial-gradient(#83837e, #55524d);
-
 }
 
-#venus
-{
+#venus {
     width: 6.5rem;
     height: 6.5rem;
-    background: #e4c387; /* Color de Venus */
-    border-radius: 50%; /* Para que sea un círculo */
-     /* Sombra rojiza */
+    background: #e4c387;
+    border-radius: 50%;
     position: absolute;
     top: 2rem;
     left: 21.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Agregar una imagen de textura o un gradiente de fondo para dar realismo */
     box-shadow: 0 0 10px rgba(255, 99, 71, 0.7);
     background: radial-gradient(#e4c387, #d29f57);
-   
 }
 
-#tierra
-{
+#tierra {
     width: 7.5rem;
     height: 7.5rem;
     background-color: #7099e4;
@@ -108,39 +93,31 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
-    box-shadow: 0px 0px 3rem  #7799da;
+    box-shadow: 0px 0px 3rem #7799da;
     background: radial-gradient(#7999d4, #4a71bb);
- 
 }
-
 
 .continente.continente1 {
     width: 160%;
     height: 80%;
     position: relative;
     bottom: 5%;
-    background-color: #306b25; 
+    background-color: #306b25;
     border-radius: 10rem;
-   
-    
-   
     clip-path: polygon(76% 0, 70% 27%, 78% 68%, 77% 100%, 45% 79%, 27% 60%, 37% 23%, 29% 0);
 }
+
 .continente.continente2 {
     width: 110%;
     height: 50%;
-   bottom:25%;
+    bottom: 25%;
     right: 5%;
     position: relative;
-    background-color: #306b25; 
+    background-color: #306b25;
     clip-path: polygon(76% 0, 91% 21%, 100% 60%, 77% 100%, 43% 98%, 21% 84%, 0 50%, 7% 15%, 29% 0);
 }
 
-
-
-
-#marte
-{
+#marte {
     width: 7rem;
     height: 7rem;
     background-color: #e47070;
@@ -152,11 +129,9 @@
     align-items: center;
     box-shadow: 0 0 10px #e47070;
     background: radial-gradient(#c93131, #e67575);
-    
-   
 }
-#jupiter
-{
+
+#jupiter {
     width: 8.5rem;
     height: 8.5rem;
     background-color: #dc874f;
@@ -170,37 +145,38 @@
     background: radial-gradient(#e49886, #f1711b);
 }
 
-#saturno
-{
-    
+#saturno {
     width: 7rem;
     height: 7rem;
     background-color: #d1a644;
     top: 10.5rem;
-    left:  58rem;
+    left: 58rem;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 10px rgb(223, 175, 144);
     background: radial-gradient(#c7a34e, #d1a644);
-    z-index: 2; /* Coloca Saturno encima del anillo */
+    z-index: 2;
+    /* Coloca Saturno encima del anillo */
 }
+
 #saturno::before {
     content: "";
-            position: absolute;
-            width: 8.5rem;
-            height: 2rem;
-            border: 1rem solid #aa82242c; /* Color amarillo para el anillo */
-            border-radius: 50%;
-            transform: rotate(45deg); /* Inclina el anillo en 45 grados */
-            z-index: 1; /* Coloca el anillo debajo de Saturno */
-            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    position: absolute;
+    width: 8.5rem;
+    height: 2rem;
+    border: 1rem solid #aa82242c;
+    /* Color amarillo para el anillo */
+    border-radius: 50%;
+    transform: rotate(45deg);
+    /* Inclina el anillo en 45 grados */
+    z-index: 1;
+    /* Coloca el anillo debajo de Saturno */
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
-
-#urano
-{
+#urano {
     width: 6rem;
     height: 6rem;
     background-color: #447fd1;
@@ -213,35 +189,44 @@
     box-shadow: 0 0 10px #447fd1;
     background: linear-gradient(#447fd1, #c1d8f7);
 }
-#neptuno:hover{
+
+#neptuno:hover {
     box-shadow: 0 0 7rem #94a3d6;
 }
-#sol:hover{
+
+#sol:hover {
     box-shadow: 0 0 10rem rgb(179, 169, 127);
 }
-#tierra:hover{
+
+#tierra:hover {
     box-shadow: 0 0 7rem #d3cccc;
 }
-#jupiter:hover{
+
+#jupiter:hover {
     box-shadow: 0 0 7rem #d3cccc;
 }
-#venus:hover{
+
+#venus:hover {
     box-shadow: 0 0 7rem #d3cccc;
 }
-#marte:hover{
+
+#marte:hover {
     box-shadow: 0 0 7rem #d3cccc;
 }
-#mercurio:hover{
+
+#mercurio:hover {
     box-shadow: 0 0 7rem #d3cccc;
 }
-#saturno:hover{
+
+#saturno:hover {
     box-shadow: 0 0 7rem #d3cccc;
 }
-#urano:hover{
+
+#urano:hover {
     box-shadow: 0 0 7rem #d3cccc;
 }
-#neptuno
-{
+
+#neptuno {
     width: 6rem;
     height: 6rem;
     background-color: #a9c6ee;
@@ -254,13 +239,11 @@
     box-shadow: 0 0 10px #346ec0;
     background: linear-gradient(#5d81b3, #3033cc);
 }
-#linea
-{
+
+#linea {
     width: 100%;
     height: 20%;
     position: absolute;
     box-shadow: 0 0 10px #5484c78e;
     background-color: #d3e4fd11;
-
 }
-

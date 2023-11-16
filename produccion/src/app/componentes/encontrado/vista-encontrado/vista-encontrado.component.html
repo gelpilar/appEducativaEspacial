@@ -1,19 +1,15 @@
 <span *ngIf="elemento" id="estructura">
-
-  
-
   <span id="cuerpo">
     <span id="ladoIzquierdo">
       <span id="RecuadroImagen">
         <img id="imagen" [src]="elemento.imagen" alt="Sin imagen">
       </span>
-    
       <span id="Recuadrotitulo">
         <p id="titulo">{{elemento.nombre}}</p>
       </span>
-  
       <app-botones-aux></app-botones-aux>
     </span>
+
     <span id="deco"></span>
     <span id="recuadroInformacion">
       <span id="texto">
@@ -28,14 +24,12 @@
             {{dato.dato}}
           </li>
         </ul>
-       </span>
+      </span>
     </span>
-
-    
   </span>
+
   <span (click)="volver()" id="click">
     <app-boton-logo (click)="volver()"></app-boton-logo>
   </span>
- 
   <app-vista-footer id="footer"></app-vista-footer>
 </span>

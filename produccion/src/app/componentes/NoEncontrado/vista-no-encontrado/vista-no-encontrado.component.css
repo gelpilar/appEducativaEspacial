@@ -1,21 +1,19 @@
-#buscador
-{
-  position: relative;
-  left: 30%;
-  width: 100%;
-  z-index: 100;
-  width: 32rem;
-display: block;
+#buscador {
+    position: relative;
+    left: 30%;
+    width: 100%;
+    z-index: 100;
+    width: 32rem;
+    display: block;
 }
 
-#volver
-{
+#volver {
     position: relative;
     left: 1rem;
     top: 1rem;
 }
-#recuadroAviso
-{
+
+#recuadroAviso {
     position: absolute;
     display: block;
     width: 25rem;
@@ -23,18 +21,17 @@ display: block;
     text-align: center;
     color: white;
     font-size: x-large;
-    margin-top:2rem ;
-    left:34%;
+    margin-top: 2rem;
+    left: 34%;
 }
-#elementos
-{
+
+#elementos {
     position: relative;
     display: block;
     top: 5rem;
-
 }
-#cuerpo
-{
+
+#cuerpo {
     display: block;
     width: 90vw;
     height: 210vh;

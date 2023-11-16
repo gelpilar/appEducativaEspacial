@@ -1,12 +1,5 @@
-<!-- <div *ngFor="let elemento of sugerenciasAleatorias">
-    <h2>{{elemento.categoria}}</h2>
-    <h3>{{elemento.nombre}}</h3>
-    <p>{{elemento.parrafoPrincial}}</p>
-    <p><img [src]="elemento.imagen" alt="Sin imagen"></p>
-    <button [routerLink]="['/Encontrado', elemento.nombre]">Ver mas</button>
-  </div>
- -->
-  <span *ngFor="let elemento of sugerenciasAleatorias" id="contenedor">
-    <app-tarjeta-elemeto-imagen [nombre]="elemento.nombre" [categoria]="elemento.categoria" [parrafo]="elemento.parrafoPrincial" [url]="elemento.imagen">
-    </app-tarjeta-elemeto-imagen>
-  </span>
+<span *ngFor="let elemento of sugerenciasAleatorias" id="contenedor">
+  <app-tarjeta-elemeto-imagen [nombre]="elemento.nombre" [categoria]="elemento.categoria"
+    [parrafo]="elemento.parrafoPrincial" [url]="elemento.imagen">
+  </app-tarjeta-elemeto-imagen>
+</span>

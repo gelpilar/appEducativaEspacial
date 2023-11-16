@@ -11,6 +11,5 @@ export class EstadisticasJuegoComponent {
   @Input() movimientos: number = 0;
   @Input() miValor: number = 0;
 
-  constructor() {
-  }
+  constructor() { }
 }

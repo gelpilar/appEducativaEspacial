@@ -72,16 +72,19 @@ import { ReactiveFormsModule } from '@angular/forms';
     VistaContactoComponent,
     OrbitaComponent,
     TarjetaPlanetaComponent,
-    TarjetaElemetoImagenComponent, 
-    MemotestComponent, 
-    LogicaJuegoComponent, 
-    ChatCuerpoComponent, 
-    MensajeComponent, 
-    MensajeChatComponent, 
-    MensajeUsuarioComponent, 
-    QuizComponent, 
-    LogicaJuegoQuizComponent, 
-    EstadisticasJuegoComponent, NaveComponent, LogicaJuegoNaveComponent, AudioPlayerComponent
+    TarjetaElemetoImagenComponent,
+    MemotestComponent,
+    LogicaJuegoComponent,
+    ChatCuerpoComponent,
+    MensajeComponent,
+    MensajeChatComponent,
+    MensajeUsuarioComponent,
+    QuizComponent,
+    LogicaJuegoQuizComponent,
+    EstadisticasJuegoComponent,
+    NaveComponent,
+    LogicaJuegoNaveComponent,
+    AudioPlayerComponent
   ],
   imports: [
     BrowserModule,
@@ -96,7 +99,7 @@ export class AppModule {
 
   title = 'localStore';
 
-  constructor(){
+  constructor() {
   }
 
- }
+}
