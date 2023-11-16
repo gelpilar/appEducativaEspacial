@@ -38,7 +38,20 @@ export class ChatCuerpoComponent implements OnInit {
     this.reiniciarArreglo();
     
   }
-   //funcion que pasa cuando pregunta el usario
+  
+ limpiarConEnter(event: any) {
+    if (event.keyCode === 13) {
+      
+      const inputElement = document.getElementById("myInput") as HTMLInputElement;
+      if (inputElement) {
+        inputElement.value = "";
+      }
+
+      this.preguntaUsuario();
+  
+    }
+  }
+
   async preguntaUsuario() {
     if(this.pregunta.trim()!=""){
       this.agregarAlArreglo(this.pregunta,"usuario");
@@ -90,3 +103,6 @@ export class ChatCuerpoComponent implements OnInit {
     categoria:string;
   }
 
+  interface KeyboardEvent {
+    keyCode: number;
+  }

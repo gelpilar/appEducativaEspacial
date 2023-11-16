@@ -65,7 +65,7 @@
 
 
     <span id="urano" class="planeta" (click)="cargarNombre('Urano')">
-        <span class="TarjetaC">  
+        <span class="TarjetaC" id="Tnep">  
             <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Urano'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
             </app-tarjeta-planeta> 
                     </span>
@@ -84,7 +84,7 @@
 </span>
 
 <span id="sol" (click)="cargarNombre('Sol')">
-    <span class="TarjetaC">  
+    <span class="TarjetaC" id="Tnep">  
         <app-tarjeta-planeta  class="Tarjeta"  *ngIf="mostrarElemento && nombre === 'Sol'" [nombre]="elemento?.nombre" [parrafo]="elemento?.parrafoPrincial" >
         </app-tarjeta-planeta> 
                 </span>

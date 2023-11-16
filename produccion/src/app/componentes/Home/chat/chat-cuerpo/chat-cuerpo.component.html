@@ -1,43 +1,4 @@
-<!-- 
-    Partes del chat:
-    parte de arriba y cerrar
-    espacio mensajes
-    input chat
-    cuerpo 
-    fondo
 
-<span id="cuerpo">
-   <span id="recuadro">
-
-      <span id="arriba">
-         <img id="imagen" src="../../../../../assets/imagenes/senora.png" width="70%" height="90%">
-         <button id="close" (click)="cerrar()">
-            <img src="../../../../../assets/imagenes/close.png">
-         </button>
-      </span>
-
-
-   <span id="recuadro">
-      <span class="scrollable-span" id="cuerpoMensajes"> 
-         <app-mensaje-chat [mensaje]="'Hola terricola, soy Christina Koch-chat bot, ¿En que te puedo ayudar? '" id="mensajes">
-         </app-mensaje-chat>
-         <app-mensaje-usuario></app-mensaje-usuario>
-
-      </span>
-   </span>
-      
-   
-
-      <form >
-         <input type="text" [(ngModel)]="pregunta" autocomplete="off">
-         <button (click)="preguntaUsuario()" id="enviar"><img src="../../../../../assets/imagenes/send.png" alt="" ></button>
-      </form>
-      
-   </span>
-  
-</span>
-
- -->
  <span id="cuerpo">
    <span id="recuadro">
       <span id="arriba">
@@ -59,8 +20,8 @@
 
           <p *ngIf="Espera" style="color: rgb(100, 100, 182);">Escribiendo...</p>
           <form action="">
-            <input type="text" (input)="onInputChange($event)"   autocomplete="off" placeholder="Escribe un mensaje a Cristina"> 
-            <button (click)="preguntaUsuario()" id="enviar" type="reset"><img src="../../../../../assets/imagenes/send.png" alt="" ></button>          </form>
+            <input id="myInput" type="text" (input)="onInputChange($event)" autocomplete="off" placeholder="Escribe un mensaje a Cristina" (keydown.enter)="limpiarConEnter($event)"> 
+            <button (click)="preguntaUsuario()" id="enviar" type="reset"><img src="../../../../../assets/imagenes/send.png" alt="" ></button>  </form>
          </span>
 
 

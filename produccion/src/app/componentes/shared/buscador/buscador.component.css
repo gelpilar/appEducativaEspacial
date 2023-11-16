@@ -19,9 +19,15 @@ button {
   border: none;
   background-color: #11468F;
   cursor: pointer;
-  right: 3rem;
-  top:0.2rem;
+ 
+  bottom:8vh;
+  left: 34.5vw;
   position: relative;
+}
+
+form
+{
+  width: 32rem;
 }
 #input-container
 {
