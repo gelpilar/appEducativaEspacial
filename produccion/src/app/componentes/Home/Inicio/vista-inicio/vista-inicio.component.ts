@@ -1,6 +1,8 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
+import { AuthService } from 'src/app/auth.service';
 import { ElementosService } from 'src/app/services/elementos.service';
+
 
 @Component({
   selector: 'app-vista-inicio',
@@ -10,12 +12,14 @@ import { ElementosService } from 'src/app/services/elementos.service';
 export class VistaInicioComponent implements OnInit {
  
   constructor(private elementosService: ElementosService,
-              private router: Router
+              private router: Router,
+              private authService: AuthService
              ) {}
  
   flagBusqueda: Boolean | undefined;
 
   ngOnInit(): void {
+    this.authService.setAuthenticated(true);
   }
 
   async  handleTerminoBusqueda(termino:string){   

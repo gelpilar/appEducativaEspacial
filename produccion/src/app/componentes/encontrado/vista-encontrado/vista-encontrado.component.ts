@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute ,Router} from '@angular/router';
+import { AuthGuard } from 'src/app/auth.guard';
 import { ElementosService } from 'src/app/services/elementos.service';
 import { Datos, Elemento } from 'src/interfaces/interface';
 
@@ -15,11 +16,16 @@ export class VistaEncontradoComponent implements OnInit {
 
 
   constructor(private elementosService: ElementosService,
-              private route: ActivatedRoute,private router: Router
+              private route: ActivatedRoute,
+              private router: Router,
+              private authGuard: AuthGuard
              ) {}
 
 
   ngOnInit(): void {
+    if (!this.authGuard.canActivate()) {
+      this.router.navigate(['/Home']);
+    }
     this.mostrarElemento()
   }
 

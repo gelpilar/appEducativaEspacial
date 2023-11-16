@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { AuthGuard } from 'src/app/auth.guard';
 import { ElementosService } from 'src/app/services/elementos.service';
 
 @Component({
@@ -15,11 +16,15 @@ export class VistaNoEncontradoComponent implements OnInit {
   constructor(
     private elementosService: ElementosService,
     private route: ActivatedRoute,
-    private router: Router
-   ) { }
+    private router: Router,
+    private authGuard: AuthGuard
+  ) { }
 
   ngOnInit(): void {
-     this.mostrarElemento();
+    if (!this.authGuard.canActivate()) {
+      this.router.navigate(['/Home']);
+    }
+    this.mostrarElemento();
   }
 
   async mostrarElemento() {
@@ -28,8 +33,8 @@ export class VistaNoEncontradoComponent implements OnInit {
     });
   }
 
- async handleTerminoBusqueda(termino: string) {
-  console.log(termino);
+  async handleTerminoBusqueda(termino: string) {
+    console.log(termino);
     this.flagBusqueda = await this.elementosService.getExistenciaBuscado(termino);
 
     if (this.flagBusqueda) {
@@ -38,5 +43,5 @@ export class VistaNoEncontradoComponent implements OnInit {
       this.router.navigate(['/NoEncontrado', termino]);
     }
   }
- 
+
 }

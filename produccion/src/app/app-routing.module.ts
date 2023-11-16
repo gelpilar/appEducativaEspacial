@@ -8,12 +8,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { MemotestComponent } from './paginas/memotest/memotest.component';
 import { QuizComponent } from './paginas/quiz/quiz.component';
 import { NaveComponent } from './paginas/nave/nave.component';
+import { AuthGuard } from './auth.guard';
 
 
 const routes: Routes = [
   {path:'Home',component:HomeComponent},
-  {path:'NoEncontrado/:nombre',component:NoEncontradoComponent},
-  {path:'Encontrado/:nombre',component:EncontradoComponent},
+  {path:'NoEncontrado/:nombre',component:NoEncontradoComponent, canActivate: [AuthGuard]},
+  {path:'Encontrado/:nombre',component:EncontradoComponent, canActivate: [AuthGuard]},
   {path:'error',component: ErrorComponent},
   {path:'Juego',component: MemotestComponent},
   {path:'Quiz',component: QuizComponent},
