@@ -16,8 +16,9 @@ export class BuscadorComponent implements OnInit {
   listaElementos: Elemento[] | undefined = [];
 
   myForm: FormGroup = this.fb.group({
-    entrada: ['', [Validators.required, Validators.minLength(3), Validators.pattern('^[a-zA-Z]+$')]]
+    entrada: ['', [Validators.required, Validators.pattern('^[a-zA-Z ]+$')]]
   });
+  
 
   constructor(
     private route: ActivatedRoute,
