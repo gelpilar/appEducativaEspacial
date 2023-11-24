@@ -213,7 +213,7 @@ export class LogicaJuegoNaveComponent {
   }
 
   direccion() {
-    if (this.direccionNave === 'left') {
+    if (this.direccionNave === 'left' && this.xNave > this.cW / 90) {
       if (this.puntajeActual < 150) {
         this.xNave -= 2
       } else if (this.puntajeActual >= 150 && this.puntajeActual < 250) {
@@ -221,7 +221,7 @@ export class LogicaJuegoNaveComponent {
       } else {
         this.xNave -= 3.5
       }
-    } else if (this.direccionNave === 'right') {
+    } else if (this.direccionNave === 'right' && this.xNave < 617) {
       if (this.puntajeActual < 150) {
         this.xNave += 2
       } else if (this.puntajeActual >= 150 && this.puntajeActual < 250) {
