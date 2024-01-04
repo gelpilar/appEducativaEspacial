@@ -34,3 +34,10 @@ body {
   top: 50%;
   left: 90vw;
 }
+#contactoV
+{
+  position: relative;
+  right: 2.3rem;
+  top: 3rem;
+  width: 100vw;
+}
