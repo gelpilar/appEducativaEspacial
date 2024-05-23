@@ -1,10 +1,10 @@
 [build]
   command = "ng build --prod"
-  publish = "dist/produccion"
+  publish = "src" # Cambia esto a la carpeta donde está tu index.html, en este caso, src
 
 [[redirects]]
   from = "/*"
-  to = "./src/index.html"
+  to = "/index.html"
   status = 200
 
 [functions]
