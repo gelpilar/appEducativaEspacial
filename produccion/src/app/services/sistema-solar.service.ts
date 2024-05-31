@@ -8,7 +8,7 @@ export class SistemaSolarService {
 
   constructor() { }
 
-  urlSistemaSolar: string = 'http://localhost:4000/sistemaSolar';
+  urlSistemaSolar: string = 'https://json-api-q4il.onrender.com/sistemaSolar';
 
   async getSistemaSolarAleatorio(): Promise<SistemaSolar | undefined> {
     try {

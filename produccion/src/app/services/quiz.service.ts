@@ -6,7 +6,7 @@ import { Preguntas } from 'src/interfaces/interface';
 })
 export class QuizService {
 
-  urlQuiz: string = 'http://localhost:4000/quiz';
+  urlQuiz: string = 'https://json-api-q4il.onrender.com/quiz';
 
   constructor() { }
 
